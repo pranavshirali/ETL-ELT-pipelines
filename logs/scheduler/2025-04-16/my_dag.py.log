@@ -1,0 +1,161 @@
+[2025-04-16T21:22:17.080+0530] {processor.py:186} INFO - Started process (PID=1028) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:22:17.080+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:22:17.082+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:22:17.081+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:22:17.091+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:22:17.118+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:22:17.118+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:22:17.141+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:22:17.141+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:22:17.157+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.082 seconds
+[2025-04-16T21:22:47.652+0530] {processor.py:186} INFO - Started process (PID=1070) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:22:47.653+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:22:47.654+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:22:47.654+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:22:47.663+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:22:47.677+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:22:47.677+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:22:47.698+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:22:47.697+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:22:47.713+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.067 seconds
+[2025-04-16T21:23:18.201+0530] {processor.py:186} INFO - Started process (PID=1088) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:23:18.202+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:23:18.203+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:23:18.203+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:23:18.212+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:23:18.230+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:23:18.230+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:23:18.248+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:23:18.247+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:23:18.298+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.102 seconds
+[2025-04-16T21:23:49.642+0530] {processor.py:186} INFO - Started process (PID=1093) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:23:49.644+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:23:49.645+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:23:49.645+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:23:49.655+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:23:49.673+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:23:49.672+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:23:49.687+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:23:49.687+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:23:49.701+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.063 seconds
+[2025-04-16T21:24:22.997+0530] {processor.py:186} INFO - Started process (PID=1095) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:24:22.999+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:24:23.000+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:24:23.000+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:24:23.009+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:24:23.027+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:24:23.027+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:24:23.042+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:24:23.042+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:24:23.056+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.064 seconds
+[2025-04-16T21:24:53.181+0530] {processor.py:186} INFO - Started process (PID=1097) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:24:53.183+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:24:53.184+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:24:53.184+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:24:53.198+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:24:53.221+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:24:53.221+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:24:53.245+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:24:53.244+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:24:53.268+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.093 seconds
+[2025-04-16T21:25:23.449+0530] {processor.py:186} INFO - Started process (PID=1099) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:25:23.450+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:25:23.451+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:25:23.451+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:25:23.460+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:25:23.476+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:25:23.476+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:25:23.489+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:25:23.489+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:25:23.504+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.059 seconds
+[2025-04-16T21:25:53.941+0530] {processor.py:186} INFO - Started process (PID=1101) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:25:53.942+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:25:53.944+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:25:53.943+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:25:53.953+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:25:53.968+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:25:53.968+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:25:53.983+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:25:53.983+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:25:53.999+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.062 seconds
+[2025-04-16T21:26:24.093+0530] {processor.py:186} INFO - Started process (PID=1103) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:26:24.094+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:26:24.096+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:26:24.096+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:26:24.107+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:26:24.123+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:26:24.123+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:26:24.139+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:26:24.138+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:26:24.158+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.069 seconds
+[2025-04-16T21:26:54.395+0530] {processor.py:186} INFO - Started process (PID=1105) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:26:54.397+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:26:54.399+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:26:54.399+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:26:54.407+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:26:54.422+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:26:54.422+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:26:54.439+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:26:54.439+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:26:54.455+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.064 seconds
+[2025-04-16T21:27:25.197+0530] {processor.py:186} INFO - Started process (PID=1109) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:27:25.198+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:27:25.200+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:27:25.200+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:27:25.208+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:27:25.223+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:27:25.222+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:27:25.236+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:27:25.236+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:27:25.250+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.058 seconds
+[2025-04-16T21:27:55.538+0530] {processor.py:186} INFO - Started process (PID=1111) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:27:55.540+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:27:55.541+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:27:55.541+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:27:55.550+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:27:55.567+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:27:55.567+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:27:55.581+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:27:55.581+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:27:55.596+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.063 seconds
+[2025-04-16T21:28:25.982+0530] {processor.py:186} INFO - Started process (PID=1117) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:28:25.984+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:28:25.987+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:28:25.986+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:28:25.996+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:28:26.011+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:28:26.011+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:28:26.025+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:28:26.025+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:28:26.039+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.061 seconds
+[2025-04-16T21:28:56.156+0530] {processor.py:186} INFO - Started process (PID=1131) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:28:56.158+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:28:56.160+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:28:56.160+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:28:56.169+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:28:56.187+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:28:56.186+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:28:56.201+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:28:56.201+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:28:56.216+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.067 seconds
+[2025-04-16T21:29:26.920+0530] {processor.py:186} INFO - Started process (PID=1133) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:29:26.922+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:29:26.923+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:29:26.923+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:29:26.932+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:29:26.947+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:29:26.947+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:29:26.962+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:29:26.961+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:29:26.976+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.060 seconds
+[2025-04-16T21:29:57.989+0530] {processor.py:186} INFO - Started process (PID=1169) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:29:57.991+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:29:57.993+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:29:57.992+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:29:58.001+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:29:58.016+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:29:58.016+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:29:58.032+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:29:58.032+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:29:58.044+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.060 seconds
+[2025-04-16T21:30:28.206+0530] {processor.py:186} INFO - Started process (PID=1237) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:30:28.207+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:30:28.208+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:30:28.208+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:30:28.216+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:30:28.232+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:30:28.232+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:30:28.248+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:30:28.248+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:30:28.262+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.060 seconds
+[2025-04-16T21:30:59.171+0530] {processor.py:186} INFO - Started process (PID=1240) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:30:59.172+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:30:59.174+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:30:59.173+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:30:59.184+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:30:59.199+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:30:59.199+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:30:59.213+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:30:59.213+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:30:59.227+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.060 seconds
+[2025-04-16T21:31:29.951+0530] {processor.py:186} INFO - Started process (PID=1242) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:31:29.953+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:31:29.954+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:31:29.954+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:31:29.963+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:31:29.978+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:31:29.978+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:31:29.997+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:31:29.997+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:31:30.011+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.065 seconds
+[2025-04-16T21:32:00.457+0530] {processor.py:186} INFO - Started process (PID=1246) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:32:00.458+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:32:00.460+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:32:00.459+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:32:00.467+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:32:00.480+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:32:00.480+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:32:00.493+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:32:00.493+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-15 00:00:00+00:00, run_after=2025-04-16 00:00:00+00:00
+[2025-04-16T21:32:00.506+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.054 seconds
+[2025-04-16T21:32:32.332+0530] {processor.py:186} INFO - Started process (PID=1256) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:32:32.334+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:32:32.335+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:32:32.335+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:32:32.343+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:32:32.361+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:32:32.361+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:32:32.375+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:32:32.375+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-16 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-16T21:32:32.392+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.064 seconds
+[2025-04-16T21:33:02.443+0530] {processor.py:186} INFO - Started process (PID=1287) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:33:02.446+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:33:02.448+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:33:02.447+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:33:02.456+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:33:02.472+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:33:02.471+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:33:02.485+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:33:02.485+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-16 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-16T21:33:02.500+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.061 seconds
+[2025-04-16T21:33:34.633+0530] {processor.py:186} INFO - Started process (PID=1294) to work on /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:33:34.634+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/my_dag.py for tasks to queue
+[2025-04-16T21:33:34.635+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:33:34.635+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:33:34.643+0530] {processor.py:925} INFO - DAG(s) 'my_dag' retrieved from /home/pranav_shirali/airflow-project/dags/my_dag.py
+[2025-04-16T21:33:34.657+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:33:34.657+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-16T21:33:34.669+0530] {logging_mixin.py:190} INFO - [2025-04-16T21:33:34.669+0530] {dag.py:4180} INFO - Setting next_dagrun for my_dag to 2025-04-16 00:00:00+00:00, run_after=2025-04-17 00:00:00+00:00
+[2025-04-16T21:33:34.684+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/my_dag.py took 0.055 seconds

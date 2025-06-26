@@ -1,0 +1,178 @@
+[2025-05-22T21:27:01.755+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-22T21:27:01.761+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: nyc_taxi_etl.transform_data manual__2025-05-22T15:55:01.644073+00:00 [queued]>
+[2025-05-22T21:27:01.765+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: nyc_taxi_etl.transform_data manual__2025-05-22T15:55:01.644073+00:00 [queued]>
+[2025-05-22T21:27:01.765+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-22T21:27:01.775+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): transform_data> on 2025-05-22 15:55:01.644073+00:00
+[2025-05-22T21:27:01.777+0530] {standard_task_runner.py:72} INFO - Started process 2502 to run task
+[2025-05-22T21:27:01.780+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'nyc_taxi_etl', 'transform_data', 'manual__2025-05-22T15:55:01.644073+00:00', '--job-id', '157', '--raw', '--subdir', 'DAGS_FOLDER/nyc_taxi_etl.py', '--cfg-path', '/tmp/tmpuv2cj5vz']
+[2025-05-22T21:27:01.780+0530] {standard_task_runner.py:105} INFO - Job 157: Subtask transform_data
+[2025-05-22T21:27:01.805+0530] {task_command.py:467} INFO - Running <TaskInstance: nyc_taxi_etl.transform_data manual__2025-05-22T15:55:01.644073+00:00 [running]> on host Voldemort.
+[2025-05-22T21:27:01.850+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='nyc_taxi_etl' AIRFLOW_CTX_TASK_ID='transform_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-22T15:55:01.644073+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-22T15:55:01.644073+00:00'
+[2025-05-22T21:27:01.850+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-22T21:27:01.865+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-22T21:27:01.866+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/opt/spark/bin/spark-submit /home/pranav_shirali/airflow-project/scripts/ETL/transform.py']
+[2025-05-22T21:27:01.872+0530] {subprocess.py:86} INFO - Output:
+[2025-05-22T21:27:03.077+0530] {subprocess.py:93} INFO - 25/05/22 21:27:03 WARN Utils: Your hostname, Voldemort resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+[2025-05-22T21:27:03.079+0530] {subprocess.py:93} INFO - 25/05/22 21:27:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2025-05-22T21:27:03.955+0530] {subprocess.py:93} INFO - 25/05/22 21:27:03 INFO SparkContext: Running Spark version 3.5.5
+[2025-05-22T21:27:03.955+0530] {subprocess.py:93} INFO - 25/05/22 21:27:03 INFO SparkContext: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64
+[2025-05-22T21:27:03.956+0530] {subprocess.py:93} INFO - 25/05/22 21:27:03 INFO SparkContext: Java version 11.0.27
+[2025-05-22T21:27:04.009+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-05-22T21:27:04.076+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO ResourceUtils: ==============================================================
+[2025-05-22T21:27:04.077+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-05-22T21:27:04.077+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO ResourceUtils: ==============================================================
+[2025-05-22T21:27:04.077+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SparkContext: Submitted application: NYC Taxi Transform
+[2025-05-22T21:27:04.093+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-05-22T21:27:04.101+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO ResourceProfile: Limiting resource is cpu
+[2025-05-22T21:27:04.102+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-05-22T21:27:04.138+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SecurityManager: Changing view acls to: pranav_shirali
+[2025-05-22T21:27:04.139+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SecurityManager: Changing modify acls to: pranav_shirali
+[2025-05-22T21:27:04.139+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SecurityManager: Changing view acls groups to:
+[2025-05-22T21:27:04.140+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SecurityManager: Changing modify acls groups to:
+[2025-05-22T21:27:04.140+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: pranav_shirali; groups with view permissions: EMPTY; users with modify permissions: pranav_shirali; groups with modify permissions: EMPTY
+[2025-05-22T21:27:04.315+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO Utils: Successfully started service 'sparkDriver' on port 41735.
+[2025-05-22T21:27:04.335+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SparkEnv: Registering MapOutputTracker
+[2025-05-22T21:27:04.356+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SparkEnv: Registering BlockManagerMaster
+[2025-05-22T21:27:04.368+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-05-22T21:27:04.369+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-05-22T21:27:04.372+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-05-22T21:27:04.392+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-b1934853-8c6a-44a0-ac16-3c62164a3fd8
+[2025-05-22T21:27:04.402+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2025-05-22T21:27:04.412+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-05-22T21:27:04.512+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2025-05-22T21:27:04.551+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2025-05-22T21:27:04.616+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO Executor: Starting executor ID driver on host 10.255.255.254
+[2025-05-22T21:27:04.617+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO Executor: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64
+[2025-05-22T21:27:04.617+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO Executor: Java version 11.0.27
+[2025-05-22T21:27:04.622+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2025-05-22T21:27:04.622+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@5f831cd8 for default.
+[2025-05-22T21:27:04.638+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33757.
+[2025-05-22T21:27:04.638+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO NettyBlockTransferService: Server created on 10.255.255.254:33757
+[2025-05-22T21:27:04.639+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-05-22T21:27:04.643+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.255.255.254, 33757, None)
+[2025-05-22T21:27:04.645+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO BlockManagerMasterEndpoint: Registering block manager 10.255.255.254:33757 with 434.4 MiB RAM, BlockManagerId(driver, 10.255.255.254, 33757, None)
+[2025-05-22T21:27:04.647+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.255.255.254, 33757, None)
+[2025-05-22T21:27:04.648+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.255.255.254, 33757, None)
+[2025-05-22T21:27:04.976+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2025-05-22T21:27:04.983+0530] {subprocess.py:93} INFO - 25/05/22 21:27:04 INFO SharedState: Warehouse path is 'file:/tmp/airflowtmpuizs_3n8/spark-warehouse'.
+[2025-05-22T21:27:05.799+0530] {subprocess.py:93} INFO - 25/05/22 21:27:05 INFO InMemoryFileIndex: It took 40 ms to list leaf files for 1 paths.
+[2025-05-22T21:27:06.180+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO SparkContext: Starting job: parquet at NativeMethodAccessorImpl.java:0
+[2025-05-22T21:27:06.195+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: Got job 0 (parquet at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2025-05-22T21:27:06.196+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: Final stage: ResultStage 0 (parquet at NativeMethodAccessorImpl.java:0)
+[2025-05-22T21:27:06.196+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-22T21:27:06.197+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: Missing parents: List()
+[2025-05-22T21:27:06.201+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at parquet at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2025-05-22T21:27:06.266+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 103.2 KiB, free 434.3 MiB)
+[2025-05-22T21:27:06.290+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 37.2 KiB, free 434.3 MiB)
+[2025-05-22T21:27:06.292+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.255.255.254:33757 (size: 37.2 KiB, free: 434.4 MiB)
+[2025-05-22T21:27:06.295+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1585
+[2025-05-22T21:27:06.311+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at parquet at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2025-05-22T21:27:06.312+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2025-05-22T21:27:06.354+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (10.255.255.254, executor driver, partition 0, PROCESS_LOCAL, 9242 bytes)
+[2025-05-22T21:27:06.366+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2025-05-22T21:27:06.648+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2776 bytes result sent to driver
+[2025-05-22T21:27:06.656+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 320 ms on 10.255.255.254 (executor driver) (1/1)
+[2025-05-22T21:27:06.658+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2025-05-22T21:27:06.661+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: ResultStage 0 (parquet at NativeMethodAccessorImpl.java:0) finished in 0.446 s
+[2025-05-22T21:27:06.663+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-22T21:27:06.663+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2025-05-22T21:27:06.665+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO DAGScheduler: Job 0 finished: parquet at NativeMethodAccessorImpl.java:0, took 0.484243 s
+[2025-05-22T21:27:06.941+0530] {subprocess.py:93} INFO - 25/05/22 21:27:06 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 10.255.255.254:33757 in memory (size: 37.2 KiB, free: 434.4 MiB)
+[2025-05-22T21:27:09.515+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 WARN SparkStringUtils: Truncated the string representation of a plan since it was too large. This behavior can be adjusted by setting 'spark.sql.debug.maxToStringFields'.
+[2025-05-22T21:27:09.638+0530] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-05-22T21:27:09.638+0530] {subprocess.py:93} INFO -   File "/home/pranav_shirali/airflow-project/scripts/ETL/transform.py", line 87, in <module>
+[2025-05-22T21:27:09.639+0530] {subprocess.py:93} INFO -     payment_df = df.select(*payment_columns_final)
+[2025-05-22T21:27:09.639+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/dataframe.py", line 3229, in select
+[2025-05-22T21:27:09.639+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2025-05-22T21:27:09.639+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 185, in deco
+[2025-05-22T21:27:09.644+0530] {subprocess.py:93} INFO - pyspark.errors.exceptions.captured.AnalysisException: [UNRESOLVED_COLUMN.WITH_SUGGESTION] A column or function parameter with name `__null_dast_index__` cannot be resolved. Did you mean one of the following? [`__null_dask_index__`, `trip_distance`, `Payment_id`, `RatecodeID`, `tolls_amount`].;
+[2025-05-22T21:27:09.645+0530] {subprocess.py:93} INFO - 'Project [Payment_id#300, Trip_id#274, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, trip_amt_INR#105, congestion_surcharge#17, '__null_dast_index__]
+[2025-05-22T21:27:09.645+0530] {subprocess.py:93} INFO - +- Project [VendorID#129, tpep_pickup_datetime#326, cast(tpep_dropoff_datetime#2 as string) AS tpep_dropoff_datetime#352, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105, Trip_id#274, Payment_id#300]
+[2025-05-22T21:27:09.645+0530] {subprocess.py:93} INFO -    +- Project [VendorID#129, cast(tpep_pickup_datetime#1 as string) AS tpep_pickup_datetime#326, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105, Trip_id#274, Payment_id#300]
+[2025-05-22T21:27:09.645+0530] {subprocess.py:93} INFO -       +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105, Trip_id#274, Payment_id#300]
+[2025-05-22T21:27:09.645+0530] {subprocess.py:93} INFO -          +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105, Trip_id#274, ... 2 more fields]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -             +- Window [row_number() windowspecdefinition(tpep_pickup_datetime#1 ASC NULLS FIRST, VendorID#129 ASC NULLS FIRST, specifiedwindowframe(RowFrame, unboundedpreceding$(), currentrow$())) AS Payment_id#300], [tpep_pickup_datetime#1 ASC NULLS FIRST, VendorID#129 ASC NULLS FIRST]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -                +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105, Trip_id#274]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -                   +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105, Trip_id#274]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -                      +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105, Trip_id#274, Trip_id#274]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -                         +- Window [row_number() windowspecdefinition(tpep_pickup_datetime#1 ASC NULLS FIRST, VendorID#129 ASC NULLS FIRST, specifiedwindowframe(RowFrame, unboundedpreceding$(), currentrow$())) AS Trip_id#274], [tpep_pickup_datetime#1 ASC NULLS FIRST, VendorID#129 ASC NULLS FIRST]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -                            +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -                               +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#225L, cast(DOLocationID#8 as bigint) AS DOLocationID#249L, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -                                  +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, cast(PULocationID#7 as bigint) AS PULocationID#225L, DOLocationID#8, payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105]
+[2025-05-22T21:27:09.646+0530] {subprocess.py:93} INFO -                                     +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, RatecodeID#177, store_and_fwd_flag#6, PULocationID#7, DOLocationID#8, cast(payment_type#9 as int) AS payment_type#201, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105]
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO -                                        +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#153, trip_distance#4, cast(RatecodeID#5 as int) AS RatecodeID#177, store_and_fwd_flag#6, PULocationID#7, DOLocationID#8, payment_type#9, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105]
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO -                                           +- Project [VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, cast(passenger_count#3 as int) AS passenger_count#153, trip_distance#4, RatecodeID#5, store_and_fwd_flag#6, PULocationID#7, DOLocationID#8, payment_type#9, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105]
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO -                                              +- Project [cast(VendorID#0 as int) AS VendorID#129, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#3, trip_distance#4, RatecodeID#5, store_and_fwd_flag#6, PULocationID#7, DOLocationID#8, payment_type#9, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, trip_amt_INR#105]
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO -                                                 +- Project [VendorID#0, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#3, trip_distance#4, RatecodeID#5, store_and_fwd_flag#6, PULocationID#7, DOLocationID#8, payment_type#9, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, Distance_Length#82, (total_amount#16 * 85.63) AS trip_amt_INR#105]
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO -                                                    +- Project [VendorID#0, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#3, trip_distance#4, RatecodeID#5, store_and_fwd_flag#6, PULocationID#7, DOLocationID#8, payment_type#9, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, Car_utilization#60, CASE WHEN ((trip_distance#4 >= cast(1 as double)) AND (trip_distance#4 < cast(5 as double))) THEN Short WHEN ((trip_distance#4 >= cast(5 as double)) AND (trip_distance#4 < cast(10 as double))) THEN Medium WHEN (trip_distance#4 >= cast(10 as double)) THEN Long ELSE Unknown END AS Distance_Length#82]
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO -                                                       +- Project [VendorID#0, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#3, trip_distance#4, RatecodeID#5, store_and_fwd_flag#6, PULocationID#7, DOLocationID#8, payment_type#9, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, Month#38, CASE WHEN ((cast(passenger_count#3 as int) = 1) OR (cast(passenger_count#3 as int) = 2)) THEN Low WHEN ((cast(passenger_count#3 as int) = 3) OR (cast(passenger_count#3 as int) = 4)) THEN Medium WHEN (cast(passenger_count#3 as int) > 4) THEN Full ELSE Unknown END AS Car_utilization#60]
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO -                                                          +- Project [VendorID#0, tpep_pickup_datetime#1, tpep_dropoff_datetime#2, passenger_count#3, trip_distance#4, RatecodeID#5, store_and_fwd_flag#6, PULocationID#7, DOLocationID#8, payment_type#9, fare_amount#10, extra#11, mta_tax#12, tip_amount#13, tolls_amount#14, improvement_surcharge#15, total_amount#16, congestion_surcharge#17, __null_dask_index__#18L, month(cast(tpep_pickup_datetime#1 as date)) AS Month#38]
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO -                                                             +- Relation [VendorID#0,tpep_pickup_datetime#1,tpep_dropoff_datetime#2,passenger_count#3,trip_distance#4,RatecodeID#5,store_and_fwd_flag#6,PULocationID#7,DOLocationID#8,payment_type#9,fare_amount#10,extra#11,mta_tax#12,tip_amount#13,tolls_amount#14,improvement_surcharge#15,total_amount#16,congestion_surcharge#17,__null_dask_index__#18L] parquet
+[2025-05-22T21:27:09.647+0530] {subprocess.py:93} INFO - 
+[2025-05-22T21:27:09.694+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO SparkContext: Invoking stop() from shutdown hook
+[2025-05-22T21:27:09.694+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2025-05-22T21:27:09.705+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO SparkUI: Stopped Spark web UI at http://10.255.255.254:4040
+[2025-05-22T21:27:09.716+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2025-05-22T21:27:09.724+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO MemoryStore: MemoryStore cleared
+[2025-05-22T21:27:09.725+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO BlockManager: BlockManager stopped
+[2025-05-22T21:27:09.726+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2025-05-22T21:27:09.728+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2025-05-22T21:27:09.734+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO SparkContext: Successfully stopped SparkContext
+[2025-05-22T21:27:09.735+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO ShutdownHookManager: Shutdown hook called
+[2025-05-22T21:27:09.735+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-bd2db529-5bab-4fe7-8862-19cdb825621f
+[2025-05-22T21:27:09.737+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-64b8bd6c-9b99-44f0-bb64-ab4ad54e6697
+[2025-05-22T21:27:09.739+0530] {subprocess.py:93} INFO - 25/05/22 21:27:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-bd2db529-5bab-4fe7-8862-19cdb825621f/pyspark-9fb53380-5454-4c32-a973-afc76c020d7c
+[2025-05-22T21:27:09.782+0530] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-05-22T21:27:09.787+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-05-22T21:27:09.790+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=nyc_taxi_etl, task_id=transform_data, run_id=manual__2025-05-22T15:55:01.644073+00:00, execution_date=20250522T155501, start_date=20250522T155701, end_date=20250522T155709
+[2025-05-22T21:27:09.798+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-22T21:27:09.798+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 157 for task transform_data (Bash command failed. The command returned a non-zero exit code 1.; 2502)
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-05-22T21:27:09.834+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-22T21:27:09.843+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-22T21:27:09.848+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

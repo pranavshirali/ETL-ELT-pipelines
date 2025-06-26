@@ -1,0 +1,215 @@
+[2025-05-23T12:57:40.262+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-23T12:57:40.268+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: elt_sales_stream_transformation.build_dimensions manual__2025-05-23T07:27:36.396815+00:00 [queued]>
+[2025-05-23T12:57:40.273+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: elt_sales_stream_transformation.build_dimensions manual__2025-05-23T07:27:36.396815+00:00 [queued]>
+[2025-05-23T12:57:40.273+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-23T12:57:40.283+0530] {taskinstance.py:2888} INFO - Executing <Task(SQLExecuteQueryOperator): build_dimensions> on 2025-05-23 07:27:36.396815+00:00
+[2025-05-23T12:57:40.288+0530] {standard_task_runner.py:72} INFO - Started process 24490 to run task
+[2025-05-23T12:57:40.290+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'elt_sales_stream_transformation', 'build_dimensions', 'manual__2025-05-23T07:27:36.396815+00:00', '--job-id', '172', '--raw', '--subdir', 'DAGS_FOLDER/elt_transformation_dag.py', '--cfg-path', '/tmp/tmp7vldw97j']
+[2025-05-23T12:57:40.291+0530] {standard_task_runner.py:105} INFO - Job 172: Subtask build_dimensions
+[2025-05-23T12:57:40.312+0530] {task_command.py:467} INFO - Running <TaskInstance: elt_sales_stream_transformation.build_dimensions manual__2025-05-23T07:27:36.396815+00:00 [running]> on host Voldemort.
+[2025-05-23T12:57:40.367+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='elt_sales_stream_transformation' AIRFLOW_CTX_TASK_ID='build_dimensions' AIRFLOW_CTX_EXECUTION_DATE='2025-05-23T07:27:36.396815+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-23T07:27:36.396815+00:00'
+[2025-05-23T12:57:40.368+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-23T12:57:40.387+0530] {sql.py:306} INFO - Executing: 
+        -- 1.1) Order_Priority dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_ORDER_PRIORITY (
+          OrderPriority_id   INT AUTOINCREMENT,
+          Order_Priority     VARCHAR(10) NOT NULL,
+          PRIMARY KEY (OrderPriority_id)
+        );
+
+        INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_ORDER_PRIORITY (Order_Priority)
+        VALUES ('High'), ('Medium'), ('Low'), ('Cold');
+
+        -- 1.2) Region dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_REGION (
+          Region_id   INT AUTOINCREMENT,
+          Region      VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Region_id)
+        );
+        INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_REGION (Region)
+        SELECT DISTINCT TRIM(REGION) FROM AIRFLOW_DB.PUBLIC."SALES STREAM";
+
+        -- 1.3) Country dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_COUNTRY (
+          Country_id   INT AUTOINCREMENT,
+          Country      VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Country_id)
+        );
+        INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_COUNTRY (Country)
+        SELECT DISTINCT TRIM(COUNTRY) FROM AIRFLOW_DB.PUBLIC."SALES STREAM";
+
+        -- 1.4) Item dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_ITEM (
+          Item_id     INT AUTOINCREMENT,
+          Item_Type   VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Item_id)
+        );
+        INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_ITEM (Item_Type)
+        SELECT DISTINCT TRIM("ITEM TYPE") FROM AIRFLOW_DB.PUBLIC."SALES STREAM";
+        
+[2025-05-23T12:57:40.391+0530] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-05-23T12:57:40.472+0530] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-05-23T12:57:40.473+0530] {connection.py:486} INFO - Snowflake Connector for Python Version: 3.15.0, Python Version: 3.10.12, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[2025-05-23T12:57:40.473+0530] {connection.py:1391} INFO - Connecting to GLOBAL Snowflake domain
+[2025-05-23T12:57:41.239+0530] {snowflake.py:521} INFO - Running statement: -- 1.1) Order_Priority dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_ORDER_PRIORITY (
+          OrderPriority_id   INT AUTOINCREMENT,
+          Order_Priority     VARCHAR(10) NOT NULL,
+          PRIMARY KEY (OrderPriority_id)
+        );, parameters: None
+[2025-05-23T12:57:41.240+0530] {sql.py:814} INFO - Running statement: -- 1.1) Order_Priority dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_ORDER_PRIORITY (
+          OrderPriority_id   INT AUTOINCREMENT,
+          Order_Priority     VARCHAR(10) NOT NULL,
+          PRIMARY KEY (OrderPriority_id)
+        );, parameters: None
+[2025-05-23T12:57:41.462+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T12:57:41.462+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T12:57:41.462+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc891f-3201-a521-000d-39de000876ba
+[2025-05-23T12:57:41.462+0530] {snowflake.py:521} INFO - Running statement: INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_ORDER_PRIORITY (Order_Priority)
+        VALUES ('High'), ('Medium'), ('Low'), ('Cold');, parameters: None
+[2025-05-23T12:57:41.462+0530] {sql.py:814} INFO - Running statement: INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_ORDER_PRIORITY (Order_Priority)
+        VALUES ('High'), ('Medium'), ('Low'), ('Cold');, parameters: None
+[2025-05-23T12:57:42.312+0530] {sql.py:823} INFO - Rows affected: 4
+[2025-05-23T12:57:42.312+0530] {snowflake.py:534} INFO - Rows affected: 4
+[2025-05-23T12:57:42.313+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc891f-3201-a522-000d-39de00088662
+[2025-05-23T12:57:42.313+0530] {snowflake.py:521} INFO - Running statement: -- 1.2) Region dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_REGION (
+          Region_id   INT AUTOINCREMENT,
+          Region      VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Region_id)
+        );, parameters: None
+[2025-05-23T12:57:42.313+0530] {sql.py:814} INFO - Running statement: -- 1.2) Region dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_REGION (
+          Region_id   INT AUTOINCREMENT,
+          Region      VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Region_id)
+        );, parameters: None
+[2025-05-23T12:57:42.620+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T12:57:42.620+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T12:57:42.620+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc891f-3201-a521-000d-39de000876be
+[2025-05-23T12:57:42.620+0530] {snowflake.py:521} INFO - Running statement: INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_REGION (Region)
+        SELECT DISTINCT TRIM(REGION) FROM AIRFLOW_DB.PUBLIC."SALES STREAM";, parameters: None
+[2025-05-23T12:57:42.620+0530] {sql.py:814} INFO - Running statement: INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_REGION (Region)
+        SELECT DISTINCT TRIM(REGION) FROM AIRFLOW_DB.PUBLIC."SALES STREAM";, parameters: None
+[2025-05-23T12:57:43.203+0530] {sql.py:823} INFO - Rows affected: 7
+[2025-05-23T12:57:43.204+0530] {snowflake.py:534} INFO - Rows affected: 7
+[2025-05-23T12:57:43.204+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc891f-3201-a522-000d-39de00088666
+[2025-05-23T12:57:43.204+0530] {snowflake.py:521} INFO - Running statement: -- 1.3) Country dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_COUNTRY (
+          Country_id   INT AUTOINCREMENT,
+          Country      VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Country_id)
+        );, parameters: None
+[2025-05-23T12:57:43.204+0530] {sql.py:814} INFO - Running statement: -- 1.3) Country dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_COUNTRY (
+          Country_id   INT AUTOINCREMENT,
+          Country      VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Country_id)
+        );, parameters: None
+[2025-05-23T12:57:43.585+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T12:57:43.586+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T12:57:43.586+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc891f-3201-a520-000d-39de0008667e
+[2025-05-23T12:57:43.586+0530] {snowflake.py:521} INFO - Running statement: INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_COUNTRY (Country)
+        SELECT DISTINCT TRIM(COUNTRY) FROM AIRFLOW_DB.PUBLIC."SALES STREAM";, parameters: None
+[2025-05-23T12:57:43.586+0530] {sql.py:814} INFO - Running statement: INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_COUNTRY (Country)
+        SELECT DISTINCT TRIM(COUNTRY) FROM AIRFLOW_DB.PUBLIC."SALES STREAM";, parameters: None
+[2025-05-23T12:57:44.157+0530] {sql.py:823} INFO - Rows affected: 185
+[2025-05-23T12:57:44.157+0530] {snowflake.py:534} INFO - Rows affected: 185
+[2025-05-23T12:57:44.157+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc891f-3201-a521-000d-39de000876c2
+[2025-05-23T12:57:44.157+0530] {snowflake.py:521} INFO - Running statement: -- 1.4) Item dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_ITEM (
+          Item_id     INT AUTOINCREMENT,
+          Item_Type   VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Item_id)
+        );, parameters: None
+[2025-05-23T12:57:44.158+0530] {sql.py:814} INFO - Running statement: -- 1.4) Item dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.DM_ITEM (
+          Item_id     INT AUTOINCREMENT,
+          Item_Type   VARCHAR(256) NOT NULL,
+          PRIMARY KEY (Item_id)
+        );, parameters: None
+[2025-05-23T12:57:44.469+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T12:57:44.470+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T12:57:44.470+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc891f-3201-a522-000d-39de0008866a
+[2025-05-23T12:57:44.470+0530] {snowflake.py:521} INFO - Running statement: INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_ITEM (Item_Type)
+        SELECT DISTINCT TRIM("ITEM TYPE") FROM AIRFLOW_DB.PUBLIC."SALES STREAM";, parameters: None
+[2025-05-23T12:57:44.470+0530] {sql.py:814} INFO - Running statement: INSERT INTO AIRFLOW_DB.ELT_TRANSFORMED.DM_ITEM (Item_Type)
+        SELECT DISTINCT TRIM("ITEM TYPE") FROM AIRFLOW_DB.PUBLIC."SALES STREAM";, parameters: None
+[2025-05-23T12:57:46.408+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 312, in execute
+    output = hook.run(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 522, in run
+    self._run_command(cur, sql_statement, parameters)  # type: ignore[attr-defined]
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 819, in _run_command
+    cur.execute(sql_statement)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/cursor.py", line 1134, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 279, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 334, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 210, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.IntegrityError: 100072 (22000): None: NULL result in a non-nullable column
+[2025-05-23T12:57:46.411+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=elt_sales_stream_transformation, task_id=build_dimensions, run_id=manual__2025-05-23T07:27:36.396815+00:00, execution_date=20250523T072736, start_date=20250523T072740, end_date=20250523T072746
+[2025-05-23T12:57:46.419+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-23T12:57:46.419+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 172 for task build_dimensions (100072 (22000): None: NULL result in a non-nullable column; 24490)
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 312, in execute
+    output = hook.run(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 522, in run
+    self._run_command(cur, sql_statement, parameters)  # type: ignore[attr-defined]
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 819, in _run_command
+    cur.execute(sql_statement)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/cursor.py", line 1134, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 279, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 334, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 210, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.IntegrityError: 100072 (22000): None: NULL result in a non-nullable column
+[2025-05-23T12:57:46.461+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-23T12:57:46.472+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-23T12:57:46.476+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

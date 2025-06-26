@@ -1,0 +1,382 @@
+[2025-05-19T19:46:03.890+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-19T19:46:03.897+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: nyc_taxi_etl.load_to_snowflake manual__2025-05-19T14:14:45.114378+00:00 [queued]>
+[2025-05-19T19:46:03.901+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: nyc_taxi_etl.load_to_snowflake manual__2025-05-19T14:14:45.114378+00:00 [queued]>
+[2025-05-19T19:46:03.901+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-19T19:46:03.912+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): load_to_snowflake> on 2025-05-19 14:14:45.114378+00:00
+[2025-05-19T19:46:03.914+0530] {standard_task_runner.py:72} INFO - Started process 32137 to run task
+[2025-05-19T19:46:03.917+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'nyc_taxi_etl', 'load_to_snowflake', 'manual__2025-05-19T14:14:45.114378+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/nyc_taxi_etl.py', '--cfg-path', '/tmp/tmprvj2cy44']
+[2025-05-19T19:46:03.918+0530] {standard_task_runner.py:105} INFO - Job 86: Subtask load_to_snowflake
+[2025-05-19T19:46:03.939+0530] {task_command.py:467} INFO - Running <TaskInstance: nyc_taxi_etl.load_to_snowflake manual__2025-05-19T14:14:45.114378+00:00 [running]> on host Voldemort.
+[2025-05-19T19:46:03.984+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='nyc_taxi_etl' AIRFLOW_CTX_TASK_ID='load_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T14:14:45.114378+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T14:14:45.114378+00:00'
+[2025-05-19T19:46:03.985+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-19T19:46:03.992+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-19T19:46:03.992+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/opt/spark/bin/spark-submit /home/pranav_shirali/airflow-project/scripts/ETL/load.py']
+[2025-05-19T19:46:03.997+0530] {subprocess.py:86} INFO - Output:
+[2025-05-19T19:46:05.251+0530] {subprocess.py:93} INFO - 25/05/19 19:46:05 WARN Utils: Your hostname, Voldemort resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+[2025-05-19T19:46:05.253+0530] {subprocess.py:93} INFO - 25/05/19 19:46:05 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2025-05-19T19:46:06.065+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SparkContext: Running Spark version 3.5.5
+[2025-05-19T19:46:06.066+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SparkContext: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64
+[2025-05-19T19:46:06.066+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SparkContext: Java version 11.0.27
+[2025-05-19T19:46:06.117+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-05-19T19:46:06.189+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO ResourceUtils: ==============================================================
+[2025-05-19T19:46:06.189+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-05-19T19:46:06.190+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO ResourceUtils: ==============================================================
+[2025-05-19T19:46:06.190+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SparkContext: Submitted application: NYC Taxi Load to Snowflake
+[2025-05-19T19:46:06.206+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-05-19T19:46:06.214+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO ResourceProfile: Limiting resource is cpu
+[2025-05-19T19:46:06.215+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-05-19T19:46:06.252+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SecurityManager: Changing view acls to: pranav_shirali
+[2025-05-19T19:46:06.253+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SecurityManager: Changing modify acls to: pranav_shirali
+[2025-05-19T19:46:06.253+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SecurityManager: Changing view acls groups to:
+[2025-05-19T19:46:06.253+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SecurityManager: Changing modify acls groups to:
+[2025-05-19T19:46:06.253+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: pranav_shirali; groups with view permissions: EMPTY; users with modify permissions: pranav_shirali; groups with modify permissions: EMPTY
+[2025-05-19T19:46:06.442+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO Utils: Successfully started service 'sparkDriver' on port 43723.
+[2025-05-19T19:46:06.467+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SparkEnv: Registering MapOutputTracker
+[2025-05-19T19:46:06.498+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SparkEnv: Registering BlockManagerMaster
+[2025-05-19T19:46:06.513+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-05-19T19:46:06.513+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-05-19T19:46:06.517+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-05-19T19:46:06.539+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-533f8483-7f5b-4c50-b811-37577af7cc87
+[2025-05-19T19:46:06.552+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2025-05-19T19:46:06.564+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-05-19T19:46:06.688+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2025-05-19T19:46:06.732+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2025-05-19T19:46:06.801+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO Executor: Starting executor ID driver on host 10.255.255.254
+[2025-05-19T19:46:06.801+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO Executor: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64
+[2025-05-19T19:46:06.801+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO Executor: Java version 11.0.27
+[2025-05-19T19:46:06.807+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2025-05-19T19:46:06.807+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@15fedf13 for default.
+[2025-05-19T19:46:06.824+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42537.
+[2025-05-19T19:46:06.824+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO NettyBlockTransferService: Server created on 10.255.255.254:42537
+[2025-05-19T19:46:06.825+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-05-19T19:46:06.829+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.255.255.254, 42537, None)
+[2025-05-19T19:46:06.832+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO BlockManagerMasterEndpoint: Registering block manager 10.255.255.254:42537 with 434.4 MiB RAM, BlockManagerId(driver, 10.255.255.254, 42537, None)
+[2025-05-19T19:46:06.833+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.255.255.254, 42537, None)
+[2025-05-19T19:46:06.834+0530] {subprocess.py:93} INFO - 25/05/19 19:46:06 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.255.255.254, 42537, None)
+[2025-05-19T19:46:07.216+0530] {subprocess.py:93} INFO - 25/05/19 19:46:07 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2025-05-19T19:46:07.223+0530] {subprocess.py:93} INFO - 25/05/19 19:46:07 INFO SharedState: Warehouse path is 'file:/tmp/airflowtmpbweaonpn/spark-warehouse'.
+[2025-05-19T19:46:08.058+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO InMemoryFileIndex: It took 35 ms to list leaf files for 1 paths.
+[2025-05-19T19:46:08.403+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO SparkContext: Starting job: parquet at NativeMethodAccessorImpl.java:0
+[2025-05-19T19:46:08.416+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: Got job 0 (parquet at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2025-05-19T19:46:08.417+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: Final stage: ResultStage 0 (parquet at NativeMethodAccessorImpl.java:0)
+[2025-05-19T19:46:08.417+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-19T19:46:08.417+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: Missing parents: List()
+[2025-05-19T19:46:08.421+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: Submitting ResultStage 0 (MapPartitionsRDD[1] at parquet at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2025-05-19T19:46:08.472+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 103.3 KiB, free 434.3 MiB)
+[2025-05-19T19:46:08.500+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 37.2 KiB, free 434.3 MiB)
+[2025-05-19T19:46:08.503+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 10.255.255.254:42537 (size: 37.2 KiB, free: 434.4 MiB)
+[2025-05-19T19:46:08.506+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO SparkContext: Created broadcast 0 from broadcast at DAGScheduler.scala:1585
+[2025-05-19T19:46:08.518+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 0 (MapPartitionsRDD[1] at parquet at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2025-05-19T19:46:08.519+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO TaskSchedulerImpl: Adding task set 0.0 with 1 tasks resource profile 0
+[2025-05-19T19:46:08.575+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0) (10.255.255.254, executor driver, partition 0, PROCESS_LOCAL, 9237 bytes)
+[2025-05-19T19:46:08.591+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2025-05-19T19:46:08.915+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 2398 bytes result sent to driver
+[2025-05-19T19:46:08.923+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 372 ms on 10.255.255.254 (executor driver) (1/1)
+[2025-05-19T19:46:08.925+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2025-05-19T19:46:08.928+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: ResultStage 0 (parquet at NativeMethodAccessorImpl.java:0) finished in 0.498 s
+[2025-05-19T19:46:08.930+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-19T19:46:08.930+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2025-05-19T19:46:08.931+0530] {subprocess.py:93} INFO - 25/05/19 19:46:08 INFO DAGScheduler: Job 0 finished: parquet at NativeMethodAccessorImpl.java:0, took 0.527569 s
+[2025-05-19T19:46:09.334+0530] {subprocess.py:93} INFO - 25/05/19 19:46:09 INFO BlockManagerInfo: Removed broadcast_0_piece0 on 10.255.255.254:42537 in memory (size: 37.2 KiB, free: 434.4 MiB)
+[2025-05-19T19:46:09.844+0530] {subprocess.py:93} INFO - 25/05/19 19:46:09 WARN SnowflakeConnectorUtils$: Query pushdown is not supported because you are using Spark 3.5.5 with a connector designed to support Spark 3.3. Either use the version of Spark supported by the connector or install a version of the connector that supports your version of Spark.
+[2025-05-19T19:46:09.894+0530] {subprocess.py:93} INFO - 25/05/19 19:46:09 INFO FileSourceStrategy: Pushed Filters:
+[2025-05-19T19:46:09.895+0530] {subprocess.py:93} INFO - 25/05/19 19:46:09 INFO FileSourceStrategy: Post-Scan Filters:
+[2025-05-19T19:46:10.134+0530] {subprocess.py:93} INFO - 25/05/19 19:46:10 INFO CodeGenerator: Code generated in 173.113399 ms
+[2025-05-19T19:46:10.159+0530] {subprocess.py:93} INFO - 25/05/19 19:46:10 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 202.6 KiB, free 434.2 MiB)
+[2025-05-19T19:46:10.169+0530] {subprocess.py:93} INFO - 25/05/19 19:46:10 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 35.5 KiB, free 434.2 MiB)
+[2025-05-19T19:46:10.170+0530] {subprocess.py:93} INFO - 25/05/19 19:46:10 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 10.255.255.254:42537 (size: 35.5 KiB, free: 434.4 MiB)
+[2025-05-19T19:46:10.171+0530] {subprocess.py:93} INFO - 25/05/19 19:46:10 INFO SparkContext: Created broadcast 1 from rdd at SnowflakeWriter.scala:87
+[2025-05-19T19:46:10.183+0530] {subprocess.py:93} INFO - 25/05/19 19:46:10 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2025-05-19T19:46:10.260+0530] {subprocess.py:93} INFO - 25/05/19 19:46:10 WARN DefaultJDBCWrapper$: JDBC 3.13.30 is being used. But the certified JDBC version 3.13.22 is recommended.
+[2025-05-19T19:46:11.364+0530] {subprocess.py:93} INFO - 25/05/19 19:46:11 INFO SparkConnectorContext$: Spark Connector system config: {
+[2025-05-19T19:46:11.364+0530] {subprocess.py:93} INFO -   "spark_connector_version" : "2.11.0",
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "spark_version" : "3.5.5",
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "application_name" : "NYC Taxi Load to Snowflake",
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "scala_version" : "2.12.18",
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "java_version" : "11.0.27",
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "jdbc_version" : "3.13.30",
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "certified_jdbc_version" : "3.13.22",
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "os_name" : "Linux",
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "max_memory_in_mb" : 1024,
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "total_memory_in_mb" : 147,
+[2025-05-19T19:46:11.365+0530] {subprocess.py:93} INFO -   "free_memory_in_mb" : 51,
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -   "cpu_cores" : 12,
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -   "spark_application_id" : "local-1747664166775",
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -   "spark_language" : "Scala",
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -   "is_pyspark" : false,
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -   "spark_config" : {
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -     "spark.driver.extraJavaOptions" : "-Djava.net.preferIPv6Addresses=false -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false",
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -     "spark.app.submitTime" : "N/A",
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -     "spark.driver.port" : "N/A",
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -     "spark.executor.id" : "driver",
+[2025-05-19T19:46:11.366+0530] {subprocess.py:93} INFO -     "spark.app.name" : "NYC Taxi Load to Snowflake",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.driver.host" : "10.255.255.254",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.rdd.compress" : "N/A",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.executor.extraJavaOptions" : "-Djava.net.preferIPv6Addresses=false -XX:+IgnoreUnrecognizedVMOptions --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.net=ALL-UNNAMED --add-opens=java.base/java.nio=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED --add-opens=java.base/jdk.internal.ref=ALL-UNNAMED --add-opens=java.base/sun.nio.ch=ALL-UNNAMED --add-opens=java.base/sun.nio.cs=ALL-UNNAMED --add-opens=java.base/sun.security.action=ALL-UNNAMED --add-opens=java.base/sun.util.calendar=ALL-UNNAMED --add-opens=java.security.jgss/sun.security.krb5=ALL-UNNAMED -Djdk.reflect.useDirectMethodHandle=false",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.serializer.objectStreamReset" : "N/A",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.app.id" : "local-1747664166775",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.master" : "local[*]",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.submit.pyFiles" : "N/A",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.submit.deployMode" : "client",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.app.startTime" : "N/A",
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -     "spark.sql.warehouse.dir" : "N/A"
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -   },
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -   "libraries" : [ "py4j", "py4j.commands", "py4j.reflection" ],
+[2025-05-19T19:46:11.367+0530] {subprocess.py:93} INFO -   "dependencies" : [ ],
+[2025-05-19T19:46:11.368+0530] {subprocess.py:93} INFO -   "cluster_node_count" : 1,
+[2025-05-19T19:46:11.368+0530] {subprocess.py:93} INFO -   "spark_default_parallelism" : 12,
+[2025-05-19T19:46:11.368+0530] {subprocess.py:93} INFO -   "deploy_mode" : "client"
+[2025-05-19T19:46:11.368+0530] {subprocess.py:93} INFO - }
+[2025-05-19T19:46:11.374+0530] {subprocess.py:93} INFO - 25/05/19 19:46:11 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: alter session set timezone = 'Asia/Calcutta' , timestamp_ntz_output_format = 'YYYY-MM-DD HH24:MI:SS.FF3', timestamp_ltz_output_format = 'TZHTZM YYYY-MM-DD HH24:MI:SS.FF3', timestamp_tz_output_format = 'TZHTZM YYYY-MM-DD HH24:MI:SS.FF3' ;
+[2025-05-19T19:46:11.791+0530] {subprocess.py:93} INFO - 25/05/19 19:46:11 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: create  temporary stage if not exists identifier(?)
+[2025-05-19T19:46:15.087+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO CloudStorageOperations$: Spark Connector Master: Begin to process and upload data for 5 partitions: directory=xVpNq1FQxc CSV true
+[2025-05-19T19:46:15.158+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO SparkContext: Starting job: collect at CloudStorageOperations.scala:805
+[2025-05-19T19:46:15.160+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO DAGScheduler: Got job 1 (collect at CloudStorageOperations.scala:805) with 5 output partitions
+[2025-05-19T19:46:15.160+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO DAGScheduler: Final stage: ResultStage 1 (collect at CloudStorageOperations.scala:805)
+[2025-05-19T19:46:15.160+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-19T19:46:15.160+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO DAGScheduler: Missing parents: List()
+[2025-05-19T19:46:15.162+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO DAGScheduler: Submitting ResultStage 1 (MapPartitionsRDD[9] at mapPartitionsWithIndex at CloudStorageOperations.scala:788), which has no missing parents
+[2025-05-19T19:46:15.169+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 43.2 KiB, free 434.1 MiB)
+[2025-05-19T19:46:15.171+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 18.1 KiB, free 434.1 MiB)
+[2025-05-19T19:46:15.172+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 10.255.255.254:42537 (size: 18.1 KiB, free: 434.3 MiB)
+[2025-05-19T19:46:15.172+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1585
+[2025-05-19T19:46:15.173+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO DAGScheduler: Submitting 5 missing tasks from ResultStage 1 (MapPartitionsRDD[9] at mapPartitionsWithIndex at CloudStorageOperations.scala:788) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4))
+[2025-05-19T19:46:15.173+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO TaskSchedulerImpl: Adding task set 1.0 with 5 tasks resource profile 0
+[2025-05-19T19:46:15.177+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 1) (10.255.255.254, executor driver, partition 0, PROCESS_LOCAL, 9707 bytes)
+[2025-05-19T19:46:15.178+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 2) (10.255.255.254, executor driver, partition 1, PROCESS_LOCAL, 9707 bytes)
+[2025-05-19T19:46:15.178+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO TaskSetManager: Starting task 2.0 in stage 1.0 (TID 3) (10.255.255.254, executor driver, partition 2, PROCESS_LOCAL, 9707 bytes)
+[2025-05-19T19:46:15.179+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO TaskSetManager: Starting task 3.0 in stage 1.0 (TID 4) (10.255.255.254, executor driver, partition 3, PROCESS_LOCAL, 9707 bytes)
+[2025-05-19T19:46:15.179+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO TaskSetManager: Starting task 4.0 in stage 1.0 (TID 5) (10.255.255.254, executor driver, partition 4, PROCESS_LOCAL, 9707 bytes)
+[2025-05-19T19:46:15.180+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO Executor: Running task 0.0 in stage 1.0 (TID 1)
+[2025-05-19T19:46:15.180+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO Executor: Running task 1.0 in stage 1.0 (TID 2)
+[2025-05-19T19:46:15.181+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO Executor: Running task 2.0 in stage 1.0 (TID 3)
+[2025-05-19T19:46:15.182+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO Executor: Running task 3.0 in stage 1.0 (TID 4)
+[2025-05-19T19:46:15.183+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO Executor: Running task 4.0 in stage 1.0 (TID 5)
+[2025-05-19T19:46:15.304+0530] {subprocess.py:93} INFO - 25/05/19 19:46:15 INFO CodeGenerator: Code generated in 24.867296 ms
+[2025-05-19T19:46:16.185+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CodeGenerator: Code generated in 29.779792 ms
+[2025-05-19T19:46:16.193+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:2 as 2.CSV.gz TaskInfo: {  "task_partition_id" : 2,  "task_attempt_id" : 3,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 1,  "thread_id" : 85}
+[2025-05-19T19:46:16.193+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:4 as 4.CSV.gz TaskInfo: {  "task_partition_id" : 4,  "task_attempt_id" : 5,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 1,  "thread_id" : 87}
+[2025-05-19T19:46:16.193+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:3 as 3.CSV.gz TaskInfo: {  "task_partition_id" : 3,  "task_attempt_id" : 4,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 1,  "thread_id" : 86}
+[2025-05-19T19:46:16.193+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:1 as 1.CSV.gz TaskInfo: {  "task_partition_id" : 1,  "task_attempt_id" : 2,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 1,  "thread_id" : 84}
+[2025-05-19T19:46:16.193+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:0 as 0.CSV.gz TaskInfo: {  "task_partition_id" : 0,  "task_attempt_id" : 1,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 1,  "thread_id" : 71}
+[2025-05-19T19:46:16.194+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_trip.parquet/part-00000-deb0aeb2-b983-4638-a662-e4bfa486a4e3-c000.snappy.parquet, range: 0-4194304, partition values: [empty row]
+[2025-05-19T19:46:16.194+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_trip.parquet/part-00000-deb0aeb2-b983-4638-a662-e4bfa486a4e3-c000.snappy.parquet, range: 12582912-16777216, partition values: [empty row]
+[2025-05-19T19:46:16.194+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_trip.parquet/part-00000-deb0aeb2-b983-4638-a662-e4bfa486a4e3-c000.snappy.parquet, range: 4194304-8388608, partition values: [empty row]
+[2025-05-19T19:46:16.194+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_trip.parquet/part-00000-deb0aeb2-b983-4638-a662-e4bfa486a4e3-c000.snappy.parquet, range: 8388608-12582912, partition values: [empty row]
+[2025-05-19T19:46:16.194+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_trip.parquet/part-00000-deb0aeb2-b983-4638-a662-e4bfa486a4e3-c000.snappy.parquet, range: 16777216-19038509, partition values: [empty row]
+[2025-05-19T19:46:16.281+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:0 0.CSV.gz write row count is 0. Uncompressed data size is 0 Bytes. read_and_upload_time: 84 ms
+[2025-05-19T19:46:16.281+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:4 4.CSV.gz write row count is 0. Uncompressed data size is 0 Bytes. read_and_upload_time: 84 ms
+[2025-05-19T19:46:16.281+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:3 3.CSV.gz write row count is 0. Uncompressed data size is 0 Bytes. read_and_upload_time: 84 ms
+[2025-05-19T19:46:16.282+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:1 1.CSV.gz write row count is 0. Uncompressed data size is 0 Bytes. read_and_upload_time: 84 ms
+[2025-05-19T19:46:16.295+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO Executor: Finished task 4.0 in stage 1.0 (TID 5). 1905 bytes result sent to driver
+[2025-05-19T19:46:16.295+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO Executor: Finished task 0.0 in stage 1.0 (TID 1). 1905 bytes result sent to driver
+[2025-05-19T19:46:16.296+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO Executor: Finished task 1.0 in stage 1.0 (TID 2). 1905 bytes result sent to driver
+[2025-05-19T19:46:16.297+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO TaskSetManager: Finished task 4.0 in stage 1.0 (TID 5) in 1118 ms on 10.255.255.254 (executor driver) (1/5)
+[2025-05-19T19:46:16.298+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO Executor: Finished task 3.0 in stage 1.0 (TID 4). 1948 bytes result sent to driver
+[2025-05-19T19:46:16.300+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 2) in 1122 ms on 10.255.255.254 (executor driver) (2/5)
+[2025-05-19T19:46:16.301+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO TaskSetManager: Finished task 3.0 in stage 1.0 (TID 4) in 1122 ms on 10.255.255.254 (executor driver) (3/5)
+[2025-05-19T19:46:16.304+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 1) in 1128 ms on 10.255.255.254 (executor driver) (4/5)
+[2025-05-19T19:46:16.344+0530] {subprocess.py:93} INFO - 25/05/19 19:46:16 INFO CodecPool: Got brand-new decompressor [.snappy]
+[2025-05-19T19:46:37.509+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO CloudStorageOperations$: Spark Connector Worker: Finish uploading file xVpNq1FQxc/2.CSV.gz with AWS multiple parts API: bufferSize=8.00 MB chunkCount=4 compressedSize=16.93 MB
+[2025-05-19T19:46:37.510+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:2 2.CSV.gz write row count is 1177062. Uncompressed data size is 101.16 MB. read_and_upload_time: 21.32 seconds
+[2025-05-19T19:46:37.513+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO Executor: Finished task 2.0 in stage 1.0 (TID 3). 1948 bytes result sent to driver
+[2025-05-19T19:46:37.514+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO TaskSetManager: Finished task 2.0 in stage 1.0 (TID 3) in 22336 ms on 10.255.255.254 (executor driver) (5/5)
+[2025-05-19T19:46:37.514+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+[2025-05-19T19:46:37.515+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO DAGScheduler: ResultStage 1 (collect at CloudStorageOperations.scala:805) finished in 22.350 s
+[2025-05-19T19:46:37.516+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-19T19:46:37.516+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+[2025-05-19T19:46:37.516+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO DAGScheduler: Job 1 finished: collect at CloudStorageOperations.scala:805, took 22.357389 s
+[2025-05-19T19:46:37.519+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO StageWriter$: writeToTableWithStagingTable: check table existence with "AIRFLOW_DB"."PUBLIC".nyc_taxi_trip for nyc_taxi_trip
+[2025-05-19T19:46:37.520+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: desc table identifier(?)
+[2025-05-19T19:46:37.620+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: create   table if not exists identifier(?) ("TRIP_ID" INTEGER ,"VENDORID" INTEGER ,"TPEP_PICKUP_DATETIME" STRING ,"TPEP_DROPOFF_DATETIME" STRING ,"PASSENGER_COUNT" INTEGER ,"TRIP_DISTANCE" DOUBLE ,"RATECODEID" INTEGER ,"STORE_AND_FWD_FLAG" STRING ,"PULOCATIONID" INTEGER ,"DOLOCATIONID" INTEGER ,"MONTH" INTEGER ,"DISTANCE_LENGTH" STRING ,"CAR_UTILIZATION" STRING )
+[2025-05-19T19:46:37.804+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO StageWriter$: Begin to write at 2025-05-19T19:46:37.792386 (India Standard Time)
+[2025-05-19T19:46:37.805+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO StageWriter$: Total file count is 5, non-empty files count is 1, total file size is 101.16 MB, total row count is 1.12 MB.
+[2025-05-19T19:46:37.807+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO StageWriter$: Now executing below command to write into table:
+[2025-05-19T19:46:37.807+0530] {subprocess.py:93} INFO - copy into nyc_taxi_trip_staging_1603592252 FROM @spark_connector_load_stage_U4uYdVePyJ/xVpNq1FQxc/
+[2025-05-19T19:46:37.807+0530] {subprocess.py:93} INFO - FILE_FORMAT = (
+[2025-05-19T19:46:37.808+0530] {subprocess.py:93} INFO -     TYPE=CSV
+[2025-05-19T19:46:37.808+0530] {subprocess.py:93} INFO -     FIELD_DELIMITER='|'
+[2025-05-19T19:46:37.808+0530] {subprocess.py:93} INFO -     NULL_IF=()
+[2025-05-19T19:46:37.808+0530] {subprocess.py:93} INFO -     FIELD_OPTIONALLY_ENCLOSED_BY='"'
+[2025-05-19T19:46:37.808+0530] {subprocess.py:93} INFO -     TIMESTAMP_FORMAT='TZHTZM YYYY-MM-DD HH24:MI:SS.FF9'
+[2025-05-19T19:46:37.808+0530] {subprocess.py:93} INFO -     DATE_FORMAT='TZHTZM YYYY-MM-DD HH24:MI:SS.FF9'
+[2025-05-19T19:46:37.809+0530] {subprocess.py:93} INFO -     BINARY_FORMAT=BASE64
+[2025-05-19T19:46:37.809+0530] {subprocess.py:93} INFO -   )
+[2025-05-19T19:46:37.809+0530] {subprocess.py:93} INFO - 
+[2025-05-19T19:46:37.809+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: copy into nyc_taxi_trip_staging_1603592252 FROM @spark_connector_load_stage_U4uYdVePyJ/xVpNq1FQxc/
+[2025-05-19T19:46:37.809+0530] {subprocess.py:93} INFO - FILE_FORMAT = (
+[2025-05-19T19:46:37.809+0530] {subprocess.py:93} INFO -     TYPE=CSV
+[2025-05-19T19:46:37.809+0530] {subprocess.py:93} INFO -     FIELD_DELIMITER='|'
+[2025-05-19T19:46:37.809+0530] {subprocess.py:93} INFO -     NULL_IF=()
+[2025-05-19T19:46:37.810+0530] {subprocess.py:93} INFO -     FIELD_OPTIONALLY_ENCLOSED_BY='"'
+[2025-05-19T19:46:37.810+0530] {subprocess.py:93} INFO -     TIMESTAMP_FORMAT='TZHTZM YYYY-MM-DD HH24:MI:SS.FF9'
+[2025-05-19T19:46:37.810+0530] {subprocess.py:93} INFO -     DATE_FORMAT='TZHTZM YYYY-MM-DD HH24:MI:SS.FF9'
+[2025-05-19T19:46:37.810+0530] {subprocess.py:93} INFO -     BINARY_FORMAT=BASE64
+[2025-05-19T19:46:37.810+0530] {subprocess.py:93} INFO -   )
+[2025-05-19T19:46:37.810+0530] {subprocess.py:93} INFO - 
+[2025-05-19T19:46:37.883+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO SparkConnectorContext$: Spark connector register listener for: local-1747664166775
+[2025-05-19T19:46:37.884+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO SparkConnectorContext$: Add running query for local-1747664166775 session: 3722800343077302 queryId: 01bc7438-3201-9cf5-000d-39de00035bc2
+[2025-05-19T19:46:37.885+0530] {subprocess.py:93} INFO - 25/05/19 19:46:37 INFO StageWriter$: The query ID for async writing into table command is: 01bc7438-3201-9cf5-000d-39de00035bc2; The query ID URL is:
+[2025-05-19T19:46:37.885+0530] {subprocess.py:93} INFO - https://AVCUDFK-TL56570.snowflakecomputing.com/console#/monitoring/queries/detail?queryId=01bc7438-3201-9cf5-000d-39de00035bc2
+[2025-05-19T19:46:44.441+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 INFO SparkConnectorContext$: Remove running query for local-1747664166775 session: 3722800343077302 queryId: 01bc7438-3201-9cf5-000d-39de00035bc2
+[2025-05-19T19:46:44.442+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 INFO StageWriter$: First COPY command is done in 6.65 seconds at 2025-05-19T19:46:44.441436, queryID is 01bc7438-3201-9cf5-000d-39de00035bc2
+[2025-05-19T19:46:44.445+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 INFO StageWriter$: Succeed to write in 6.65 seconds at 2025-05-19T19:46:44.445485
+[2025-05-19T19:46:44.447+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: alter table identifier(?) swap with identifier(?)
+[2025-05-19T19:46:44.556+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: drop table identifier(?)
+[2025-05-19T19:46:44.664+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 INFO StageWriter$: Spark Connector Master: Total job time is 29.72 seconds including read & upload time: 22.58 seconds and COPY time: 7.15 seconds.
+[2025-05-19T19:46:44.785+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 WARN SnowflakeConnectorUtils$: Query pushdown is not supported because you are using Spark 3.5.5 with a connector designed to support Spark 3.3. Either use the version of Spark supported by the connector or install a version of the connector that supports your version of Spark.
+[2025-05-19T19:46:44.788+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 WARN DefaultJDBCWrapper$: JDBC 3.13.30 is being used. But the certified JDBC version 3.13.22 is recommended.
+[2025-05-19T19:46:44.953+0530] {subprocess.py:93} INFO - 25/05/19 19:46:44 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: select * from nyc_taxi_trip where 1 = 0
+[2025-05-19T19:46:45.189+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO InMemoryFileIndex: It took 1 ms to list leaf files for 1 paths.
+[2025-05-19T19:46:45.216+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO SparkContext: Starting job: parquet at NativeMethodAccessorImpl.java:0
+[2025-05-19T19:46:45.217+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: Got job 2 (parquet at NativeMethodAccessorImpl.java:0) with 1 output partitions
+[2025-05-19T19:46:45.217+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: Final stage: ResultStage 2 (parquet at NativeMethodAccessorImpl.java:0)
+[2025-05-19T19:46:45.217+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-19T19:46:45.217+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: Missing parents: List()
+[2025-05-19T19:46:45.218+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: Submitting ResultStage 2 (MapPartitionsRDD[11] at parquet at NativeMethodAccessorImpl.java:0), which has no missing parents
+[2025-05-19T19:46:45.224+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO MemoryStore: Block broadcast_3 stored as values in memory (estimated size 103.3 KiB, free 434.0 MiB)
+[2025-05-19T19:46:45.225+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO MemoryStore: Block broadcast_3_piece0 stored as bytes in memory (estimated size 37.2 KiB, free 434.0 MiB)
+[2025-05-19T19:46:45.226+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO BlockManagerInfo: Added broadcast_3_piece0 in memory on 10.255.255.254:42537 (size: 37.2 KiB, free: 434.3 MiB)
+[2025-05-19T19:46:45.226+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO SparkContext: Created broadcast 3 from broadcast at DAGScheduler.scala:1585
+[2025-05-19T19:46:45.227+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: Submitting 1 missing tasks from ResultStage 2 (MapPartitionsRDD[11] at parquet at NativeMethodAccessorImpl.java:0) (first 15 tasks are for partitions Vector(0))
+[2025-05-19T19:46:45.227+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO TaskSchedulerImpl: Adding task set 2.0 with 1 tasks resource profile 0
+[2025-05-19T19:46:45.229+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO TaskSetManager: Starting task 0.0 in stage 2.0 (TID 6) (10.255.255.254, executor driver, partition 0, PROCESS_LOCAL, 9240 bytes)
+[2025-05-19T19:46:45.229+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO Executor: Running task 0.0 in stage 2.0 (TID 6)
+[2025-05-19T19:46:45.244+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO Executor: Finished task 0.0 in stage 2.0 (TID 6). 2151 bytes result sent to driver
+[2025-05-19T19:46:45.246+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO TaskSetManager: Finished task 0.0 in stage 2.0 (TID 6) in 18 ms on 10.255.255.254 (executor driver) (1/1)
+[2025-05-19T19:46:45.246+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO TaskSchedulerImpl: Removed TaskSet 2.0, whose tasks have all completed, from pool
+[2025-05-19T19:46:45.247+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: ResultStage 2 (parquet at NativeMethodAccessorImpl.java:0) finished in 0.028 s
+[2025-05-19T19:46:45.247+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: Job 2 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-19T19:46:45.247+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO TaskSchedulerImpl: Killing all running tasks in stage 2: Stage finished
+[2025-05-19T19:46:45.248+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO DAGScheduler: Job 2 finished: parquet at NativeMethodAccessorImpl.java:0, took 0.031532 s
+[2025-05-19T19:46:45.286+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 WARN SnowflakeConnectorUtils$: Query pushdown is not supported because you are using Spark 3.5.5 with a connector designed to support Spark 3.3. Either use the version of Spark supported by the connector or install a version of the connector that supports your version of Spark.
+[2025-05-19T19:46:45.303+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO FileSourceStrategy: Pushed Filters:
+[2025-05-19T19:46:45.303+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO FileSourceStrategy: Post-Scan Filters:
+[2025-05-19T19:46:45.329+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO CodeGenerator: Code generated in 20.134924 ms
+[2025-05-19T19:46:45.335+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO MemoryStore: Block broadcast_4 stored as values in memory (estimated size 202.4 KiB, free 433.8 MiB)
+[2025-05-19T19:46:45.343+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO MemoryStore: Block broadcast_4_piece0 stored as bytes in memory (estimated size 35.3 KiB, free 433.7 MiB)
+[2025-05-19T19:46:45.344+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO BlockManagerInfo: Added broadcast_4_piece0 in memory on 10.255.255.254:42537 (size: 35.3 KiB, free: 434.3 MiB)
+[2025-05-19T19:46:45.345+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO SparkContext: Created broadcast 4 from rdd at SnowflakeWriter.scala:87
+[2025-05-19T19:46:45.346+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO FileSourceScanExec: Planning scan with bin packing, max size: 4194304 bytes, open cost is considered as scanning 4194304 bytes.
+[2025-05-19T19:46:45.355+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 WARN DefaultJDBCWrapper$: JDBC 3.13.30 is being used. But the certified JDBC version 3.13.22 is recommended.
+[2025-05-19T19:46:45.526+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: alter session set timezone = 'Asia/Calcutta' , timestamp_ntz_output_format = 'YYYY-MM-DD HH24:MI:SS.FF3', timestamp_ltz_output_format = 'TZHTZM YYYY-MM-DD HH24:MI:SS.FF3', timestamp_tz_output_format = 'TZHTZM YYYY-MM-DD HH24:MI:SS.FF3' ;
+[2025-05-19T19:46:45.619+0530] {subprocess.py:93} INFO - 25/05/19 19:46:45 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: create  temporary stage if not exists identifier(?)
+[2025-05-19T19:46:46.037+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Master: Begin to process and upload data for 5 partitions: directory=KzwxZwGA9k CSV true
+[2025-05-19T19:46:46.046+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO BlockManagerInfo: Removed broadcast_3_piece0 on 10.255.255.254:42537 in memory (size: 37.2 KiB, free: 434.3 MiB)
+[2025-05-19T19:46:46.056+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO SparkContext: Starting job: collect at CloudStorageOperations.scala:805
+[2025-05-19T19:46:46.057+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO DAGScheduler: Got job 3 (collect at CloudStorageOperations.scala:805) with 5 output partitions
+[2025-05-19T19:46:46.057+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO DAGScheduler: Final stage: ResultStage 3 (collect at CloudStorageOperations.scala:805)
+[2025-05-19T19:46:46.058+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO DAGScheduler: Parents of final stage: List()
+[2025-05-19T19:46:46.058+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO DAGScheduler: Missing parents: List()
+[2025-05-19T19:46:46.059+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO DAGScheduler: Submitting ResultStage 3 (MapPartitionsRDD[19] at mapPartitionsWithIndex at CloudStorageOperations.scala:788), which has no missing parents
+[2025-05-19T19:46:46.062+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO MemoryStore: Block broadcast_5 stored as values in memory (estimated size 34.8 KiB, free 433.8 MiB)
+[2025-05-19T19:46:46.064+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO MemoryStore: Block broadcast_5_piece0 stored as bytes in memory (estimated size 14.1 KiB, free 433.8 MiB)
+[2025-05-19T19:46:46.064+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO BlockManagerInfo: Added broadcast_5_piece0 in memory on 10.255.255.254:42537 (size: 14.1 KiB, free: 434.3 MiB)
+[2025-05-19T19:46:46.065+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO SparkContext: Created broadcast 5 from broadcast at DAGScheduler.scala:1585
+[2025-05-19T19:46:46.065+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO DAGScheduler: Submitting 5 missing tasks from ResultStage 3 (MapPartitionsRDD[19] at mapPartitionsWithIndex at CloudStorageOperations.scala:788) (first 15 tasks are for partitions Vector(0, 1, 2, 3, 4))
+[2025-05-19T19:46:46.065+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSchedulerImpl: Adding task set 3.0 with 5 tasks resource profile 0
+[2025-05-19T19:46:46.067+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Starting task 0.0 in stage 3.0 (TID 7) (10.255.255.254, executor driver, partition 0, PROCESS_LOCAL, 9710 bytes)
+[2025-05-19T19:46:46.067+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Starting task 1.0 in stage 3.0 (TID 8) (10.255.255.254, executor driver, partition 1, PROCESS_LOCAL, 9710 bytes)
+[2025-05-19T19:46:46.067+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Starting task 2.0 in stage 3.0 (TID 9) (10.255.255.254, executor driver, partition 2, PROCESS_LOCAL, 9710 bytes)
+[2025-05-19T19:46:46.068+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Starting task 3.0 in stage 3.0 (TID 10) (10.255.255.254, executor driver, partition 3, PROCESS_LOCAL, 9710 bytes)
+[2025-05-19T19:46:46.068+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Starting task 4.0 in stage 3.0 (TID 11) (10.255.255.254, executor driver, partition 4, PROCESS_LOCAL, 9710 bytes)
+[2025-05-19T19:46:46.069+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Running task 1.0 in stage 3.0 (TID 8)
+[2025-05-19T19:46:46.070+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Running task 2.0 in stage 3.0 (TID 9)
+[2025-05-19T19:46:46.070+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Running task 0.0 in stage 3.0 (TID 7)
+[2025-05-19T19:46:46.070+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Running task 3.0 in stage 3.0 (TID 10)
+[2025-05-19T19:46:46.070+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Running task 4.0 in stage 3.0 (TID 11)
+[2025-05-19T19:46:46.094+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CodeGenerator: Code generated in 19.281002 ms
+[2025-05-19T19:46:46.126+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CodeGenerator: Code generated in 19.962429 ms
+[2025-05-19T19:46:46.127+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:4 as 4.CSV.gz TaskInfo: {  "task_partition_id" : 4,  "task_attempt_id" : 11,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 3,  "thread_id" : 87}
+[2025-05-19T19:46:46.127+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:0 as 0.CSV.gz TaskInfo: {  "task_partition_id" : 0,  "task_attempt_id" : 7,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 3,  "thread_id" : 85}
+[2025-05-19T19:46:46.128+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:3 as 3.CSV.gz TaskInfo: {  "task_partition_id" : 3,  "task_attempt_id" : 10,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 3,  "thread_id" : 84}
+[2025-05-19T19:46:46.128+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:2 as 2.CSV.gz TaskInfo: {  "task_partition_id" : 2,  "task_attempt_id" : 9,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 3,  "thread_id" : 71}
+[2025-05-19T19:46:46.128+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Start writing partition ID:1 as 1.CSV.gz TaskInfo: {  "task_partition_id" : 1,  "task_attempt_id" : 8,  "task_attempt_number" : 0,  "task_stage_attempt_number" : 0,  "task_stage_id" : 3,  "thread_id" : 86}
+[2025-05-19T19:46:46.128+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_payment.parquet/part-00000-9ee15d0e-0be8-490c-ac7c-ae191b20c379-c000.snappy.parquet, range: 16777216-17070360, partition values: [empty row]
+[2025-05-19T19:46:46.128+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_payment.parquet/part-00000-9ee15d0e-0be8-490c-ac7c-ae191b20c379-c000.snappy.parquet, range: 0-4194304, partition values: [empty row]
+[2025-05-19T19:46:46.128+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_payment.parquet/part-00000-9ee15d0e-0be8-490c-ac7c-ae191b20c379-c000.snappy.parquet, range: 8388608-12582912, partition values: [empty row]
+[2025-05-19T19:46:46.128+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_payment.parquet/part-00000-9ee15d0e-0be8-490c-ac7c-ae191b20c379-c000.snappy.parquet, range: 12582912-16777216, partition values: [empty row]
+[2025-05-19T19:46:46.128+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO FileScanRDD: Reading File path: file:///home/pranav_shirali/airflow-project/scripts/ETL/nyc_taxi_payment.parquet/part-00000-9ee15d0e-0be8-490c-ac7c-ae191b20c379-c000.snappy.parquet, range: 4194304-8388608, partition values: [empty row]
+[2025-05-19T19:46:46.136+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:3 3.CSV.gz write row count is 0. Uncompressed data size is 0 Bytes. read_and_upload_time: 8 ms
+[2025-05-19T19:46:46.136+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:4 4.CSV.gz write row count is 0. Uncompressed data size is 0 Bytes. read_and_upload_time: 8 ms
+[2025-05-19T19:46:46.136+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:0 0.CSV.gz write row count is 0. Uncompressed data size is 0 Bytes. read_and_upload_time: 8 ms
+[2025-05-19T19:46:46.136+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:1 1.CSV.gz write row count is 0. Uncompressed data size is 0 Bytes. read_and_upload_time: 8 ms
+[2025-05-19T19:46:46.142+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Finished task 0.0 in stage 3.0 (TID 7). 1905 bytes result sent to driver
+[2025-05-19T19:46:46.142+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Finished task 1.0 in stage 3.0 (TID 8). 1905 bytes result sent to driver
+[2025-05-19T19:46:46.143+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Finished task 3.0 in stage 3.0 (TID 10). 1905 bytes result sent to driver
+[2025-05-19T19:46:46.143+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO Executor: Finished task 4.0 in stage 3.0 (TID 11). 1905 bytes result sent to driver
+[2025-05-19T19:46:46.143+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Finished task 0.0 in stage 3.0 (TID 7) in 77 ms on 10.255.255.254 (executor driver) (1/5)
+[2025-05-19T19:46:46.146+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Finished task 4.0 in stage 3.0 (TID 11) in 78 ms on 10.255.255.254 (executor driver) (2/5)
+[2025-05-19T19:46:46.146+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Finished task 3.0 in stage 3.0 (TID 10) in 78 ms on 10.255.255.254 (executor driver) (3/5)
+[2025-05-19T19:46:46.146+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO TaskSetManager: Finished task 1.0 in stage 3.0 (TID 8) in 79 ms on 10.255.255.254 (executor driver) (4/5)
+[2025-05-19T19:46:46.170+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO BlockManagerInfo: Removed broadcast_2_piece0 on 10.255.255.254:42537 in memory (size: 18.1 KiB, free: 434.3 MiB)
+[2025-05-19T19:46:46.174+0530] {subprocess.py:93} INFO - 25/05/19 19:46:46 INFO BlockManagerInfo: Removed broadcast_1_piece0 on 10.255.255.254:42537 in memory (size: 35.5 KiB, free: 434.4 MiB)
+[2025-05-19T19:47:07.107+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO CloudStorageOperations$: Spark Connector Worker: Finish uploading file KzwxZwGA9k/2.CSV.gz with AWS multiple parts API: bufferSize=8.00 MB chunkCount=3 compressedSize=11.81 MB
+[2025-05-19T19:47:07.107+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO CloudStorageOperations$: Spark Connector Worker: Finish writing partition ID:2 2.CSV.gz write row count is 1177062. Uncompressed data size is 65.88 MB. read_and_upload_time: 20.98 seconds
+[2025-05-19T19:47:07.109+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO Executor: Finished task 2.0 in stage 3.0 (TID 9). 1948 bytes result sent to driver
+[2025-05-19T19:47:07.110+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO TaskSetManager: Finished task 2.0 in stage 3.0 (TID 9) in 21043 ms on 10.255.255.254 (executor driver) (5/5)
+[2025-05-19T19:47:07.111+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO TaskSchedulerImpl: Removed TaskSet 3.0, whose tasks have all completed, from pool
+[2025-05-19T19:47:07.112+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO DAGScheduler: ResultStage 3 (collect at CloudStorageOperations.scala:805) finished in 21.051 s
+[2025-05-19T19:47:07.112+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO DAGScheduler: Job 3 is finished. Cancelling potential speculative or zombie tasks for this job
+[2025-05-19T19:47:07.112+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO TaskSchedulerImpl: Killing all running tasks in stage 3: Stage finished
+[2025-05-19T19:47:07.112+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO DAGScheduler: Job 3 finished: collect at CloudStorageOperations.scala:805, took 18.393000 s
+[2025-05-19T19:47:07.113+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO StageWriter$: writeToTableWithStagingTable: check table existence with "AIRFLOW_DB"."PUBLIC".nyc_taxi_payment for nyc_taxi_payment
+[2025-05-19T19:47:07.113+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: desc table identifier(?)
+[2025-05-19T19:47:07.209+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: create   table if not exists identifier(?) ("PAYMENT_ID" INTEGER ,"TRIP_ID" INTEGER ,"PAYMENT_TYPE" INTEGER ,"FARE_AMOUNT" DOUBLE ,"EXTRA" DOUBLE ,"MTA_TAX" DOUBLE ,"TIP_AMOUNT" DOUBLE ,"TOLLS_AMOUNT" DOUBLE ,"IMPROVEMENT_SURCHARGE" DOUBLE ,"TOTAL_AMOUNT" DOUBLE ,"TRIP_AMT_INR" DOUBLE ,"CONGESTION_SURCHARGE" DOUBLE )
+[2025-05-19T19:47:07.359+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO StageWriter$: Begin to write at 2025-05-19T19:47:07.358944 (India Standard Time)
+[2025-05-19T19:47:07.359+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO StageWriter$: Total file count is 5, non-empty files count is 1, total file size is 65.88 MB, total row count is 1.12 MB.
+[2025-05-19T19:47:07.360+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO StageWriter$: Now executing below command to write into table:
+[2025-05-19T19:47:07.360+0530] {subprocess.py:93} INFO - copy into nyc_taxi_payment_staging_2099190038 FROM @spark_connector_load_stage_zzyt0kJp9s/KzwxZwGA9k/
+[2025-05-19T19:47:07.360+0530] {subprocess.py:93} INFO - FILE_FORMAT = (
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO -     TYPE=CSV
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO -     FIELD_DELIMITER='|'
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO -     NULL_IF=()
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO -     FIELD_OPTIONALLY_ENCLOSED_BY='"'
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO -     TIMESTAMP_FORMAT='TZHTZM YYYY-MM-DD HH24:MI:SS.FF9'
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO -     DATE_FORMAT='TZHTZM YYYY-MM-DD HH24:MI:SS.FF9'
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO -     BINARY_FORMAT=BASE64
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO -   )
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO - 
+[2025-05-19T19:47:07.361+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: copy into nyc_taxi_payment_staging_2099190038 FROM @spark_connector_load_stage_zzyt0kJp9s/KzwxZwGA9k/
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO - FILE_FORMAT = (
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO -     TYPE=CSV
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO -     FIELD_DELIMITER='|'
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO -     NULL_IF=()
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO -     FIELD_OPTIONALLY_ENCLOSED_BY='"'
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO -     TIMESTAMP_FORMAT='TZHTZM YYYY-MM-DD HH24:MI:SS.FF9'
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO -     DATE_FORMAT='TZHTZM YYYY-MM-DD HH24:MI:SS.FF9'
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO -     BINARY_FORMAT=BASE64
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO -   )
+[2025-05-19T19:47:07.362+0530] {subprocess.py:93} INFO - 
+[2025-05-19T19:47:07.437+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO SparkConnectorContext$: Add running query for local-1747664166775 session: 3722800343077306 queryId: 01bc7439-3201-9cf5-000d-39de00035bd2
+[2025-05-19T19:47:07.438+0530] {subprocess.py:93} INFO - 25/05/19 19:47:07 INFO StageWriter$: The query ID for async writing into table command is: 01bc7439-3201-9cf5-000d-39de00035bd2; The query ID URL is:
+[2025-05-19T19:47:07.438+0530] {subprocess.py:93} INFO - https://AVCUDFK-TL56570.snowflakecomputing.com/console#/monitoring/queries/detail?queryId=01bc7439-3201-9cf5-000d-39de00035bd2
+[2025-05-19T19:47:11.572+0530] {subprocess.py:93} INFO - 25/05/19 19:47:11 INFO SparkConnectorContext$: Remove running query for local-1747664166775 session: 3722800343077306 queryId: 01bc7439-3201-9cf5-000d-39de00035bd2
+[2025-05-19T19:47:11.573+0530] {subprocess.py:93} INFO - 25/05/19 19:47:11 INFO StageWriter$: First COPY command is done in 4.21 seconds at 2025-05-19T19:47:11.572877, queryID is 01bc7439-3201-9cf5-000d-39de00035bd2
+[2025-05-19T19:47:11.573+0530] {subprocess.py:93} INFO - 25/05/19 19:47:11 INFO StageWriter$: Succeed to write in 4.22 seconds at 2025-05-19T19:47:11.573701
+[2025-05-19T19:47:11.574+0530] {subprocess.py:93} INFO - 25/05/19 19:47:11 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: alter table identifier(?) swap with identifier(?)
+[2025-05-19T19:47:11.982+0530] {subprocess.py:93} INFO - 25/05/19 19:47:11 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: drop table identifier(?)
+[2025-05-19T19:47:12.105+0530] {subprocess.py:93} INFO - 25/05/19 19:47:12 INFO StageWriter$: Spark Connector Master: Total job time is 26.20 seconds including read & upload time: 21.21 seconds and COPY time: 4.99 seconds.
+[2025-05-19T19:47:12.223+0530] {subprocess.py:93} INFO - 25/05/19 19:47:12 WARN SnowflakeConnectorUtils$: Query pushdown is not supported because you are using Spark 3.5.5 with a connector designed to support Spark 3.3. Either use the version of Spark supported by the connector or install a version of the connector that supports your version of Spark.
+[2025-05-19T19:47:12.223+0530] {subprocess.py:93} INFO - 25/05/19 19:47:12 WARN DefaultJDBCWrapper$: JDBC 3.13.30 is being used. But the certified JDBC version 3.13.22 is recommended.
+[2025-05-19T19:47:12.391+0530] {subprocess.py:93} INFO - 25/05/19 19:47:12 INFO SnowflakeSQLStatement: Spark Connector Master: execute query with bind variable: select * from nyc_taxi_payment where 1 = 0
+[2025-05-19T19:47:13.637+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO SparkContext: Invoking stop() from shutdown hook
+[2025-05-19T19:47:13.638+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2025-05-19T19:47:13.639+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 WARN SparkConnectorContext$: Finish cancelling all queries for local-1747664166775
+[2025-05-19T19:47:13.649+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO SparkUI: Stopped Spark web UI at http://10.255.255.254:4040
+[2025-05-19T19:47:13.659+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2025-05-19T19:47:13.672+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO MemoryStore: MemoryStore cleared
+[2025-05-19T19:47:13.672+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO BlockManager: BlockManager stopped
+[2025-05-19T19:47:13.674+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2025-05-19T19:47:13.675+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2025-05-19T19:47:13.682+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO SparkContext: Successfully stopped SparkContext
+[2025-05-19T19:47:13.683+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO ShutdownHookManager: Shutdown hook called
+[2025-05-19T19:47:13.683+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO ShutdownHookManager: Deleting directory /tmp/spark-f21c8fd3-e1dd-4683-9b2f-f967e9512d7e/pyspark-bc4deb41-fbbb-448c-844c-cb531d9f5127
+[2025-05-19T19:47:13.685+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO ShutdownHookManager: Deleting directory /tmp/spark-f21c8fd3-e1dd-4683-9b2f-f967e9512d7e
+[2025-05-19T19:47:13.688+0530] {subprocess.py:93} INFO - 25/05/19 19:47:13 INFO ShutdownHookManager: Deleting directory /tmp/spark-624db0b4-f396-41cd-a32c-255b050854d4
+[2025-05-19T19:47:13.726+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-05-19T19:47:13.741+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-19T19:47:13.741+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=nyc_taxi_etl, task_id=load_to_snowflake, run_id=manual__2025-05-19T14:14:45.114378+00:00, execution_date=20250519T141445, start_date=20250519T141603, end_date=20250519T141713
+[2025-05-19T19:47:13.758+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-19T19:47:13.765+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-19T19:47:13.765+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

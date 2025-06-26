@@ -1,0 +1,18 @@
+[2025-04-16T21:32:34.979+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-16T21:32:34.986+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_dag.task_b scheduled__2025-04-15T00:00:00+00:00 [queued]>
+[2025-04-16T21:32:34.990+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_dag.task_b scheduled__2025-04-15T00:00:00+00:00 [queued]>
+[2025-04-16T21:32:34.990+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-04-16T21:32:34.999+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): task_b> on 2025-04-15 00:00:00+00:00
+[2025-04-16T21:32:35.001+0530] {standard_task_runner.py:72} INFO - Started process 1261 to run task
+[2025-04-16T21:32:35.003+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'task_b', 'scheduled__2025-04-15T00:00:00+00:00', '--job-id', '34', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmpn_jzk_us']
+[2025-04-16T21:32:35.004+0530] {standard_task_runner.py:105} INFO - Job 34: Subtask task_b
+[2025-04-16T21:32:35.032+0530] {task_command.py:467} INFO - Running <TaskInstance: my_dag.task_b scheduled__2025-04-15T00:00:00+00:00 [running]> on host Voldemort.
+[2025-04-16T21:32:35.078+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_dag' AIRFLOW_CTX_TASK_ID='task_b' AIRFLOW_CTX_EXECUTION_DATE='2025-04-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-15T00:00:00+00:00'
+[2025-04-16T21:32:35.079+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-16T21:32:35.088+0530] {logging_mixin.py:190} INFO - hi task b
+[2025-04-16T21:32:35.088+0530] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-16T21:32:35.093+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-16T21:32:35.093+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=task_b, run_id=scheduled__2025-04-15T00:00:00+00:00, execution_date=20250415T000000, start_date=20250416T160234, end_date=20250416T160235
+[2025-04-16T21:32:35.135+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-16T21:32:35.148+0530] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-16T21:32:35.151+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

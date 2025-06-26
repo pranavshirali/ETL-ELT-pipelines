@@ -1,0 +1,672 @@
+[2025-02-26T13:40:01.957+0530] {configuration.py:2096} INFO - Creating new FAB webserver config file in: /home/pranav_shirali/airflow-space/webserver_config.py
+/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask_limiter/extension.py:333 UserWarning: Using the in-memory storage for tracking rate limits as no storage was explicitly specified. This is not recommended for production use. See: https://flask-limiter.readthedocs.io#configuring-a-storage-backend for documentation about configuring the storage backend.
+[2025-02-26T13:40:03.401+0530] {override.py:1900} INFO - Created Permission View: can create on DAG Runs
+[2025-02-26T13:40:03.410+0530] {override.py:1951} INFO - Added Permission can create on DAG Runs to role Admin
+[2025-02-26T13:40:03.417+0530] {override.py:1900} INFO - Created Permission View: can read on DAG Runs
+[2025-02-26T13:40:03.423+0530] {override.py:1951} INFO - Added Permission can read on DAG Runs to role Admin
+[2025-02-26T13:40:03.429+0530] {override.py:1900} INFO - Created Permission View: can edit on DAG Runs
+[2025-02-26T13:40:03.434+0530] {override.py:1951} INFO - Added Permission can edit on DAG Runs to role Admin
+[2025-02-26T13:40:03.441+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG Runs
+[2025-02-26T13:40:03.447+0530] {override.py:1951} INFO - Added Permission can delete on DAG Runs to role Admin
+[2025-02-26T13:40:03.455+0530] {override.py:1900} INFO - Created Permission View: menu access on DAG Runs
+[2025-02-26T13:40:03.461+0530] {override.py:1951} INFO - Added Permission menu access on DAG Runs to role Admin
+[2025-02-26T13:40:03.560+0530] {override.py:1900} INFO - Created Permission View: menu access on Browse
+[2025-02-26T13:40:03.566+0530] {override.py:1951} INFO - Added Permission menu access on Browse to role Admin
+[2025-02-26T13:40:03.589+0530] {override.py:1900} INFO - Created Permission View: can read on Jobs
+[2025-02-26T13:40:03.597+0530] {override.py:1951} INFO - Added Permission can read on Jobs to role Admin
+[2025-02-26T13:40:03.605+0530] {override.py:1900} INFO - Created Permission View: menu access on Jobs
+[2025-02-26T13:40:03.612+0530] {override.py:1951} INFO - Added Permission menu access on Jobs to role Admin
+[2025-02-26T13:40:03.641+0530] {override.py:1900} INFO - Created Permission View: can read on Audit Logs
+[2025-02-26T13:40:03.647+0530] {override.py:1951} INFO - Added Permission can read on Audit Logs to role Admin
+[2025-02-26T13:40:03.654+0530] {override.py:1900} INFO - Created Permission View: menu access on Audit Logs
+[2025-02-26T13:40:03.660+0530] {override.py:1951} INFO - Added Permission menu access on Audit Logs to role Admin
+[2025-02-26T13:40:03.687+0530] {override.py:1900} INFO - Created Permission View: can create on Variables
+[2025-02-26T13:40:03.715+0530] {override.py:1951} INFO - Added Permission can create on Variables to role Admin
+[2025-02-26T13:40:03.723+0530] {override.py:1900} INFO - Created Permission View: can read on Variables
+[2025-02-26T13:40:03.731+0530] {override.py:1951} INFO - Added Permission can read on Variables to role Admin
+[2025-02-26T13:40:03.739+0530] {override.py:1900} INFO - Created Permission View: can edit on Variables
+[2025-02-26T13:40:03.745+0530] {override.py:1951} INFO - Added Permission can edit on Variables to role Admin
+[2025-02-26T13:40:03.753+0530] {override.py:1900} INFO - Created Permission View: can delete on Variables
+[2025-02-26T13:40:03.760+0530] {override.py:1951} INFO - Added Permission can delete on Variables to role Admin
+[2025-02-26T13:40:03.766+0530] {override.py:1900} INFO - Created Permission View: menu access on Variables
+[2025-02-26T13:40:03.772+0530] {override.py:1951} INFO - Added Permission menu access on Variables to role Admin
+[2025-02-26T13:40:03.789+0530] {override.py:1900} INFO - Created Permission View: menu access on Admin
+[2025-02-26T13:40:03.795+0530] {override.py:1951} INFO - Added Permission menu access on Admin to role Admin
+[2025-02-26T13:40:03.824+0530] {override.py:1900} INFO - Created Permission View: can create on Task Instances
+[2025-02-26T13:40:03.842+0530] {override.py:1951} INFO - Added Permission can create on Task Instances to role Admin
+[2025-02-26T13:40:03.852+0530] {override.py:1900} INFO - Created Permission View: can read on Task Instances
+[2025-02-26T13:40:03.894+0530] {override.py:1951} INFO - Added Permission can read on Task Instances to role Admin
+[2025-02-26T13:40:03.901+0530] {override.py:1900} INFO - Created Permission View: can edit on Task Instances
+[2025-02-26T13:40:03.906+0530] {override.py:1951} INFO - Added Permission can edit on Task Instances to role Admin
+[2025-02-26T13:40:03.912+0530] {override.py:1900} INFO - Created Permission View: can delete on Task Instances
+[2025-02-26T13:40:03.923+0530] {override.py:1951} INFO - Added Permission can delete on Task Instances to role Admin
+[2025-02-26T13:40:03.930+0530] {override.py:1900} INFO - Created Permission View: menu access on Task Instances
+[2025-02-26T13:40:03.937+0530] {override.py:1951} INFO - Added Permission menu access on Task Instances to role Admin
+[2025-02-26T13:40:03.968+0530] {override.py:1900} INFO - Created Permission View: can read on Task Reschedules
+[2025-02-26T13:40:03.973+0530] {override.py:1951} INFO - Added Permission can read on Task Reschedules to role Admin
+[2025-02-26T13:40:03.982+0530] {override.py:1900} INFO - Created Permission View: menu access on Task Reschedules
+[2025-02-26T13:40:03.988+0530] {override.py:1951} INFO - Added Permission menu access on Task Reschedules to role Admin
+[2025-02-26T13:40:04.017+0530] {override.py:1900} INFO - Created Permission View: can read on Triggers
+[2025-02-26T13:40:04.023+0530] {override.py:1951} INFO - Added Permission can read on Triggers to role Admin
+[2025-02-26T13:40:04.030+0530] {override.py:1900} INFO - Created Permission View: menu access on Triggers
+[2025-02-26T13:40:04.037+0530] {override.py:1951} INFO - Added Permission menu access on Triggers to role Admin
+[2025-02-26T13:40:04.055+0530] {override.py:1900} INFO - Created Permission View: can read on Configurations
+[2025-02-26T13:40:04.095+0530] {override.py:1951} INFO - Added Permission can read on Configurations to role Admin
+[2025-02-26T13:40:04.101+0530] {override.py:1900} INFO - Created Permission View: menu access on Configurations
+[2025-02-26T13:40:04.107+0530] {override.py:1951} INFO - Added Permission menu access on Configurations to role Admin
+[2025-02-26T13:40:04.139+0530] {override.py:1900} INFO - Created Permission View: can create on Connections
+[2025-02-26T13:40:04.146+0530] {override.py:1951} INFO - Added Permission can create on Connections to role Admin
+[2025-02-26T13:40:04.152+0530] {override.py:1900} INFO - Created Permission View: can read on Connections
+[2025-02-26T13:40:04.157+0530] {override.py:1951} INFO - Added Permission can read on Connections to role Admin
+[2025-02-26T13:40:04.163+0530] {override.py:1900} INFO - Created Permission View: can edit on Connections
+[2025-02-26T13:40:04.168+0530] {override.py:1951} INFO - Added Permission can edit on Connections to role Admin
+[2025-02-26T13:40:04.174+0530] {override.py:1900} INFO - Created Permission View: can delete on Connections
+[2025-02-26T13:40:04.179+0530] {override.py:1951} INFO - Added Permission can delete on Connections to role Admin
+[2025-02-26T13:40:04.185+0530] {override.py:1900} INFO - Created Permission View: menu access on Connections
+[2025-02-26T13:40:04.191+0530] {override.py:1951} INFO - Added Permission menu access on Connections to role Admin
+[2025-02-26T13:40:04.215+0530] {override.py:1900} INFO - Created Permission View: can read on SLA Misses
+[2025-02-26T13:40:04.221+0530] {override.py:1951} INFO - Added Permission can read on SLA Misses to role Admin
+[2025-02-26T13:40:04.227+0530] {override.py:1900} INFO - Created Permission View: menu access on SLA Misses
+[2025-02-26T13:40:04.232+0530] {override.py:1951} INFO - Added Permission menu access on SLA Misses to role Admin
+[2025-02-26T13:40:04.238+0530] {override.py:1900} INFO - Created Permission View: can delete on SLA Misses
+[2025-02-26T13:40:04.243+0530] {override.py:1951} INFO - Added Permission can delete on SLA Misses to role Admin
+[2025-02-26T13:40:04.249+0530] {override.py:1900} INFO - Created Permission View: can edit on SLA Misses
+[2025-02-26T13:40:04.255+0530] {override.py:1951} INFO - Added Permission can edit on SLA Misses to role Admin
+[2025-02-26T13:40:04.271+0530] {override.py:1900} INFO - Created Permission View: can read on Plugins
+[2025-02-26T13:40:04.277+0530] {override.py:1951} INFO - Added Permission can read on Plugins to role Admin
+[2025-02-26T13:40:04.283+0530] {override.py:1900} INFO - Created Permission View: menu access on Plugins
+[2025-02-26T13:40:04.289+0530] {override.py:1951} INFO - Added Permission menu access on Plugins to role Admin
+[2025-02-26T13:40:04.306+0530] {override.py:1900} INFO - Created Permission View: can read on Providers
+[2025-02-26T13:40:04.312+0530] {override.py:1951} INFO - Added Permission can read on Providers to role Admin
+[2025-02-26T13:40:04.317+0530] {override.py:1900} INFO - Created Permission View: menu access on Providers
+[2025-02-26T13:40:04.393+0530] {override.py:1951} INFO - Added Permission menu access on Providers to role Admin
+[2025-02-26T13:40:04.421+0530] {override.py:1900} INFO - Created Permission View: can create on Pools
+[2025-02-26T13:40:04.426+0530] {override.py:1951} INFO - Added Permission can create on Pools to role Admin
+[2025-02-26T13:40:04.433+0530] {override.py:1900} INFO - Created Permission View: can read on Pools
+[2025-02-26T13:40:04.440+0530] {override.py:1951} INFO - Added Permission can read on Pools to role Admin
+[2025-02-26T13:40:04.446+0530] {override.py:1900} INFO - Created Permission View: can edit on Pools
+[2025-02-26T13:40:04.452+0530] {override.py:1951} INFO - Added Permission can edit on Pools to role Admin
+[2025-02-26T13:40:04.458+0530] {override.py:1900} INFO - Created Permission View: can delete on Pools
+[2025-02-26T13:40:04.463+0530] {override.py:1951} INFO - Added Permission can delete on Pools to role Admin
+[2025-02-26T13:40:04.503+0530] {override.py:1900} INFO - Created Permission View: menu access on Pools
+[2025-02-26T13:40:04.510+0530] {override.py:1951} INFO - Added Permission menu access on Pools to role Admin
+[2025-02-26T13:40:04.540+0530] {override.py:1900} INFO - Created Permission View: can read on XComs
+[2025-02-26T13:40:04.546+0530] {override.py:1951} INFO - Added Permission can read on XComs to role Admin
+[2025-02-26T13:40:04.552+0530] {override.py:1900} INFO - Created Permission View: can delete on XComs
+[2025-02-26T13:40:04.558+0530] {override.py:1951} INFO - Added Permission can delete on XComs to role Admin
+[2025-02-26T13:40:04.565+0530] {override.py:1900} INFO - Created Permission View: menu access on XComs
+[2025-02-26T13:40:04.571+0530] {override.py:1951} INFO - Added Permission menu access on XComs to role Admin
+[2025-02-26T13:40:04.596+0530] {override.py:1900} INFO - Created Permission View: menu access on DAG Dependencies
+[2025-02-26T13:40:04.603+0530] {override.py:1951} INFO - Added Permission menu access on DAG Dependencies to role Admin
+[2025-02-26T13:40:04.632+0530] {override.py:1900} INFO - Created Permission View: menu access on DAGs
+[2025-02-26T13:40:04.638+0530] {override.py:1951} INFO - Added Permission menu access on DAGs to role Admin
+[2025-02-26T13:40:04.649+0530] {override.py:1900} INFO - Created Permission View: menu access on Cluster Activity
+[2025-02-26T13:40:04.655+0530] {override.py:1951} INFO - Added Permission menu access on Cluster Activity to role Admin
+[2025-02-26T13:40:04.665+0530] {override.py:1900} INFO - Created Permission View: menu access on Datasets
+[2025-02-26T13:40:04.671+0530] {override.py:1951} INFO - Added Permission menu access on Datasets to role Admin
+[2025-02-26T13:40:04.682+0530] {override.py:1900} INFO - Created Permission View: menu access on Documentation
+[2025-02-26T13:40:04.688+0530] {override.py:1951} INFO - Added Permission menu access on Documentation to role Admin
+[2025-02-26T13:40:04.736+0530] {override.py:1900} INFO - Created Permission View: menu access on Docs
+[2025-02-26T13:40:04.742+0530] {override.py:1951} INFO - Added Permission menu access on Docs to role Admin
+[2025-02-26T13:40:04.769+0530] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/providers/fab/auth_manager/fab_auth_manager.py:523 FutureWarning: section/key [webserver/update_fab_perms] has been deprecated, you should use[fab/update_fab_perms] instead. Please update your `conf.get*` call to use the new name
+[2025-02-26T13:40:05.323+0530] {override.py:1900} INFO - Created Permission View: can delete on DAGs
+[2025-02-26T13:40:05.330+0530] {override.py:1900} INFO - Created Permission View: can read on DAGs
+[2025-02-26T13:40:05.337+0530] {override.py:1900} INFO - Created Permission View: can edit on DAGs
+[2025-02-26T13:40:05.349+0530] {override.py:1496} INFO - Inserted Role: Viewer
+[2025-02-26T13:40:05.356+0530] {override.py:1951} INFO - Added Permission can read on DAGs to role Viewer
+[2025-02-26T13:40:05.362+0530] {override.py:1900} INFO - Created Permission View: can read on DAG Dependencies
+[2025-02-26T13:40:05.366+0530] {override.py:1951} INFO - Added Permission can read on DAG Dependencies to role Viewer
+[2025-02-26T13:40:05.375+0530] {override.py:1900} INFO - Created Permission View: can read on DAG Code
+[2025-02-26T13:40:05.379+0530] {override.py:1951} INFO - Added Permission can read on DAG Code to role Viewer
+[2025-02-26T13:40:05.383+0530] {override.py:1951} INFO - Added Permission can read on DAG Runs to role Viewer
+[2025-02-26T13:40:05.389+0530] {override.py:1900} INFO - Created Permission View: can read on Datasets
+[2025-02-26T13:40:05.393+0530] {override.py:1951} INFO - Added Permission can read on Datasets to role Viewer
+[2025-02-26T13:40:05.398+0530] {override.py:1900} INFO - Created Permission View: can read on Cluster Activity
+[2025-02-26T13:40:05.403+0530] {override.py:1951} INFO - Added Permission can read on Cluster Activity to role Viewer
+[2025-02-26T13:40:05.407+0530] {override.py:1951} INFO - Added Permission can read on Pools to role Viewer
+[2025-02-26T13:40:05.416+0530] {override.py:1900} INFO - Created Permission View: can read on ImportError
+[2025-02-26T13:40:05.421+0530] {override.py:1951} INFO - Added Permission can read on ImportError to role Viewer
+[2025-02-26T13:40:05.440+0530] {override.py:1900} INFO - Created Permission View: can read on DAG Warnings
+[2025-02-26T13:40:05.445+0530] {override.py:1951} INFO - Added Permission can read on DAG Warnings to role Viewer
+[2025-02-26T13:40:05.449+0530] {override.py:1951} INFO - Added Permission can read on Jobs to role Viewer
+[2025-02-26T13:40:05.454+0530] {override.py:1951} INFO - Added Permission can read on My Password to role Viewer
+[2025-02-26T13:40:05.458+0530] {override.py:1951} INFO - Added Permission can edit on My Password to role Viewer
+[2025-02-26T13:40:05.462+0530] {override.py:1951} INFO - Added Permission can read on My Profile to role Viewer
+[2025-02-26T13:40:05.466+0530] {override.py:1951} INFO - Added Permission can edit on My Profile to role Viewer
+[2025-02-26T13:40:05.470+0530] {override.py:1951} INFO - Added Permission can read on SLA Misses to role Viewer
+[2025-02-26T13:40:05.474+0530] {override.py:1951} INFO - Added Permission can read on Task Instances to role Viewer
+[2025-02-26T13:40:05.483+0530] {override.py:1900} INFO - Created Permission View: can read on Task Logs
+[2025-02-26T13:40:05.487+0530] {override.py:1951} INFO - Added Permission can read on Task Logs to role Viewer
+[2025-02-26T13:40:05.491+0530] {override.py:1951} INFO - Added Permission can read on XComs to role Viewer
+[2025-02-26T13:40:05.509+0530] {override.py:1900} INFO - Created Permission View: can read on Website
+[2025-02-26T13:40:05.514+0530] {override.py:1951} INFO - Added Permission can read on Website to role Viewer
+[2025-02-26T13:40:05.518+0530] {override.py:1951} INFO - Added Permission menu access on Browse to role Viewer
+[2025-02-26T13:40:05.522+0530] {override.py:1951} INFO - Added Permission menu access on DAGs to role Viewer
+[2025-02-26T13:40:05.526+0530] {override.py:1951} INFO - Added Permission menu access on DAG Dependencies to role Viewer
+[2025-02-26T13:40:05.530+0530] {override.py:1951} INFO - Added Permission menu access on DAG Runs to role Viewer
+[2025-02-26T13:40:05.534+0530] {override.py:1951} INFO - Added Permission menu access on Datasets to role Viewer
+[2025-02-26T13:40:05.538+0530] {override.py:1951} INFO - Added Permission menu access on Cluster Activity to role Viewer
+[2025-02-26T13:40:05.542+0530] {override.py:1951} INFO - Added Permission menu access on Documentation to role Viewer
+[2025-02-26T13:40:05.546+0530] {override.py:1951} INFO - Added Permission menu access on Docs to role Viewer
+[2025-02-26T13:40:05.550+0530] {override.py:1951} INFO - Added Permission menu access on Jobs to role Viewer
+[2025-02-26T13:40:05.554+0530] {override.py:1951} INFO - Added Permission menu access on SLA Misses to role Viewer
+[2025-02-26T13:40:05.567+0530] {override.py:1951} INFO - Added Permission menu access on Task Instances to role Viewer
+[2025-02-26T13:40:05.572+0530] {override.py:1496} INFO - Inserted Role: User
+[2025-02-26T13:40:05.578+0530] {override.py:1951} INFO - Added Permission can read on DAGs to role User
+[2025-02-26T13:40:05.584+0530] {override.py:1951} INFO - Added Permission can read on DAG Dependencies to role User
+[2025-02-26T13:40:05.589+0530] {override.py:1951} INFO - Added Permission can read on DAG Code to role User
+[2025-02-26T13:40:05.594+0530] {override.py:1951} INFO - Added Permission can read on DAG Runs to role User
+[2025-02-26T13:40:05.599+0530] {override.py:1951} INFO - Added Permission can read on Datasets to role User
+[2025-02-26T13:40:05.605+0530] {override.py:1951} INFO - Added Permission can read on Cluster Activity to role User
+[2025-02-26T13:40:05.609+0530] {override.py:1951} INFO - Added Permission can read on Pools to role User
+[2025-02-26T13:40:05.614+0530] {override.py:1951} INFO - Added Permission can read on ImportError to role User
+[2025-02-26T13:40:05.620+0530] {override.py:1951} INFO - Added Permission can read on DAG Warnings to role User
+[2025-02-26T13:40:05.624+0530] {override.py:1951} INFO - Added Permission can read on Jobs to role User
+[2025-02-26T13:40:05.628+0530] {override.py:1951} INFO - Added Permission can read on My Password to role User
+[2025-02-26T13:40:05.633+0530] {override.py:1951} INFO - Added Permission can edit on My Password to role User
+[2025-02-26T13:40:05.637+0530] {override.py:1951} INFO - Added Permission can read on My Profile to role User
+[2025-02-26T13:40:05.641+0530] {override.py:1951} INFO - Added Permission can edit on My Profile to role User
+[2025-02-26T13:40:05.649+0530] {override.py:1951} INFO - Added Permission can read on SLA Misses to role User
+[2025-02-26T13:40:05.653+0530] {override.py:1951} INFO - Added Permission can read on Task Instances to role User
+[2025-02-26T13:40:05.658+0530] {override.py:1951} INFO - Added Permission can read on Task Logs to role User
+[2025-02-26T13:40:05.662+0530] {override.py:1951} INFO - Added Permission can read on XComs to role User
+[2025-02-26T13:40:05.668+0530] {override.py:1951} INFO - Added Permission can read on Website to role User
+[2025-02-26T13:40:05.673+0530] {override.py:1951} INFO - Added Permission menu access on Browse to role User
+[2025-02-26T13:40:05.678+0530] {override.py:1951} INFO - Added Permission menu access on DAGs to role User
+[2025-02-26T13:40:05.681+0530] {override.py:1951} INFO - Added Permission menu access on DAG Dependencies to role User
+[2025-02-26T13:40:05.685+0530] {override.py:1951} INFO - Added Permission menu access on DAG Runs to role User
+[2025-02-26T13:40:05.689+0530] {override.py:1951} INFO - Added Permission menu access on Datasets to role User
+[2025-02-26T13:40:05.693+0530] {override.py:1951} INFO - Added Permission menu access on Cluster Activity to role User
+[2025-02-26T13:40:05.698+0530] {override.py:1951} INFO - Added Permission menu access on Documentation to role User
+[2025-02-26T13:40:05.702+0530] {override.py:1951} INFO - Added Permission menu access on Docs to role User
+[2025-02-26T13:40:05.706+0530] {override.py:1951} INFO - Added Permission menu access on Jobs to role User
+[2025-02-26T13:40:05.711+0530] {override.py:1951} INFO - Added Permission menu access on SLA Misses to role User
+[2025-02-26T13:40:05.715+0530] {override.py:1951} INFO - Added Permission menu access on Task Instances to role User
+[2025-02-26T13:40:05.719+0530] {override.py:1951} INFO - Added Permission can edit on DAGs to role User
+[2025-02-26T13:40:05.725+0530] {override.py:1951} INFO - Added Permission can delete on DAGs to role User
+[2025-02-26T13:40:05.730+0530] {override.py:1951} INFO - Added Permission can create on Task Instances to role User
+[2025-02-26T13:40:05.734+0530] {override.py:1951} INFO - Added Permission can edit on Task Instances to role User
+[2025-02-26T13:40:05.738+0530] {override.py:1951} INFO - Added Permission can delete on Task Instances to role User
+[2025-02-26T13:40:05.742+0530] {override.py:1951} INFO - Added Permission can create on DAG Runs to role User
+[2025-02-26T13:40:05.746+0530] {override.py:1951} INFO - Added Permission can edit on DAG Runs to role User
+[2025-02-26T13:40:05.751+0530] {override.py:1951} INFO - Added Permission can delete on DAG Runs to role User
+[2025-02-26T13:40:05.756+0530] {override.py:1900} INFO - Created Permission View: can create on Datasets
+[2025-02-26T13:40:05.761+0530] {override.py:1951} INFO - Added Permission can create on Datasets to role User
+[2025-02-26T13:40:05.765+0530] {override.py:1496} INFO - Inserted Role: Op
+[2025-02-26T13:40:05.770+0530] {override.py:1951} INFO - Added Permission can read on DAGs to role Op
+[2025-02-26T13:40:05.776+0530] {override.py:1951} INFO - Added Permission can read on DAG Dependencies to role Op
+[2025-02-26T13:40:05.782+0530] {override.py:1951} INFO - Added Permission can read on DAG Code to role Op
+[2025-02-26T13:40:05.786+0530] {override.py:1951} INFO - Added Permission can read on DAG Runs to role Op
+[2025-02-26T13:40:05.791+0530] {override.py:1951} INFO - Added Permission can read on Datasets to role Op
+[2025-02-26T13:40:05.797+0530] {override.py:1951} INFO - Added Permission can read on Cluster Activity to role Op
+[2025-02-26T13:40:05.801+0530] {override.py:1951} INFO - Added Permission can read on Pools to role Op
+[2025-02-26T13:40:05.806+0530] {override.py:1951} INFO - Added Permission can read on ImportError to role Op
+[2025-02-26T13:40:05.812+0530] {override.py:1951} INFO - Added Permission can read on DAG Warnings to role Op
+[2025-02-26T13:40:05.816+0530] {override.py:1951} INFO - Added Permission can read on Jobs to role Op
+[2025-02-26T13:40:05.820+0530] {override.py:1951} INFO - Added Permission can read on My Password to role Op
+[2025-02-26T13:40:05.824+0530] {override.py:1951} INFO - Added Permission can edit on My Password to role Op
+[2025-02-26T13:40:05.830+0530] {override.py:1951} INFO - Added Permission can read on My Profile to role Op
+[2025-02-26T13:40:05.834+0530] {override.py:1951} INFO - Added Permission can edit on My Profile to role Op
+[2025-02-26T13:40:05.838+0530] {override.py:1951} INFO - Added Permission can read on SLA Misses to role Op
+[2025-02-26T13:40:05.842+0530] {override.py:1951} INFO - Added Permission can read on Task Instances to role Op
+[2025-02-26T13:40:05.848+0530] {override.py:1951} INFO - Added Permission can read on Task Logs to role Op
+[2025-02-26T13:40:05.852+0530] {override.py:1951} INFO - Added Permission can read on XComs to role Op
+[2025-02-26T13:40:05.858+0530] {override.py:1951} INFO - Added Permission can read on Website to role Op
+[2025-02-26T13:40:05.862+0530] {override.py:1951} INFO - Added Permission menu access on Browse to role Op
+[2025-02-26T13:40:05.866+0530] {override.py:1951} INFO - Added Permission menu access on DAGs to role Op
+[2025-02-26T13:40:05.869+0530] {override.py:1951} INFO - Added Permission menu access on DAG Dependencies to role Op
+[2025-02-26T13:40:05.873+0530] {override.py:1951} INFO - Added Permission menu access on DAG Runs to role Op
+[2025-02-26T13:40:05.877+0530] {override.py:1951} INFO - Added Permission menu access on Datasets to role Op
+[2025-02-26T13:40:05.881+0530] {override.py:1951} INFO - Added Permission menu access on Cluster Activity to role Op
+[2025-02-26T13:40:05.885+0530] {override.py:1951} INFO - Added Permission menu access on Documentation to role Op
+[2025-02-26T13:40:05.890+0530] {override.py:1951} INFO - Added Permission menu access on Docs to role Op
+[2025-02-26T13:40:05.895+0530] {override.py:1951} INFO - Added Permission menu access on Jobs to role Op
+[2025-02-26T13:40:05.899+0530] {override.py:1951} INFO - Added Permission menu access on SLA Misses to role Op
+[2025-02-26T13:40:05.903+0530] {override.py:1951} INFO - Added Permission menu access on Task Instances to role Op
+[2025-02-26T13:40:05.907+0530] {override.py:1951} INFO - Added Permission can edit on DAGs to role Op
+[2025-02-26T13:40:05.911+0530] {override.py:1951} INFO - Added Permission can delete on DAGs to role Op
+[2025-02-26T13:40:05.915+0530] {override.py:1951} INFO - Added Permission can create on Task Instances to role Op
+[2025-02-26T13:40:05.919+0530] {override.py:1951} INFO - Added Permission can edit on Task Instances to role Op
+[2025-02-26T13:40:05.923+0530] {override.py:1951} INFO - Added Permission can delete on Task Instances to role Op
+[2025-02-26T13:40:05.927+0530] {override.py:1951} INFO - Added Permission can create on DAG Runs to role Op
+[2025-02-26T13:40:05.932+0530] {override.py:1951} INFO - Added Permission can edit on DAG Runs to role Op
+[2025-02-26T13:40:05.936+0530] {override.py:1951} INFO - Added Permission can delete on DAG Runs to role Op
+[2025-02-26T13:40:05.942+0530] {override.py:1951} INFO - Added Permission can create on Datasets to role Op
+[2025-02-26T13:40:05.946+0530] {override.py:1951} INFO - Added Permission can read on Configurations to role Op
+[2025-02-26T13:40:05.950+0530] {override.py:1951} INFO - Added Permission menu access on Admin to role Op
+[2025-02-26T13:40:05.954+0530] {override.py:1951} INFO - Added Permission menu access on Configurations to role Op
+[2025-02-26T13:40:05.959+0530] {override.py:1951} INFO - Added Permission menu access on Connections to role Op
+[2025-02-26T13:40:05.962+0530] {override.py:1951} INFO - Added Permission menu access on Pools to role Op
+[2025-02-26T13:40:05.966+0530] {override.py:1951} INFO - Added Permission menu access on Plugins to role Op
+[2025-02-26T13:40:05.971+0530] {override.py:1951} INFO - Added Permission menu access on Variables to role Op
+[2025-02-26T13:40:05.974+0530] {override.py:1951} INFO - Added Permission menu access on Providers to role Op
+[2025-02-26T13:40:05.982+0530] {override.py:1951} INFO - Added Permission menu access on XComs to role Op
+[2025-02-26T13:40:05.986+0530] {override.py:1951} INFO - Added Permission can create on Connections to role Op
+[2025-02-26T13:40:05.990+0530] {override.py:1951} INFO - Added Permission can read on Connections to role Op
+[2025-02-26T13:40:05.994+0530] {override.py:1951} INFO - Added Permission can edit on Connections to role Op
+[2025-02-26T13:40:05.999+0530] {override.py:1951} INFO - Added Permission can delete on Connections to role Op
+[2025-02-26T13:40:06.003+0530] {override.py:1951} INFO - Added Permission can create on Pools to role Op
+[2025-02-26T13:40:06.008+0530] {override.py:1951} INFO - Added Permission can edit on Pools to role Op
+[2025-02-26T13:40:06.012+0530] {override.py:1951} INFO - Added Permission can delete on Pools to role Op
+[2025-02-26T13:40:06.016+0530] {override.py:1951} INFO - Added Permission can read on Plugins to role Op
+[2025-02-26T13:40:06.020+0530] {override.py:1951} INFO - Added Permission can read on Providers to role Op
+[2025-02-26T13:40:06.024+0530] {override.py:1951} INFO - Added Permission can create on Variables to role Op
+[2025-02-26T13:40:06.029+0530] {override.py:1951} INFO - Added Permission can read on Variables to role Op
+[2025-02-26T13:40:06.032+0530] {override.py:1951} INFO - Added Permission can edit on Variables to role Op
+[2025-02-26T13:40:06.036+0530] {override.py:1951} INFO - Added Permission can delete on Variables to role Op
+[2025-02-26T13:40:06.040+0530] {override.py:1951} INFO - Added Permission can delete on XComs to role Op
+[2025-02-26T13:40:06.046+0530] {override.py:1900} INFO - Created Permission View: can delete on Datasets
+[2025-02-26T13:40:06.050+0530] {override.py:1951} INFO - Added Permission can delete on Datasets to role Op
+[2025-02-26T13:40:06.056+0530] {override.py:1951} INFO - Added Permission can read on DAGs to role Admin
+[2025-02-26T13:40:06.061+0530] {override.py:1951} INFO - Added Permission can read on DAG Dependencies to role Admin
+[2025-02-26T13:40:06.067+0530] {override.py:1951} INFO - Added Permission can read on DAG Code to role Admin
+[2025-02-26T13:40:06.073+0530] {override.py:1951} INFO - Added Permission can read on Datasets to role Admin
+[2025-02-26T13:40:06.079+0530] {override.py:1951} INFO - Added Permission can read on Cluster Activity to role Admin
+[2025-02-26T13:40:06.085+0530] {override.py:1951} INFO - Added Permission can read on ImportError to role Admin
+[2025-02-26T13:40:06.090+0530] {override.py:1951} INFO - Added Permission can read on DAG Warnings to role Admin
+[2025-02-26T13:40:06.096+0530] {override.py:1951} INFO - Added Permission can read on Task Logs to role Admin
+[2025-02-26T13:40:06.101+0530] {override.py:1951} INFO - Added Permission can read on Website to role Admin
+[2025-02-26T13:40:06.105+0530] {override.py:1951} INFO - Added Permission can edit on DAGs to role Admin
+[2025-02-26T13:40:06.111+0530] {override.py:1951} INFO - Added Permission can delete on DAGs to role Admin
+[2025-02-26T13:40:06.117+0530] {override.py:1951} INFO - Added Permission can create on Datasets to role Admin
+[2025-02-26T13:40:06.122+0530] {override.py:1951} INFO - Added Permission can delete on Datasets to role Admin
+[2025-02-26 13:40:06 +0530] [3773] [INFO] Starting gunicorn 23.0.0
+[2025-02-26 13:40:06 +0530] [3773] [INFO] Listening at: http://0.0.0.0:8080 (3773)
+[2025-02-26 13:40:06 +0530] [3773] [INFO] Using worker: sync
+[2025-02-26 13:40:06 +0530] [3781] [INFO] Booting worker with pid: 3781
+[2025-02-26 13:40:06 +0530] [3782] [INFO] Booting worker with pid: 3782
+[2025-02-26 13:40:06 +0530] [3784] [INFO] Booting worker with pid: 3784
+[2025-02-26 13:40:06 +0530] [3785] [INFO] Booting worker with pid: 3785
+[2025-02-26T13:59:10.723+0530] {app.py:1744} ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1826, in full_dispatch_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1847, in finalize_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2344, in process_response
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/session.py", line 33, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask_session/sessions.py", line 544, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2824, in first
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-02-26 13:59:10 +0530] [3785] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1826, in full_dispatch_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1847, in finalize_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2344, in process_response
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/session.py", line 33, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask_session/sessions.py", line 544, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2824, in first
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 134, in handle
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 192, in handle_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/util.py", line 640, in reraise
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 177, in handle_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2552, in __call__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2532, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1727, in handle_exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/views.py", line 707, in show_traceback
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 146, in render_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 1013, in get_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 972, in _load_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 62, in get_source
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 98, in _get_source_fast
+jinja2.exceptions.TemplateNotFound: airflow/traceback.html
+[2025-02-26T13:59:11.769+0530] {app.py:1744} ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1826, in full_dispatch_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1847, in finalize_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2344, in process_response
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/session.py", line 33, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask_session/sessions.py", line 544, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2824, in first
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-02-26 13:59:11 +0530] [3785] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1826, in full_dispatch_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1847, in finalize_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2344, in process_response
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/session.py", line 33, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask_session/sessions.py", line 544, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2824, in first
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 134, in handle
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 192, in handle_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/util.py", line 640, in reraise
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 177, in handle_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2552, in __call__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2532, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1727, in handle_exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/views.py", line 707, in show_traceback
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 146, in render_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 1013, in get_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 972, in _load_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 62, in get_source
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 98, in _get_source_fast
+jinja2.exceptions.TemplateNotFound: airflow/traceback.html
+[2025-02-26T13:59:12.087+0530] {app.py:1744} ERROR - Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1826, in full_dispatch_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1847, in finalize_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2344, in process_response
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/session.py", line 33, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask_session/sessions.py", line 544, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2824, in first
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-02-26 13:59:12 +0530] [3782] [ERROR] Socket error processing request.
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlite3.OperationalError: unable to open database file
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2529, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1826, in full_dispatch_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1847, in finalize_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2344, in process_response
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/session.py", line 33, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask_session/sessions.py", line 544, in save_session
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2824, in first
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1716, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1555, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 750, in _connection_for_bind
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3325, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 96, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3404, in raw_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3374, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2208, in _handle_dbapi_exception_noconnection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3371, in _wrap_pool_connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 327, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 894, in _checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 493, in checkout
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/impl.py", line 256, in _do_get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 273, in _create_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 388, in __init__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 690, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/pool/base.py", line 686, in __connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/create.py", line 574, in connect
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 598, in connect
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) unable to open database file
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 134, in handle
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 192, in handle_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/util.py", line 640, in reraise
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/gunicorn/workers/sync.py", line 177, in handle_request
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2552, in __call__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 2532, in wsgi_app
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/app.py", line 1727, in handle_exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/www/views.py", line 707, in show_traceback
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 146, in render_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 1084, in get_or_select_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 1013, in get_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/environment.py", line 972, in _load_template
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/jinja2/loaders.py", line 126, in load
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 62, in get_source
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/flask/templating.py", line 98, in _get_source_fast
+jinja2.exceptions.TemplateNotFound: airflow/traceback.html
+[2025-02-26 15:20:02 +0530] [3773] [INFO] Handling signal: ttin
+[2025-02-26 15:20:02 +0530] [4426] [INFO] Booting worker with pid: 4426
+[2025-02-26 15:20:03 +0530] [3773] [INFO] Handling signal: ttou
+[2025-02-26 15:20:03 +0530] [3781] [INFO] Worker exiting (pid: 3781)
+[2025-02-26 17:00:03 +0530] [3773] [INFO] Handling signal: ttin
+[2025-02-26 17:00:03 +0530] [14050] [INFO] Booting worker with pid: 14050
+[2025-02-26 17:00:04 +0530] [3773] [INFO] Handling signal: ttou
+[2025-02-26 17:00:04 +0530] [3782] [INFO] Worker exiting (pid: 3782)
+[2025-02-26 20:31:04 +0530] [3773] [INFO] Handling signal: ttin
+[2025-02-26 20:31:04 +0530] [28236] [INFO] Booting worker with pid: 28236
+[2025-02-26 20:31:06 +0530] [3773] [INFO] Handling signal: ttou
+[2025-02-26 20:31:06 +0530] [3784] [INFO] Worker exiting (pid: 3784)
+[2025-02-26 22:09:08 +0530] [3773] [INFO] Handling signal: ttin
+[2025-02-26 22:09:08 +0530] [46301] [INFO] Booting worker with pid: 46301
+[2025-02-26 22:09:09 +0530] [3773] [INFO] Handling signal: ttou
+[2025-02-26 22:09:09 +0530] [3785] [INFO] Worker exiting (pid: 3785)
+[2025-02-26 23:46:46 +0530] [3773] [INFO] Handling signal: ttin
+[2025-02-26 23:46:46 +0530] [63828] [INFO] Booting worker with pid: 63828
+[2025-02-26 23:46:47 +0530] [3773] [INFO] Handling signal: ttou
+[2025-02-26 23:46:47 +0530] [4426] [INFO] Worker exiting (pid: 4426)

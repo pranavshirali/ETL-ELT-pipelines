@@ -1,0 +1,1134 @@
+[2025-05-25T12:31:49.120+0530] {processor.py:186} INFO - Started process (PID=1107) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:31:49.121+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:31:49.124+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:31:49.123+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:31:49.133+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:31:49.159+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:31:49.158+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:31:49.173+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:31:49.173+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:31:49.198+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.084 seconds
+[2025-05-25T12:32:19.231+0530] {processor.py:186} INFO - Started process (PID=1323) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:32:19.232+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:32:19.234+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:32:19.234+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:32:19.240+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:32:19.260+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:32:19.260+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:32:19.272+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:32:19.272+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:32:19.288+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.063 seconds
+[2025-05-25T12:32:49.471+0530] {processor.py:186} INFO - Started process (PID=1668) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:32:49.472+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:32:49.475+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:32:49.474+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:32:49.482+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:32:49.497+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:32:49.496+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:32:49.505+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:32:49.505+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:32:49.519+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T12:33:08.159+0530] {processor.py:186} INFO - Started process (PID=1918) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:33:08.160+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:33:08.162+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:33:08.161+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:33:08.169+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:33:08.184+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:33:08.184+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:33:08.193+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:33:08.193+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:33:08.207+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T12:33:38.557+0530] {processor.py:186} INFO - Started process (PID=2313) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:33:38.558+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:33:38.560+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:33:38.560+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:33:38.567+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:33:38.585+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:33:38.584+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:33:38.595+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:33:38.595+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:33:38.610+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.057 seconds
+[2025-05-25T12:34:08.925+0530] {processor.py:186} INFO - Started process (PID=2450) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:34:08.926+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:34:08.928+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:34:08.928+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:34:08.934+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:34:08.954+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:34:08.953+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:34:08.964+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:34:08.964+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:34:08.980+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.060 seconds
+[2025-05-25T12:34:39.815+0530] {processor.py:186} INFO - Started process (PID=2537) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:34:39.817+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:34:39.819+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:34:39.819+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:34:39.830+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:34:39.854+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:34:39.853+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:34:39.865+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:34:39.865+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:34:39.882+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.080 seconds
+[2025-05-25T12:35:11.286+0530] {processor.py:186} INFO - Started process (PID=2724) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:35:11.288+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:35:11.290+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:35:11.290+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:35:11.295+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:35:11.308+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:35:11.308+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:35:11.316+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:35:11.315+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:35:11.329+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.049 seconds
+[2025-05-25T12:35:41.594+0530] {processor.py:186} INFO - Started process (PID=2822) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:35:41.596+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:35:41.598+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:35:41.598+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:35:41.602+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:35:41.616+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:35:41.616+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:35:41.626+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:35:41.626+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:35:41.645+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.062 seconds
+[2025-05-25T12:36:12.242+0530] {processor.py:186} INFO - Started process (PID=2912) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:36:12.244+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:36:12.246+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:36:12.246+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:36:12.250+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:36:12.263+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:36:12.263+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:36:12.271+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:36:12.271+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:36:12.285+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.046 seconds
+[2025-05-25T12:36:42.792+0530] {processor.py:186} INFO - Started process (PID=2996) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:36:42.792+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:36:42.794+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:36:42.793+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:36:42.798+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:36:42.811+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:36:42.811+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:36:42.819+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:36:42.819+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:36:42.988+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.199 seconds
+[2025-05-25T12:37:13.828+0530] {processor.py:186} INFO - Started process (PID=3087) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:37:13.830+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:37:13.831+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:37:13.831+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:37:13.836+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:37:13.850+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:37:13.849+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:37:13.996+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:37:13.995+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:37:14.009+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.185 seconds
+[2025-05-25T12:37:44.681+0530] {processor.py:186} INFO - Started process (PID=3450) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:37:44.682+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:37:44.684+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:37:44.683+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:37:44.689+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:37:44.707+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:37:44.706+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:37:44.715+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:37:44.715+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:37:44.728+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.053 seconds
+[2025-05-25T12:38:15.161+0530] {processor.py:186} INFO - Started process (PID=3680) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:38:15.163+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:38:15.165+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:38:15.165+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:38:15.170+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:38:15.185+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:38:15.184+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:38:15.194+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:38:15.193+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:38:15.207+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T12:38:46.122+0530] {processor.py:186} INFO - Started process (PID=3884) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:38:46.123+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:38:46.125+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:38:46.124+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:38:46.131+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:38:46.148+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:38:46.148+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:38:46.159+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:38:46.159+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:38:46.185+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.067 seconds
+[2025-05-25T12:39:17.047+0530] {processor.py:186} INFO - Started process (PID=3971) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:39:17.049+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:39:17.051+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:39:17.051+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:39:17.058+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:39:17.075+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:39:17.075+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:39:17.087+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:39:17.086+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:39:17.107+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.065 seconds
+[2025-05-25T12:39:49.670+0530] {processor.py:186} INFO - Started process (PID=4058) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:39:49.671+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:39:49.673+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:39:49.673+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:39:49.679+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:39:49.692+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:39:49.692+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:39:49.701+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:39:49.701+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:39:49.907+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.244 seconds
+[2025-05-25T12:40:20.770+0530] {processor.py:186} INFO - Started process (PID=4157) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:40:20.772+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:40:20.776+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:40:20.776+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:40:20.783+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:40:20.801+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:40:20.801+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:40:23.489+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:40:23.489+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:40:23.505+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.206 seconds
+[2025-05-25T12:40:54.360+0530] {processor.py:186} INFO - Started process (PID=4250) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:40:54.362+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:40:54.363+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:40:54.363+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:40:54.368+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:40:54.382+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:40:54.382+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:40:54.524+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:40:54.524+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:40:54.536+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.180 seconds
+[2025-05-25T12:41:24.953+0530] {processor.py:186} INFO - Started process (PID=4342) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:41:24.954+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:41:24.955+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:41:24.955+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:41:24.960+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:41:24.975+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:41:24.975+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:41:24.984+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:41:24.984+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:41:25.000+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T12:41:55.951+0530] {processor.py:186} INFO - Started process (PID=4430) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:41:55.953+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:41:55.955+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:41:55.955+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:41:55.960+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:41:55.974+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:41:55.974+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:41:55.982+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:41:55.982+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:41:55.995+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.048 seconds
+[2025-05-25T12:42:26.574+0530] {processor.py:186} INFO - Started process (PID=4512) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:42:26.575+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:42:26.577+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:42:26.577+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:42:26.583+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:42:26.602+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:42:26.602+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:42:26.614+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:42:26.613+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:42:26.630+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.061 seconds
+[2025-05-25T12:42:57.204+0530] {processor.py:186} INFO - Started process (PID=4672) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:42:57.206+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:42:57.214+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:42:57.213+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:42:57.229+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:42:57.270+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:42:57.269+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:42:57.289+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:42:57.288+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:42:57.310+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.119 seconds
+[2025-05-25T12:43:27.582+0530] {processor.py:186} INFO - Started process (PID=4863) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:43:27.583+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:43:27.584+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:43:27.584+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:43:27.589+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:43:27.602+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:43:27.602+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:43:27.611+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:43:27.611+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:43:27.625+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.047 seconds
+[2025-05-25T12:43:57.951+0530] {processor.py:186} INFO - Started process (PID=5223) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:43:57.952+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:43:57.954+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:43:57.953+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:43:57.959+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:43:57.974+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:43:57.973+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:43:57.983+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:43:57.983+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:43:58.161+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.214 seconds
+[2025-05-25T12:44:29.172+0530] {processor.py:186} INFO - Started process (PID=5595) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:44:29.172+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:44:29.174+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:44:29.174+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:44:29.180+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:44:29.195+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:44:29.195+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:44:29.361+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:44:29.361+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:44:29.376+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.209 seconds
+[2025-05-25T12:45:00.187+0530] {processor.py:186} INFO - Started process (PID=5809) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:45:00.189+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:45:00.191+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:45:00.191+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:45:00.198+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:45:00.215+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:45:00.214+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:45:00.418+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:45:00.418+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:45:00.434+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.252 seconds
+[2025-05-25T12:45:32.681+0530] {processor.py:186} INFO - Started process (PID=6322) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:45:32.682+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:45:32.684+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:45:32.684+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:45:32.690+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:45:32.711+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:45:32.711+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:45:32.721+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:45:32.720+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:45:32.736+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.059 seconds
+[2025-05-25T12:46:03.799+0530] {processor.py:186} INFO - Started process (PID=6527) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:46:03.801+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:46:03.803+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:46:03.803+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:46:03.808+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:46:03.822+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:46:03.821+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:46:03.831+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:46:03.831+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:46:03.843+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.048 seconds
+[2025-05-25T12:46:33.963+0530] {processor.py:186} INFO - Started process (PID=6713) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:46:33.964+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:46:33.966+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:46:33.965+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:46:33.972+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:46:33.989+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:46:33.988+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:46:33.999+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:46:33.999+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:46:34.017+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.058 seconds
+[2025-05-25T12:47:04.283+0530] {processor.py:186} INFO - Started process (PID=6797) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:47:04.284+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:47:04.287+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:47:04.286+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:47:04.294+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:47:04.315+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:47:04.315+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:47:04.328+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:47:04.328+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:47:04.348+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.070 seconds
+[2025-05-25T12:47:34.644+0530] {processor.py:186} INFO - Started process (PID=6881) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:47:34.645+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:47:34.647+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:47:34.647+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:47:34.652+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:47:34.666+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:47:34.666+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:47:34.674+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:47:34.674+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:47:34.688+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.048 seconds
+[2025-05-25T12:48:05.562+0530] {processor.py:186} INFO - Started process (PID=6970) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:48:05.562+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:48:05.564+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:48:05.564+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:48:05.571+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:48:05.588+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:48:05.588+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:48:05.597+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:48:05.597+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:48:05.764+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.207 seconds
+[2025-05-25T12:48:36.367+0530] {processor.py:186} INFO - Started process (PID=7057) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:48:36.368+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:48:36.371+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:48:36.370+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:48:36.376+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:48:36.394+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:48:36.394+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:48:36.572+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:48:36.572+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:48:36.586+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.225 seconds
+[2025-05-25T12:49:06.873+0530] {processor.py:186} INFO - Started process (PID=7138) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:49:06.874+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:49:06.876+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:49:06.876+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:49:06.881+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:49:06.896+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:49:06.895+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:49:07.062+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:49:07.062+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:49:07.076+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.207 seconds
+[2025-05-25T12:49:37.862+0530] {processor.py:186} INFO - Started process (PID=7294) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:49:37.864+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:49:37.866+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:49:37.865+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:49:37.870+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:49:37.884+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:49:37.884+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:49:37.892+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:49:37.892+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:49:37.905+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.047 seconds
+[2025-05-25T12:50:08.037+0530] {processor.py:186} INFO - Started process (PID=7387) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:50:08.038+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:50:08.040+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:50:08.039+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:50:08.045+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:50:08.060+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:50:08.060+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:50:08.068+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:50:08.068+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:50:08.082+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T12:50:38.828+0530] {processor.py:186} INFO - Started process (PID=7474) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:50:38.829+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:50:38.830+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:50:38.830+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:50:38.836+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:50:38.851+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:50:38.850+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:50:38.860+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:50:38.860+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:50:38.874+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T12:51:09.014+0530] {processor.py:186} INFO - Started process (PID=7564) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:51:09.016+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:51:09.018+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:51:09.018+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:51:09.023+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:51:09.038+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:51:09.037+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:51:09.046+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:51:09.046+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:51:09.060+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T12:51:39.658+0530] {processor.py:186} INFO - Started process (PID=7657) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:51:39.660+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:51:39.662+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:51:39.661+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:51:39.667+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:51:39.683+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:51:39.682+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:51:39.692+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:51:39.691+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:51:39.708+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.055 seconds
+[2025-05-25T12:52:09.838+0530] {processor.py:186} INFO - Started process (PID=7738) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:52:09.840+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:52:09.841+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:52:09.841+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:52:09.847+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:52:09.863+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:52:09.863+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:52:09.872+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:52:09.872+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:52:10.035+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.202 seconds
+[2025-05-25T12:52:40.518+0530] {processor.py:186} INFO - Started process (PID=7825) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:52:40.519+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:52:40.520+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:52:40.520+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:52:40.525+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:52:40.539+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:52:40.539+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:52:40.692+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:52:40.692+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:52:40.705+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.192 seconds
+[2025-05-25T12:53:11.681+0530] {processor.py:186} INFO - Started process (PID=7912) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:53:11.683+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:53:11.685+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:53:11.685+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:53:11.690+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:53:11.708+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:53:11.707+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:53:11.882+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:53:11.882+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:53:11.900+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.223 seconds
+[2025-05-25T12:53:42.656+0530] {processor.py:186} INFO - Started process (PID=7999) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:53:42.659+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:53:42.661+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:53:42.661+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:53:42.667+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:53:42.683+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:53:42.682+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:53:42.692+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:53:42.692+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:53:42.708+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.056 seconds
+[2025-05-25T12:54:12.874+0530] {processor.py:186} INFO - Started process (PID=8093) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:54:12.875+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:54:12.877+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:54:12.877+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:54:12.883+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:54:12.900+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:54:12.899+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:54:12.910+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:54:12.910+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:54:12.924+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.055 seconds
+[2025-05-25T12:54:43.909+0530] {processor.py:186} INFO - Started process (PID=8228) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:54:43.910+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:54:43.911+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:54:43.911+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:54:43.916+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:54:43.931+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:54:43.931+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:54:43.939+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:54:43.939+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:54:43.952+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.047 seconds
+[2025-05-25T12:55:14.131+0530] {processor.py:186} INFO - Started process (PID=8309) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:55:14.133+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:55:14.137+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:55:14.136+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:55:14.150+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:55:14.183+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:55:14.182+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:55:14.202+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:55:14.202+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:55:14.238+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.112 seconds
+[2025-05-25T12:55:44.926+0530] {processor.py:186} INFO - Started process (PID=8396) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:55:44.928+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:55:44.930+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:55:44.930+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:55:44.936+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:55:44.954+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:55:44.954+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:55:44.965+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:55:44.964+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:55:44.983+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.061 seconds
+[2025-05-25T12:56:15.964+0530] {processor.py:186} INFO - Started process (PID=8483) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:56:15.965+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:56:15.966+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:56:15.966+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:56:15.971+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:56:15.984+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:56:15.984+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:56:15.994+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:56:15.994+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:56:16.151+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.191 seconds
+[2025-05-25T12:56:46.521+0530] {processor.py:186} INFO - Started process (PID=8571) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:56:46.523+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:56:46.525+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:56:46.524+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:56:46.531+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:56:46.551+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:56:46.551+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:56:46.738+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:56:46.738+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:56:46.755+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.239 seconds
+[2025-05-25T12:57:17.092+0530] {processor.py:186} INFO - Started process (PID=8652) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:57:17.094+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:57:17.096+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:57:17.096+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:57:17.101+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:57:17.116+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:57:17.115+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:57:17.278+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:57:17.277+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:57:17.290+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.201 seconds
+[2025-05-25T12:57:47.681+0530] {processor.py:186} INFO - Started process (PID=8739) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:57:47.683+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:57:47.685+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:57:47.685+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:57:47.692+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:57:47.714+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:57:47.713+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:57:47.724+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:57:47.724+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:57:47.741+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.066 seconds
+[2025-05-25T12:58:19.799+0530] {processor.py:186} INFO - Started process (PID=8832) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:58:19.801+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:58:19.803+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:58:19.803+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:58:19.809+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:58:19.826+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:58:19.825+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:58:19.835+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:58:19.835+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:58:19.852+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.058 seconds
+[2025-05-25T12:58:49.972+0530] {processor.py:186} INFO - Started process (PID=8919) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:58:49.973+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:58:49.975+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:58:49.974+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:58:49.980+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:58:49.995+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:58:49.994+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:58:50.005+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:58:50.004+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:58:50.022+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.054 seconds
+[2025-05-25T12:59:20.861+0530] {processor.py:186} INFO - Started process (PID=9006) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:59:20.862+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:59:20.864+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:59:20.864+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:59:20.868+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:59:20.881+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:59:20.881+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:59:20.890+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:59:20.890+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:59:20.904+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.047 seconds
+[2025-05-25T12:59:51.343+0530] {processor.py:186} INFO - Started process (PID=9094) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:59:51.344+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T12:59:51.345+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:59:51.345+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:59:51.350+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T12:59:51.366+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:59:51.365+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T12:59:51.376+0530] {logging_mixin.py:190} INFO - [2025-05-25T12:59:51.376+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T12:59:51.394+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.056 seconds
+[2025-05-25T13:00:22.039+0530] {processor.py:186} INFO - Started process (PID=9229) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:00:22.041+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:00:22.043+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:00:22.042+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:00:22.047+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:00:22.063+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:00:22.063+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:00:22.229+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:00:22.229+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:00:22.245+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.211 seconds
+[2025-05-25T13:00:52.411+0530] {processor.py:186} INFO - Started process (PID=9316) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:00:52.413+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:00:52.417+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:00:52.417+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:00:52.424+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:00:52.443+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:00:52.442+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:00:52.624+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:00:52.624+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:00:52.639+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.233 seconds
+[2025-05-25T13:01:22.803+0530] {processor.py:186} INFO - Started process (PID=9400) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:01:22.805+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:01:22.807+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:01:22.807+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:01:22.814+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:01:22.837+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:01:22.836+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:01:23.018+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:01:23.017+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:01:23.039+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.243 seconds
+[2025-05-25T13:01:53.243+0530] {processor.py:186} INFO - Started process (PID=9490) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:01:53.244+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:01:53.246+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:01:53.246+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:01:53.252+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:01:53.268+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:01:53.268+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:01:53.278+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:01:53.278+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:01:53.293+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.054 seconds
+[2025-05-25T13:02:24.288+0530] {processor.py:186} INFO - Started process (PID=9577) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:02:24.289+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:02:24.291+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:02:24.291+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:02:24.296+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:02:24.310+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:02:24.310+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:02:24.320+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:02:24.320+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:02:24.334+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T13:02:55.839+0530] {processor.py:186} INFO - Started process (PID=9670) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:02:55.840+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:02:55.842+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:02:55.841+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:02:55.847+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:02:55.862+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:02:55.861+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:02:55.871+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:02:55.871+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:02:55.887+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:03:26.035+0530] {processor.py:186} INFO - Started process (PID=9757) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:03:26.036+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:03:26.037+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:03:26.037+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:03:26.043+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:03:26.061+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:03:26.061+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:03:26.070+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:03:26.070+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:03:26.087+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.057 seconds
+[2025-05-25T13:03:56.703+0530] {processor.py:186} INFO - Started process (PID=9844) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:03:56.704+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:03:56.706+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:03:56.706+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:03:56.710+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:03:56.724+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:03:56.724+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:03:56.733+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:03:56.733+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:03:56.898+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.199 seconds
+[2025-05-25T13:04:27.116+0530] {processor.py:186} INFO - Started process (PID=9931) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:04:27.117+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:04:27.119+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:04:27.118+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:04:27.124+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:04:27.142+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:04:27.141+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:04:27.313+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:04:27.313+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:04:27.326+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.215 seconds
+[2025-05-25T13:04:57.608+0530] {processor.py:186} INFO - Started process (PID=10018) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:04:57.609+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:04:57.611+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:04:57.611+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:04:57.617+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:04:57.633+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:04:57.633+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:04:57.798+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:04:57.797+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:04:57.814+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.210 seconds
+[2025-05-25T13:05:28.772+0530] {processor.py:186} INFO - Started process (PID=10154) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:05:28.774+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:05:28.775+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:05:28.775+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:05:28.780+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:05:28.794+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:05:28.793+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:05:28.941+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:05:28.941+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:05:28.954+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.186 seconds
+[2025-05-25T13:05:58.995+0530] {processor.py:186} INFO - Started process (PID=10241) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:05:58.996+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:05:58.997+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:05:58.997+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:05:59.002+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:05:59.018+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:05:59.018+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:05:59.028+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:05:59.027+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:05:59.041+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T13:06:29.548+0530] {processor.py:186} INFO - Started process (PID=10329) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:06:29.549+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:06:29.551+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:06:29.550+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:06:29.556+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:06:29.570+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:06:29.570+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:06:29.579+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:06:29.578+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:06:29.594+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T13:06:59.802+0530] {processor.py:186} INFO - Started process (PID=10410) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:06:59.804+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:06:59.806+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:06:59.806+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:06:59.812+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:06:59.828+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:06:59.828+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:06:59.836+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:06:59.836+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:06:59.852+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.053 seconds
+[2025-05-25T13:07:31.989+0530] {processor.py:186} INFO - Started process (PID=10503) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:07:31.991+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:07:31.993+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:07:31.993+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:07:31.998+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:07:32.016+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:07:32.015+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:07:32.024+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:07:32.024+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:07:32.042+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.056 seconds
+[2025-05-25T13:08:02.658+0530] {processor.py:186} INFO - Started process (PID=10596) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:08:02.660+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:08:02.662+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:08:02.662+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:08:02.668+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:08:02.683+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:08:02.683+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:08:02.692+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:08:02.692+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:08:02.860+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.206 seconds
+[2025-05-25T13:08:33.026+0530] {processor.py:186} INFO - Started process (PID=10683) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:08:33.028+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:08:33.030+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:08:33.029+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:08:33.035+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:08:33.050+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:08:33.049+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:08:33.207+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:08:33.207+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:08:33.221+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.199 seconds
+[2025-05-25T13:09:03.723+0530] {processor.py:186} INFO - Started process (PID=10770) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:09:03.725+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:09:03.727+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:09:03.726+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:09:03.732+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:09:03.748+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:09:03.747+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:09:03.915+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:09:03.914+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:09:03.932+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.214 seconds
+[2025-05-25T13:09:34.778+0530] {processor.py:186} INFO - Started process (PID=10857) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:09:34.779+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:09:34.780+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:09:34.780+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:09:34.786+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:09:34.948+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:09:34.947+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:09:34.956+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:09:34.956+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:09:34.971+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.197 seconds
+[2025-05-25T13:10:05.360+0530] {processor.py:186} INFO - Started process (PID=10944) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:10:05.362+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:10:05.364+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:10:05.364+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:10:05.371+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:10:05.388+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:10:05.387+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:10:05.398+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:10:05.397+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:10:05.415+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.060 seconds
+[2025-05-25T13:10:35.557+0530] {processor.py:186} INFO - Started process (PID=11025) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:10:35.559+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:10:35.560+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:10:35.560+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:10:35.566+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:10:35.583+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:10:35.582+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:10:35.592+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:10:35.592+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:10:35.608+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.056 seconds
+[2025-05-25T13:11:05.942+0530] {processor.py:186} INFO - Started process (PID=11160) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:11:05.943+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:11:05.944+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:11:05.944+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:11:05.949+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:11:05.966+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:11:05.965+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:11:05.975+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:11:05.975+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:11:05.991+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:11:36.821+0530] {processor.py:186} INFO - Started process (PID=11254) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:11:36.822+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:11:36.823+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:11:36.823+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:11:36.829+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:11:36.843+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:11:36.843+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:11:36.854+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:11:36.853+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:11:36.869+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.053 seconds
+[2025-05-25T13:12:08.975+0530] {processor.py:186} INFO - Started process (PID=11341) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:12:08.976+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:12:08.978+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:12:08.977+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:12:08.982+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:12:08.996+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:12:08.995+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:12:09.004+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:12:09.004+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:12:09.158+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.187 seconds
+[2025-05-25T13:12:39.742+0530] {processor.py:186} INFO - Started process (PID=11434) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:12:39.743+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:12:39.745+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:12:39.744+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:12:39.749+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:12:39.763+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:12:39.763+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:12:39.914+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:12:39.914+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:12:39.927+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.188 seconds
+[2025-05-25T13:13:10.729+0530] {processor.py:186} INFO - Started process (PID=11521) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:13:10.730+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:13:10.731+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:13:10.731+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:13:10.736+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:13:10.749+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:13:10.749+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:13:10.895+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:13:10.894+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:13:10.908+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.183 seconds
+[2025-05-25T13:13:41.511+0530] {processor.py:186} INFO - Started process (PID=11602) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:13:41.512+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:13:41.514+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:13:41.514+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:13:41.519+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:13:41.722+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:13:41.722+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:13:41.731+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:13:41.731+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:13:41.746+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.239 seconds
+[2025-05-25T13:14:12.468+0530] {processor.py:186} INFO - Started process (PID=11695) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:14:12.470+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:14:12.472+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:14:12.472+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:14:12.488+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:14:12.518+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:14:12.517+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:14:12.530+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:14:12.530+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:14:12.550+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.088 seconds
+[2025-05-25T13:14:44.167+0530] {processor.py:186} INFO - Started process (PID=11782) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:14:44.167+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:14:44.170+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:14:44.170+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:14:44.175+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:14:44.190+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:14:44.190+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:14:44.200+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:14:44.200+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:14:44.216+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.055 seconds
+[2025-05-25T13:15:14.345+0530] {processor.py:186} INFO - Started process (PID=11875) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:15:14.346+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:15:14.347+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:15:14.347+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:15:14.353+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:15:14.370+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:15:14.369+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:15:14.379+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:15:14.378+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:15:14.391+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:15:45.135+0530] {processor.py:186} INFO - Started process (PID=11956) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:15:45.135+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:15:45.137+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:15:45.137+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:15:45.142+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:15:45.160+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:15:45.159+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:15:45.172+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:15:45.172+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:15:45.189+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.059 seconds
+[2025-05-25T13:16:15.528+0530] {processor.py:186} INFO - Started process (PID=12091) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:16:15.530+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:16:15.532+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:16:15.532+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:16:15.540+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:16:15.561+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:16:15.561+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:16:15.572+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:16:15.572+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:16:15.751+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.229 seconds
+[2025-05-25T13:16:46.384+0530] {processor.py:186} INFO - Started process (PID=12179) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:16:46.385+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:16:46.387+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:16:46.386+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:16:46.393+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:16:46.410+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:16:46.410+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:16:46.579+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:16:46.578+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:16:46.595+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.215 seconds
+[2025-05-25T13:17:16.860+0530] {processor.py:186} INFO - Started process (PID=12270) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:17:16.862+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:17:16.864+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:17:16.864+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:17:16.870+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:17:16.887+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:17:16.886+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:17:17.070+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:17:17.070+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:17:17.084+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.228 seconds
+[2025-05-25T13:17:47.753+0530] {processor.py:186} INFO - Started process (PID=12357) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:17:47.754+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:17:47.756+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:17:47.756+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:17:47.762+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:17:47.978+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:17:47.978+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:17:47.990+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:17:47.989+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:17:48.007+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.260 seconds
+[2025-05-25T13:18:19.020+0530] {processor.py:186} INFO - Started process (PID=12450) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:18:19.022+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:18:19.025+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:18:19.025+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:18:19.032+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:18:19.050+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:18:19.049+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:18:19.060+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:18:19.059+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:18:19.078+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.062 seconds
+[2025-05-25T13:18:49.297+0530] {processor.py:186} INFO - Started process (PID=12537) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:18:49.298+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:18:49.300+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:18:49.299+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:18:49.305+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:18:49.321+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:18:49.321+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:18:49.329+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:18:49.329+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:18:49.344+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.053 seconds
+[2025-05-25T13:19:19.908+0530] {processor.py:186} INFO - Started process (PID=12624) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:19:19.909+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:19:19.911+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:19:19.911+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:19:19.919+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:19:19.938+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:19:19.938+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:19:19.948+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:19:19.947+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:19:19.966+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.063 seconds
+[2025-05-25T13:19:51.617+0530] {processor.py:186} INFO - Started process (PID=12711) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:19:51.617+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:19:51.619+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:19:51.619+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:19:51.624+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:19:51.639+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:19:51.639+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:19:51.667+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:19:51.667+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:19:51.839+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.226 seconds
+[2025-05-25T13:20:22.730+0530] {processor.py:186} INFO - Started process (PID=12810) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:20:22.732+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:20:22.735+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:20:22.734+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:20:22.741+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:20:22.759+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:20:22.758+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:20:22.770+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:20:22.769+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:20:22.957+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.231 seconds
+[2025-05-25T13:20:53.225+0530] {processor.py:186} INFO - Started process (PID=12891) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:20:53.225+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:20:53.227+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:20:53.227+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:20:53.232+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:20:53.245+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:20:53.245+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:20:53.419+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:20:53.419+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:20:53.435+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.215 seconds
+[2025-05-25T13:21:23.581+0530] {processor.py:186} INFO - Started process (PID=12999) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:21:23.582+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:21:23.583+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:21:23.583+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:21:23.589+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:21:23.607+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:21:23.606+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:21:23.753+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:21:23.753+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:21:23.766+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.192 seconds
+[2025-05-25T13:21:54.751+0530] {processor.py:186} INFO - Started process (PID=13119) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:21:54.751+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:21:54.753+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:21:54.753+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:21:54.759+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:21:54.923+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:21:54.922+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:21:54.930+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:21:54.930+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:21:54.944+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.199 seconds
+[2025-05-25T13:22:25.390+0530] {processor.py:186} INFO - Started process (PID=13207) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:22:25.391+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:22:25.392+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:22:25.392+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:22:25.399+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:22:25.555+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:22:25.554+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:22:25.562+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:22:25.562+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:22:25.575+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.190 seconds
+[2025-05-25T13:22:56.115+0530] {processor.py:186} INFO - Started process (PID=13294) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:22:56.117+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:22:56.120+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:22:56.119+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:22:56.125+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:22:56.139+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:22:56.139+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:22:56.147+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:22:56.147+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:22:56.162+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:23:26.664+0530] {processor.py:186} INFO - Started process (PID=13381) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:23:26.666+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:23:26.668+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:23:26.668+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:23:26.673+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:23:26.687+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:23:26.687+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:23:26.695+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:23:26.695+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:23:26.710+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T13:23:56.997+0530] {processor.py:186} INFO - Started process (PID=13462) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:23:56.999+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:23:57.000+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:23:57.000+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:23:57.006+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:23:57.024+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:23:57.023+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:23:57.034+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:23:57.033+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:23:57.219+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.227 seconds
+[2025-05-25T13:24:29.797+0530] {processor.py:186} INFO - Started process (PID=13555) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:24:29.798+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:24:29.800+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:24:29.800+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:24:29.806+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:24:29.823+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:24:29.822+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:24:30.000+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:24:29.999+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:24:30.015+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.222 seconds
+[2025-05-25T13:25:00.204+0530] {processor.py:186} INFO - Started process (PID=13648) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:25:00.205+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:25:00.207+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:25:00.207+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:25:00.215+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:25:00.234+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:25:00.233+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:25:00.417+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:25:00.417+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:25:00.431+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.232 seconds
+[2025-05-25T13:25:31.644+0530] {processor.py:186} INFO - Started process (PID=13735) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:25:31.645+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:25:31.647+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:25:31.646+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:25:31.652+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:25:31.820+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:25:31.667+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:25:31.829+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:25:31.828+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:25:31.847+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.207 seconds
+[2025-05-25T13:26:02.386+0530] {processor.py:186} INFO - Started process (PID=13822) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:26:02.387+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:26:02.389+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:26:02.388+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:26:02.394+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:26:02.607+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:26:02.607+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:26:02.615+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:26:02.615+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:26:02.629+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.248 seconds
+[2025-05-25T13:26:33.451+0530] {processor.py:186} INFO - Started process (PID=13910) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:26:33.451+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:26:33.453+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:26:33.453+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:26:33.458+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:26:33.473+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:26:33.472+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:26:33.481+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:26:33.481+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:26:33.495+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.049 seconds
+[2025-05-25T13:27:04.155+0530] {processor.py:186} INFO - Started process (PID=14051) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:27:04.156+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:27:04.158+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:27:04.158+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:27:04.164+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:27:04.180+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:27:04.179+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:27:04.188+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:27:04.188+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:27:04.202+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:27:35.421+0530] {processor.py:186} INFO - Started process (PID=14138) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:27:35.422+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:27:35.424+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:27:35.424+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:27:35.429+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:27:35.444+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:27:35.443+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:27:35.453+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:27:35.452+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:27:35.468+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:28:05.633+0530] {processor.py:186} INFO - Started process (PID=14232) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:28:05.634+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:28:05.636+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:28:05.636+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:28:05.644+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:28:05.663+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:28:05.662+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:28:05.673+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:28:05.672+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:28:05.691+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.062 seconds
+[2025-05-25T13:28:35.769+0530] {processor.py:186} INFO - Started process (PID=14319) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:28:35.773+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:28:35.774+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:28:35.774+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:28:35.783+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:28:35.799+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:28:35.799+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:28:35.808+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:28:35.808+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:28:35.823+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.059 seconds
+[2025-05-25T13:29:06.687+0530] {processor.py:186} INFO - Started process (PID=14406) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:29:06.687+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:29:06.689+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:29:06.689+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:29:06.694+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:29:06.711+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:29:06.711+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:29:06.722+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:29:06.722+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:29:06.739+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.056 seconds
+[2025-05-25T13:29:37.328+0530] {processor.py:186} INFO - Started process (PID=14493) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:29:37.330+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:29:37.331+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:29:37.331+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:29:37.337+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:29:37.356+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:29:37.355+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:29:37.365+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:29:37.365+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:29:37.382+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.058 seconds
+[2025-05-25T13:30:07.846+0530] {processor.py:186} INFO - Started process (PID=14580) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:30:07.847+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:30:07.851+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:30:07.851+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:30:07.860+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:30:07.883+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:30:07.882+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:30:07.893+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:30:07.893+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:30:07.914+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.077 seconds
+[2025-05-25T13:30:38.707+0530] {processor.py:186} INFO - Started process (PID=14667) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:30:38.708+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:30:38.710+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:30:38.710+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:30:38.717+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:30:38.732+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:30:38.732+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:30:38.741+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:30:38.741+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:30:38.755+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:31:09.674+0530] {processor.py:186} INFO - Started process (PID=14754) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:31:09.674+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:31:09.676+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:31:09.675+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:31:09.681+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:31:09.696+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:31:09.695+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:31:09.706+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:31:09.706+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:31:09.720+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:31:39.984+0530] {processor.py:186} INFO - Started process (PID=14847) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:31:39.985+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:31:39.987+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:31:39.987+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:31:39.992+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:31:40.007+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:31:40.007+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:31:40.017+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:31:40.016+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:31:40.033+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.053 seconds
+[2025-05-25T13:32:10.811+0530] {processor.py:186} INFO - Started process (PID=14988) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:32:10.812+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:32:10.813+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:32:10.813+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:32:10.819+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:32:10.834+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:32:10.833+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:32:10.844+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:32:10.844+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:32:10.859+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.054 seconds
+[2025-05-25T13:32:41.895+0530] {processor.py:186} INFO - Started process (PID=15075) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:32:41.895+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:32:41.897+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:32:41.896+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:32:41.901+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:32:41.918+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:32:41.917+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:32:41.926+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:32:41.926+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:32:41.942+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:33:12.927+0530] {processor.py:186} INFO - Started process (PID=15168) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:33:12.929+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:33:12.931+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:33:12.931+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:33:12.936+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:33:12.950+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:33:12.949+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:33:12.958+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:33:12.958+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:33:12.972+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.049 seconds
+[2025-05-25T13:33:43.154+0530] {processor.py:186} INFO - Started process (PID=15256) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:33:43.155+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:33:43.156+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:33:43.156+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:33:43.162+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:33:43.179+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:33:43.178+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:33:43.190+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:33:43.190+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:33:43.205+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.055 seconds
+[2025-05-25T13:34:14.104+0530] {processor.py:186} INFO - Started process (PID=15343) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:34:14.107+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:34:14.110+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:34:14.108+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:34:14.116+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:34:14.133+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:34:14.133+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:34:14.141+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:34:14.141+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:34:14.156+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.058 seconds
+[2025-05-25T13:34:44.365+0530] {processor.py:186} INFO - Started process (PID=15430) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:34:44.365+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:34:44.367+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:34:44.367+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:34:44.372+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:34:44.387+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:34:44.386+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:34:44.395+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:34:44.395+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:34:44.410+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.049 seconds
+[2025-05-25T13:35:15.409+0530] {processor.py:186} INFO - Started process (PID=15517) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:35:15.412+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:35:15.413+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:35:15.413+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:35:15.418+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:35:15.435+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:35:15.434+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:35:15.442+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:35:15.442+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:35:15.459+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.054 seconds
+[2025-05-25T13:35:46.250+0530] {processor.py:186} INFO - Started process (PID=15604) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:35:46.250+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:35:46.252+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:35:46.252+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:35:46.257+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:35:46.273+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:35:46.272+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:35:46.283+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:35:46.283+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:35:46.298+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:36:16.753+0530] {processor.py:186} INFO - Started process (PID=15685) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:36:16.755+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:36:16.757+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:36:16.756+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:36:16.762+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:36:16.778+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:36:16.778+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:36:16.788+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:36:16.788+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:36:16.802+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.054 seconds
+[2025-05-25T13:36:47.445+0530] {processor.py:186} INFO - Started process (PID=15773) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:36:47.446+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:36:47.448+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:36:47.447+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:36:47.453+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:36:47.469+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:36:47.469+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:36:47.478+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:36:47.478+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:36:47.494+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.053 seconds
+[2025-05-25T13:37:18.123+0530] {processor.py:186} INFO - Started process (PID=15860) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:37:18.124+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:37:18.126+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:37:18.126+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:37:18.132+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:37:18.150+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:37:18.149+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:37:18.159+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:37:18.158+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:37:18.174+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.056 seconds
+[2025-05-25T13:37:49.226+0530] {processor.py:186} INFO - Started process (PID=16001) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:37:49.227+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:37:49.228+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:37:49.228+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:37:49.233+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:37:49.247+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:37:49.247+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:37:49.256+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:37:49.255+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:37:49.269+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.046 seconds
+[2025-05-25T13:38:19.647+0530] {processor.py:186} INFO - Started process (PID=16088) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:38:19.650+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:38:19.652+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:38:19.651+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:38:19.656+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:38:19.670+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:38:19.669+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:38:19.678+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:38:19.678+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:38:19.691+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.048 seconds
+[2025-05-25T13:38:49.970+0530] {processor.py:186} INFO - Started process (PID=16169) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:38:49.970+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:38:49.972+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:38:49.972+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:38:49.977+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:38:49.991+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:38:49.991+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:38:50.000+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:38:50.000+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:38:50.016+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:39:20.428+0530] {processor.py:186} INFO - Started process (PID=16257) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:39:20.429+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:39:20.437+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:39:20.436+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:39:20.443+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:39:20.460+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:39:20.460+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:39:20.468+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:39:20.468+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:39:20.485+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.063 seconds
+[2025-05-25T13:39:51.186+0530] {processor.py:186} INFO - Started process (PID=16344) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:39:51.187+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:39:51.189+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:39:51.188+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:39:51.194+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:39:51.210+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:39:51.209+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:39:51.218+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:39:51.217+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:39:51.231+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T13:40:21.898+0530] {processor.py:186} INFO - Started process (PID=16431) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:40:21.899+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:40:21.900+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:40:21.900+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:40:21.905+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:40:21.920+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:40:21.920+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:40:21.931+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:40:21.930+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:40:21.945+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:40:52.342+0530] {processor.py:186} INFO - Started process (PID=16512) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:40:52.343+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:40:52.345+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:40:52.344+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:40:52.351+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:40:52.372+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:40:52.372+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:40:52.385+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:40:52.384+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:40:52.400+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.063 seconds
+[2025-05-25T13:41:22.911+0530] {processor.py:186} INFO - Started process (PID=16599) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:41:22.913+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:41:22.915+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:41:22.914+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:41:22.920+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:41:22.937+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:41:22.936+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:41:22.946+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:41:22.945+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:41:22.962+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.057 seconds
+[2025-05-25T13:41:54.994+0530] {processor.py:186} INFO - Started process (PID=16698) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:41:54.995+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:41:54.997+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:41:54.997+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:41:55.002+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:41:55.016+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:41:55.016+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:41:55.026+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:41:55.026+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:41:55.040+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:42:26.078+0530] {processor.py:186} INFO - Started process (PID=16791) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:42:26.079+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:42:26.081+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:42:26.081+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:42:26.086+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:42:26.100+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:42:26.100+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:42:26.109+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:42:26.109+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:42:26.124+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T13:42:57.126+0530] {processor.py:186} INFO - Started process (PID=16926) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:42:57.126+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:42:57.128+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:42:57.128+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:42:57.133+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:42:57.147+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:42:57.147+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:42:57.155+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:42:57.155+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:42:57.173+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:43:27.489+0530] {processor.py:186} INFO - Started process (PID=17013) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:43:27.491+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:43:27.493+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:43:27.493+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:43:27.503+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:43:27.519+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:43:27.519+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:43:27.529+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:43:27.528+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:43:27.544+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.059 seconds
+[2025-05-25T13:43:58.084+0530] {processor.py:186} INFO - Started process (PID=17100) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:43:58.084+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:43:58.086+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:43:58.086+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:43:58.091+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:43:58.106+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:43:58.105+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:43:58.115+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:43:58.114+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:43:58.128+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.048 seconds
+[2025-05-25T13:44:28.534+0530] {processor.py:186} INFO - Started process (PID=17187) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:44:28.536+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:44:28.538+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:44:28.538+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:44:28.544+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:44:28.563+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:44:28.562+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:44:28.571+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:44:28.571+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:44:28.587+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.058 seconds
+[2025-05-25T13:44:58.920+0530] {processor.py:186} INFO - Started process (PID=17269) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:44:58.920+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:44:58.922+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:44:58.922+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:44:58.928+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:44:58.945+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:44:58.945+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:44:58.956+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:44:58.956+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:44:58.973+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.057 seconds
+[2025-05-25T13:45:29.518+0530] {processor.py:186} INFO - Started process (PID=17356) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:45:29.519+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:45:29.521+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:45:29.521+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:45:29.526+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:45:29.542+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:45:29.541+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:45:29.550+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:45:29.550+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:45:29.564+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T13:45:59.906+0530] {processor.py:186} INFO - Started process (PID=17443) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:45:59.907+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:45:59.908+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:45:59.908+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:45:59.914+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:45:59.937+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:45:59.937+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:45:59.948+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:45:59.947+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:45:59.963+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.061 seconds
+[2025-05-25T13:46:30.504+0530] {processor.py:186} INFO - Started process (PID=17531) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:46:30.505+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:46:30.508+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:46:30.508+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:46:30.513+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:46:30.528+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:46:30.527+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:46:30.538+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:46:30.538+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:46:30.554+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.053 seconds
+[2025-05-25T13:47:00.771+0530] {processor.py:186} INFO - Started process (PID=17624) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:47:00.772+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:47:00.774+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:47:00.773+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:47:00.781+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:47:00.795+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:47:00.794+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:47:00.804+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:47:00.804+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:47:00.819+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:47:31.275+0530] {processor.py:186} INFO - Started process (PID=17705) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:47:31.276+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:47:31.278+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:47:31.278+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:47:31.285+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:47:31.299+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:47:31.298+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:47:31.309+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:47:31.309+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:47:31.325+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.054 seconds
+[2025-05-25T13:48:01.499+0530] {processor.py:186} INFO - Started process (PID=17792) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:48:01.500+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:48:01.502+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:48:01.502+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:48:01.507+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:48:01.522+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:48:01.522+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:48:01.533+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:48:01.533+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:48:01.547+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.054 seconds
+[2025-05-25T13:48:32.178+0530] {processor.py:186} INFO - Started process (PID=17927) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:48:32.179+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:48:32.180+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:48:32.180+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:48:32.185+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:48:32.201+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:48:32.200+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:48:32.209+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:48:32.208+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:48:32.224+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:49:02.637+0530] {processor.py:186} INFO - Started process (PID=18014) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:49:02.638+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:49:02.639+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:49:02.639+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:49:02.645+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:49:02.661+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:49:02.659+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:49:02.672+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:49:02.671+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:49:02.685+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.053 seconds
+[2025-05-25T13:49:33.073+0530] {processor.py:186} INFO - Started process (PID=18101) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:49:33.074+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:49:33.076+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:49:33.076+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:49:33.081+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:49:33.096+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:49:33.096+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:49:33.104+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:49:33.104+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:49:33.119+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.050 seconds
+[2025-05-25T13:50:03.930+0530] {processor.py:186} INFO - Started process (PID=18183) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:50:03.931+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:50:03.932+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:50:03.932+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:50:03.938+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:50:03.954+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:50:03.954+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:50:03.962+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:50:03.962+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:50:03.977+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.052 seconds
+[2025-05-25T13:50:34.090+0530] {processor.py:186} INFO - Started process (PID=18269) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:50:34.091+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:50:34.094+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:50:34.093+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:50:34.102+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:50:34.120+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:50:34.120+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:50:34.131+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:50:34.130+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:50:34.148+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.063 seconds
+[2025-05-25T13:51:04.225+0530] {processor.py:186} INFO - Started process (PID=18363) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:51:04.225+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:51:04.227+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:51:04.227+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:51:04.233+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:51:04.250+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:51:04.249+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:51:04.258+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:51:04.258+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:51:04.275+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.055 seconds
+[2025-05-25T13:51:34.883+0530] {processor.py:186} INFO - Started process (PID=18450) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:51:34.886+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:51:34.887+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:51:34.887+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:51:34.892+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:51:34.909+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:51:34.909+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:51:34.919+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:51:34.918+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:51:34.933+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.054 seconds
+[2025-05-25T13:52:05.382+0530] {processor.py:186} INFO - Started process (PID=18537) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:52:05.383+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:52:05.384+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:52:05.384+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:52:05.390+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:52:05.405+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:52:05.405+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:52:05.415+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:52:05.414+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:52:05.428+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.051 seconds
+[2025-05-25T13:52:35.530+0530] {processor.py:186} INFO - Started process (PID=18618) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:52:35.531+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:52:35.533+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:52:35.532+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:52:35.540+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:52:35.562+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:52:35.562+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:52:35.573+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:52:35.573+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:52:35.589+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.064 seconds
+[2025-05-25T13:53:06.685+0530] {processor.py:186} INFO - Started process (PID=18705) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:53:06.686+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:53:06.688+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:53:06.688+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:53:06.693+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:53:06.712+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:53:06.711+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:53:06.720+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:53:06.720+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:53:06.736+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.055 seconds
+[2025-05-25T13:53:36.873+0530] {processor.py:186} INFO - Started process (PID=18840) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:53:36.873+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:53:36.875+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:53:36.875+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:53:36.880+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:53:36.896+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:53:36.896+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:53:36.906+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:53:36.906+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:53:36.924+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.056 seconds
+[2025-05-25T13:54:07.303+0530] {processor.py:186} INFO - Started process (PID=18934) to work on /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:54:07.304+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py for tasks to queue
+[2025-05-25T13:54:07.306+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:54:07.306+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:54:07.312+0530] {processor.py:925} INFO - DAG(s) 'elt_sales_stream_transformation' retrieved from /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py
+[2025-05-25T13:54:07.328+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:54:07.328+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-25T13:54:07.340+0530] {logging_mixin.py:190} INFO - [2025-05-25T13:54:07.340+0530] {dag.py:4180} INFO - Setting next_dagrun for elt_sales_stream_transformation to None, run_after=None
+[2025-05-25T13:54:07.364+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/elt_transformation_dag.py took 0.065 seconds

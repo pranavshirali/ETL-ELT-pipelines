@@ -1,0 +1,103 @@
+[2025-05-21T13:28:38.614+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-21T13:28:38.621+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airbyte_sync_dag.trigger_airbyte_sync manual__2025-05-21T07:58:34.664749+00:00 [queued]>
+[2025-05-21T13:28:38.625+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airbyte_sync_dag.trigger_airbyte_sync manual__2025-05-21T07:58:34.664749+00:00 [queued]>
+[2025-05-21T13:28:38.626+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-21T13:28:38.639+0530] {taskinstance.py:2888} INFO - Executing <Task(AirbyteTriggerSyncOperator): trigger_airbyte_sync> on 2025-05-21 07:58:34.664749+00:00
+[2025-05-21T13:28:38.641+0530] {standard_task_runner.py:72} INFO - Started process 25344 to run task
+[2025-05-21T13:28:38.643+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'airbyte_sync_dag', 'trigger_airbyte_sync', 'manual__2025-05-21T07:58:34.664749+00:00', '--job-id', '96', '--raw', '--subdir', 'DAGS_FOLDER/airbyte_dag.py', '--cfg-path', '/tmp/tmp6aqb1k8n']
+[2025-05-21T13:28:38.644+0530] {standard_task_runner.py:105} INFO - Job 96: Subtask trigger_airbyte_sync
+[2025-05-21T13:28:38.672+0530] {task_command.py:467} INFO - Running <TaskInstance: airbyte_sync_dag.trigger_airbyte_sync manual__2025-05-21T07:58:34.664749+00:00 [running]> on host Voldemort.
+[2025-05-21T13:28:38.713+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='airbyte_sync_dag' AIRFLOW_CTX_TASK_ID='trigger_airbyte_sync' AIRFLOW_CTX_EXECUTION_DATE='2025-05-21T07:58:34.664749+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-21T07:58:34.664749+00:00'
+[2025-05-21T13:28:38.714+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-21T13:28:38.737+0530] {base.py:84} INFO - Retrieving connection 'airbyte_default'
+[2025-05-21T13:28:39.327+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 156, in submit_sync_connection
+    res = self.airbyte_api.jobs.create_job(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/jobs.py", line 100, in create_job
+    raise e
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/jobs.py", line 95, in create_job
+    req = self.sdk_configuration.get_hooks().before_request(BeforeRequestContext(hook_ctx), req)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/_hooks/sdkhooks.py", line 41, in before_request
+    out = hook.before_request(hook_ctx, request)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/_hooks/clientcredentials.py", line 59, in before_request
+    sess = self.do_token_request(credentials, self.get_scopes(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/_hooks/clientcredentials.py", line 122, in do_token_request
+    raise Exception(
+Exception: Unexpected status code 403 from token endpoint
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/airbyte/operators/airbyte.py", line 84, in execute
+    job_object = hook.submit_sync_connection(connection_id=self.connection_id)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 164, in submit_sync_connection
+    raise AirflowException(e)
+airflow.exceptions.AirflowException: Unexpected status code 403 from token endpoint
+[2025-05-21T13:28:39.335+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=airbyte_sync_dag, task_id=trigger_airbyte_sync, run_id=manual__2025-05-21T07:58:34.664749+00:00, execution_date=20250521T075834, start_date=20250521T075838, end_date=20250521T075839
+[2025-05-21T13:28:39.344+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-21T13:28:39.344+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 96 for task trigger_airbyte_sync (Unexpected status code 403 from token endpoint; 25344)
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 156, in submit_sync_connection
+    res = self.airbyte_api.jobs.create_job(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/jobs.py", line 100, in create_job
+    raise e
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/jobs.py", line 95, in create_job
+    req = self.sdk_configuration.get_hooks().before_request(BeforeRequestContext(hook_ctx), req)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/_hooks/sdkhooks.py", line 41, in before_request
+    out = hook.before_request(hook_ctx, request)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/_hooks/clientcredentials.py", line 59, in before_request
+    sess = self.do_token_request(credentials, self.get_scopes(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airbyte_api/_hooks/clientcredentials.py", line 122, in do_token_request
+    raise Exception(
+Exception: Unexpected status code 403 from token endpoint
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/airbyte/operators/airbyte.py", line 84, in execute
+    job_object = hook.submit_sync_connection(connection_id=self.connection_id)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/airbyte/hooks/airbyte.py", line 164, in submit_sync_connection
+    raise AirflowException(e)
+airflow.exceptions.AirflowException: Unexpected status code 403 from token endpoint
+[2025-05-21T13:28:39.376+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-21T13:28:39.390+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-21T13:28:39.395+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

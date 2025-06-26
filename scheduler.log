@@ -1,0 +1,196 @@
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[2025-02-26T13:40:03.382+0530] {_client.py:1026} INFO - HTTP Request: GET https://apacheairflow.gateway.scarf.sh/scheduler?version=2.10.2&python_version=3.10&platform=Linux&arch=x86_64&database=sqlite&db_version=3.37&executor=SequentialExecutor "HTTP/1.1 200 OK"
+[2025-02-26T13:40:03.463+0530] {workday.py:41} WARNING - Could not import pandas. Holidays will not be considered.
+[2025-02-26T13:40:03.465+0530] {executor_loader.py:254} INFO - Loaded executor: SequentialExecutor
+[2025-02-26 13:40:03 +0530] [3775] [INFO] Starting gunicorn 23.0.0
+[2025-02-26 13:40:03 +0530] [3775] [INFO] Listening at: http://[::]:8793 (3775)
+[2025-02-26 13:40:03 +0530] [3775] [INFO] Using worker: sync
+[2025-02-26 13:40:03 +0530] [3776] [INFO] Booting worker with pid: 3776
+[2025-02-26T13:40:03.498+0530] {scheduler_job_runner.py:935} INFO - Starting the scheduler
+[2025-02-26T13:40:03.499+0530] {scheduler_job_runner.py:942} INFO - Processing each file at most -1 times
+[2025-02-26 13:40:03 +0530] [3777] [INFO] Booting worker with pid: 3777
+[2025-02-26T13:40:03.506+0530] {manager.py:174} INFO - Launched DagFileProcessorManager with pid: 3778
+[2025-02-26T13:40:03.508+0530] {scheduler_job_runner.py:1847} INFO - Adopting or resetting orphaned tasks for active dag runs
+[2025-02-26T13:40:03.510+0530] {settings.py:63} INFO - Configured default timezone UTC
+[2025-02-26T13:40:03.529+0530] {manager.py:406} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[2025-02-26T13:45:03.683+0530] {scheduler_job_runner.py:1847} INFO - Adopting or resetting orphaned tasks for active dag runs
+Process ForkProcess-2:
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+sqlite3.OperationalError: no such table: dag_warning
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 314, in _bootstrap
+    self.run()
+  File "/usr/lib/python3.10/multiprocessing/process.py", line 108, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 247, in _run_processor_manager
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 489, in start
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/dag_processing/manager.py", line 626, in _run_parsing_loop
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 139, in wrapper
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/models/dagwarning.py", line 82, in purge_inactive_dag_warnings
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/retries.py", line 93, in wrapped_function
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 443, in __iter__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 376, in iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 418, in exc_check
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 185, in reraise
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/retries.py", line 102, in wrapped_function
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/models/dagwarning.py", line 95, in _purge_inactive_dag_warnings_with_retry
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: dag_warning
+[SQL: DELETE FROM dag_warning WHERE dag_warning.dag_id IN (SELECT dag.dag_id 
+FROM dag 
+WHERE dag.is_active = 0)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-02-26T13:45:09.074+0530] {scheduler_job_runner.py:1001} ERROR - Exception when executing SchedulerJob._run_scheduler_loop
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+sqlite3.OperationalError: no such table: dataset_dag_run_queue
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 984, in _execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1121, in _run_scheduler_loop
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1226, in _do_scheduling
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/retries.py", line 93, in wrapped_function
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 443, in __iter__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 376, in iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 418, in exc_check
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 185, in reraise
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/retries.py", line 102, in wrapped_function
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1294, in _create_dagruns_for_dags
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/models/dag.py", line 4086, in dags_needing_dagruns
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: dataset_dag_run_queue
+[SQL: SELECT dataset_dag_run_queue.dataset_id, dataset_dag_run_queue.target_dag_id, dataset_dag_run_queue.created_at 
+FROM dataset_dag_run_queue]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-02-26T13:45:09.077+0530] {process_utils.py:132} INFO - Sending Signals.SIGTERM to group 3778. PIDs of all processes in the group: []
+[2025-02-26T13:45:09.077+0530] {process_utils.py:87} INFO - Sending the signal Signals.SIGTERM to group 3778
+[2025-02-26T13:45:09.077+0530] {process_utils.py:101} INFO - Sending the signal Signals.SIGTERM to process 3778 as process group is missing.
+[2025-02-26T13:45:09.077+0530] {scheduler_job_runner.py:1014} INFO - Exited execute loop
+[2025-02-26 13:45:09 +0530] [3775] [INFO] Handling signal: term
+[2025-02-26 13:45:09 +0530] [3777] [INFO] Worker exiting (pid: 3777)
+[2025-02-26 13:45:09 +0530] [3776] [INFO] Worker exiting (pid: 3776)
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+sqlite3.OperationalError: no such table: dataset_dag_run_queue
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/job.py", line 421, in run_job
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/job.py", line 450, in execute_job
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 984, in _execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1121, in _run_scheduler_loop
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1226, in _do_scheduling
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/retries.py", line 93, in wrapped_function
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 443, in __iter__
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 376, in iter
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 418, in exc_check
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/tenacity/__init__.py", line 185, in reraise
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 451, in result
+    return self.__get_result()
+  File "/usr/lib/python3.10/concurrent/futures/_base.py", line 403, in __get_result
+    raise self._exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/retries.py", line 102, in wrapped_function
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/scheduler_job_runner.py", line 1294, in _create_dagruns_for_dags
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/models/dag.py", line 4086, in dags_needing_dagruns
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1778, in scalars
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: dataset_dag_run_queue
+[SQL: SELECT dataset_dag_run_queue.dataset_id, dataset_dag_run_queue.target_dag_id, dataset_dag_run_queue.created_at 
+FROM dataset_dag_run_queue]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+sqlite3.OperationalError: no such table: job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-space/airflow-env/bin/airflow", line 8, in <module>
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/__main__.py", line 62, in main
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/providers_configuration_loader.py", line 55, in wrapped_function
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 59, in scheduler
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/daemon_utils.py", line 86, in run_command_with_daemon_option
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 62, in <lambda>
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/scheduler_command.py", line 48, in _run_scheduler_job
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/job.py", line 423, in run_job
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/job.py", line 273, in complete_execution
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/api_internal/internal_api_call.py", line 139, in wrapper
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 94, in wrapper
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/airflow/jobs/job.py", line 359, in _update_in_db
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3056, in merge
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3136, in _merge
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2853, in get
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2975, in _get_impl
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/loading.py", line 530, in load_on_pk_identity
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1953, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2134, in _handle_dbapi_exception
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1910, in _execute_context
+  File "/home/pranav_shirali/airflow-space/airflow-env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: job
+[SQL: SELECT job.id AS job_id, job.dag_id AS job_dag_id, job.state AS job_state, job.job_type AS job_job_type, job.start_date AS job_start_date, job.end_date AS job_end_date, job.latest_heartbeat AS job_latest_heartbeat, job.executor_class AS job_executor_class, job.hostname AS job_hostname, job.unixname AS job_unixname 
+FROM job 
+WHERE job.id = ?]
+[parameters: (1,)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2025-02-26 13:45:09 +0530] [3775] [INFO] Shutting down: Master

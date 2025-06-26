@@ -1,0 +1,18 @@
+[2025-04-16T21:32:44.386+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-16T21:32:44.395+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: my_dag.task_d manual__2025-04-16T16:02:29.020218+00:00 [queued]>
+[2025-04-16T21:32:44.399+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: my_dag.task_d manual__2025-04-16T16:02:29.020218+00:00 [queued]>
+[2025-04-16T21:32:44.400+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-04-16T21:32:44.409+0530] {taskinstance.py:2888} INFO - Executing <Task(PythonOperator): task_d> on 2025-04-16 16:02:29.020218+00:00
+[2025-04-16T21:32:44.412+0530] {standard_task_runner.py:72} INFO - Started process 1279 to run task
+[2025-04-16T21:32:44.414+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'task_d', 'manual__2025-04-16T16:02:29.020218+00:00', '--job-id', '40', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmpb63puzgc']
+[2025-04-16T21:32:44.415+0530] {standard_task_runner.py:105} INFO - Job 40: Subtask task_d
+[2025-04-16T21:32:44.440+0530] {task_command.py:467} INFO - Running <TaskInstance: my_dag.task_d manual__2025-04-16T16:02:29.020218+00:00 [running]> on host Voldemort.
+[2025-04-16T21:32:44.487+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='my_dag' AIRFLOW_CTX_TASK_ID='task_d' AIRFLOW_CTX_EXECUTION_DATE='2025-04-16T16:02:29.020218+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-04-16T16:02:29.020218+00:00'
+[2025-04-16T21:32:44.488+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-16T21:32:44.498+0530] {logging_mixin.py:190} INFO - hi task d
+[2025-04-16T21:32:44.498+0530] {python.py:240} INFO - Done. Returned value was: None
+[2025-04-16T21:32:44.502+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-16T21:32:44.502+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=task_d, run_id=manual__2025-04-16T16:02:29.020218+00:00, execution_date=20250416T160229, start_date=20250416T160244, end_date=20250416T160244
+[2025-04-16T21:32:44.547+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-16T21:32:44.556+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-04-16T21:32:44.556+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

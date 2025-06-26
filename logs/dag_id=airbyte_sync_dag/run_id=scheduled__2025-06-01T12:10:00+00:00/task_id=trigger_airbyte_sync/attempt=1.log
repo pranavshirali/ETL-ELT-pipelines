@@ -1,0 +1,20 @@
+[2025-06-02T17:40:07.404+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-02T17:40:07.423+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airbyte_sync_dag.trigger_airbyte_sync scheduled__2025-06-01T12:10:00+00:00 [queued]>
+[2025-06-02T17:40:07.435+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airbyte_sync_dag.trigger_airbyte_sync scheduled__2025-06-01T12:10:00+00:00 [queued]>
+[2025-06-02T17:40:07.436+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-06-02T17:40:07.466+0530] {taskinstance.py:2888} INFO - Executing <Task(AirbyteTriggerSyncOperator): trigger_airbyte_sync> on 2025-06-01 12:10:00+00:00
+[2025-06-02T17:40:07.472+0530] {standard_task_runner.py:72} INFO - Started process 48843 to run task
+[2025-06-02T17:40:07.483+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'airbyte_sync_dag', 'trigger_airbyte_sync', 'scheduled__2025-06-01T12:10:00+00:00', '--job-id', '259', '--raw', '--subdir', 'DAGS_FOLDER/airbyte_dag.py', '--cfg-path', '/tmp/tmpn1zu8v6a']
+[2025-06-02T17:40:07.488+0530] {standard_task_runner.py:105} INFO - Job 259: Subtask trigger_airbyte_sync
+[2025-06-02T17:40:07.577+0530] {task_command.py:467} INFO - Running <TaskInstance: airbyte_sync_dag.trigger_airbyte_sync scheduled__2025-06-01T12:10:00+00:00 [running]> on host Voldemort.localdomain
+[2025-06-02T17:40:07.718+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='airbyte_sync_dag' AIRFLOW_CTX_TASK_ID='trigger_airbyte_sync' AIRFLOW_CTX_EXECUTION_DATE='2025-06-01T12:10:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-06-01T12:10:00+00:00'
+[2025-06-02T17:40:07.719+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-06-02T17:40:07.771+0530] {base.py:84} INFO - Retrieving connection 'airbyte_cloud'
+[2025-06-02T17:40:08.982+0530] {airbyte.py:89} INFO - Job 38255275 was submitted to Airbyte Server
+[2025-06-02T17:52:56.714+0530] {job.py:229} INFO - Heartbeat recovered after 34.04 seconds
+[2025-06-02T18:16:46.300+0530] {airbyte.py:141} INFO - Retrying. Airbyte API returned server error when waiting for job: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+[2025-06-02T18:16:50.203+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-06-02T18:16:50.204+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=airbyte_sync_dag, task_id=trigger_airbyte_sync, run_id=scheduled__2025-06-01T12:10:00+00:00, execution_date=20250601T121000, start_date=20250602T121007, end_date=20250602T124650
+[2025-06-02T18:16:50.263+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-02T18:16:50.281+0530] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-06-02T18:16:50.285+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

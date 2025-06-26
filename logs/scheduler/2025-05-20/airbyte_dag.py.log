@@ -1,0 +1,1096 @@
+[2025-05-21T00:22:40.526+0530] {processor.py:186} INFO - Started process (PID=8256) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:22:40.527+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:22:40.530+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.530+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:22:40.540+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:22:40.629+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.629+0530] {override.py:1900} INFO - Created Permission View: can edit on DAG:airbyte_sync_dag
+[2025-05-21T00:22:40.641+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.641+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG:airbyte_sync_dag
+[2025-05-21T00:22:40.649+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.648+0530] {override.py:1900} INFO - Created Permission View: can read on DAG:airbyte_sync_dag
+[2025-05-21T00:22:40.661+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.660+0530] {override.py:1900} INFO - Created Permission View: can create on DAG Run:airbyte_sync_dag
+[2025-05-21T00:22:40.670+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.669+0530] {override.py:1900} INFO - Created Permission View: can delete on DAG Run:airbyte_sync_dag
+[2025-05-21T00:22:40.678+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.677+0530] {override.py:1900} INFO - Created Permission View: can read on DAG Run:airbyte_sync_dag
+[2025-05-21T00:22:40.685+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.685+0530] {override.py:1900} INFO - Created Permission View: menu access on DAG Run:airbyte_sync_dag
+[2025-05-21T00:22:40.686+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.686+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:22:40.696+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.696+0530] {dag.py:3262} INFO - Creating ORM DAG for airbyte_sync_dag
+[2025-05-21T00:22:40.697+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:22:40.697+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:22:40.711+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.189 seconds
+[2025-05-21T00:23:11.645+0530] {processor.py:186} INFO - Started process (PID=8633) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:11.645+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:23:11.647+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:11.647+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:11.653+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:11.672+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:11.671+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:23:11.681+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:11.681+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:23:11.698+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T00:23:21.715+0530] {processor.py:186} INFO - Started process (PID=8666) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:21.716+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:23:21.719+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:21.718+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:21.723+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:21.721+0530] {dagbag.py:387} ERROR - Failed to import: /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pranav_shirali/airflow-project/dags/airbyte_dag.py", line 6
+    AIRBYTE_CONN_ID = 30a747b2-d666-4b42-86ed-a3b0b49a1bf4
+                       ^
+SyntaxError: invalid decimal literal
+[2025-05-21T00:23:21.723+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:21.742+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.032 seconds
+[2025-05-21T00:23:25.737+0530] {processor.py:186} INFO - Started process (PID=8679) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:25.738+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:23:25.739+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:25.739+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:25.748+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:25.769+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:25.768+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:23:25.781+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:25.780+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:23:25.803+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.072 seconds
+[2025-05-21T00:23:55.971+0530] {processor.py:186} INFO - Started process (PID=8771) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:55.973+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:23:55.975+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:55.975+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:55.982+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:23:56.000+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:55.999+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:23:56.009+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:23:56.009+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:23:56.025+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:24:26.225+0530] {processor.py:186} INFO - Started process (PID=8921) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:24:26.226+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:24:26.227+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:24:26.227+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:24:26.233+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:24:26.251+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:24:26.251+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:24:26.262+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:24:26.262+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:24:26.277+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:24:56.616+0530] {processor.py:186} INFO - Started process (PID=9137) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:24:56.618+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:24:56.619+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:24:56.619+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:24:56.626+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:24:56.648+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:24:56.647+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:24:56.661+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:24:56.661+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:24:56.684+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.074 seconds
+[2025-05-21T00:25:26.813+0530] {processor.py:186} INFO - Started process (PID=9384) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:25:26.814+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:25:26.816+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:25:26.816+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:25:26.824+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:25:26.843+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:25:26.842+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:25:26.852+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:25:26.852+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:25:26.867+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:25:57.051+0530] {processor.py:186} INFO - Started process (PID=9476) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:25:57.052+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:25:57.054+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:25:57.053+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:25:57.060+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:25:57.082+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:25:57.081+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:25:57.095+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:25:57.095+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:25:57.111+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.066 seconds
+[2025-05-21T00:26:27.265+0530] {processor.py:186} INFO - Started process (PID=9568) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:26:27.266+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:26:27.268+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:26:27.267+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:26:27.274+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:26:27.291+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:26:27.290+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:26:27.300+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:26:27.300+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:26:27.314+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T00:26:57.513+0530] {processor.py:186} INFO - Started process (PID=9654) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:26:57.514+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:26:57.516+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:26:57.516+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:26:57.522+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:26:57.543+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:26:57.542+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:26:57.553+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:26:57.553+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:26:57.568+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:27:27.754+0530] {processor.py:186} INFO - Started process (PID=9746) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:27:27.756+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:27:27.758+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:27:27.757+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:27:27.764+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:27:27.782+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:27:27.781+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:27:27.790+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:27:27.790+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:27:27.806+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:27:57.997+0530] {processor.py:186} INFO - Started process (PID=9865) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:27:58.000+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:27:58.002+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:27:58.001+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:27:58.008+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:27:58.024+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:27:58.024+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:27:58.033+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:27:58.033+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:27:58.048+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:28:28.241+0530] {processor.py:186} INFO - Started process (PID=9957) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:28:28.242+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:28:28.244+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:28:28.243+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:28:28.250+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:28:28.267+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:28:28.266+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:28:28.276+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:28:28.275+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:28:28.290+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:28:58.464+0530] {processor.py:186} INFO - Started process (PID=10043) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:28:58.465+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:28:58.467+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:28:58.467+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:28:58.475+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:28:58.496+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:28:58.496+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:28:58.506+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:28:58.506+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:28:58.522+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.062 seconds
+[2025-05-21T00:29:29.219+0530] {processor.py:186} INFO - Started process (PID=10333) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:29:29.220+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:29:29.222+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:29:29.222+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:29:29.228+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:29:29.244+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:29:29.244+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:29:29.254+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:29:29.253+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:29:29.268+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T00:29:59.553+0530] {processor.py:186} INFO - Started process (PID=10448) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:29:59.555+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:29:59.557+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:29:59.557+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:29:59.564+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:29:59.582+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:29:59.581+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:29:59.591+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:29:59.591+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:29:59.609+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.060 seconds
+[2025-05-21T00:30:29.896+0530] {processor.py:186} INFO - Started process (PID=10540) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:30:29.897+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:30:29.899+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:30:29.898+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:30:29.905+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:30:29.922+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:30:29.921+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:30:29.932+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:30:29.932+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:30:29.947+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:31:00.232+0530] {processor.py:186} INFO - Started process (PID=10632) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:31:00.233+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:31:00.235+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:31:00.235+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:31:00.241+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:31:00.257+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:31:00.257+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:31:00.265+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:31:00.265+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:31:00.281+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T00:31:30.492+0530] {processor.py:186} INFO - Started process (PID=10724) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:31:30.493+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:31:30.494+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:31:30.494+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:31:30.500+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:31:30.516+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:31:30.516+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:31:30.526+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:31:30.526+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:31:30.541+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.053 seconds
+[2025-05-21T00:32:00.825+0530] {processor.py:186} INFO - Started process (PID=10810) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:32:00.827+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:32:00.830+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:32:00.830+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:32:00.836+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:32:00.855+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:32:00.854+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:32:00.864+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:32:00.864+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:32:00.879+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:32:31.166+0530] {processor.py:186} INFO - Started process (PID=10902) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:32:31.168+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:32:31.169+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:32:31.169+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:32:31.175+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:32:31.193+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:32:31.192+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:32:31.202+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:32:31.202+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:32:31.219+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:33:01.470+0530] {processor.py:186} INFO - Started process (PID=11021) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:33:01.472+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:33:01.473+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:33:01.473+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:33:01.480+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:33:01.499+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:33:01.499+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:33:01.509+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:33:01.509+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:33:01.526+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.062 seconds
+[2025-05-21T00:33:31.650+0530] {processor.py:186} INFO - Started process (PID=11113) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:33:31.652+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:33:31.654+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:33:31.654+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:33:31.667+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:33:31.692+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:33:31.692+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:33:31.703+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:33:31.703+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:33:31.722+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.077 seconds
+[2025-05-21T00:34:01.853+0530] {processor.py:186} INFO - Started process (PID=11205) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:34:01.855+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:34:01.856+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:34:01.856+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:34:01.862+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:34:01.880+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:34:01.879+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:34:01.890+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:34:01.889+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:34:01.906+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T00:34:32.051+0530] {processor.py:186} INFO - Started process (PID=11291) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:34:32.053+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:34:32.055+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:34:32.054+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:34:32.062+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:34:32.079+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:34:32.079+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:34:32.089+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:34:32.088+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:34:32.107+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.062 seconds
+[2025-05-21T00:35:02.255+0530] {processor.py:186} INFO - Started process (PID=11384) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:35:02.258+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:35:02.260+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:35:02.260+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:35:02.266+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:35:02.284+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:35:02.283+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:35:02.293+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:35:02.293+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:35:02.313+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.062 seconds
+[2025-05-21T00:35:32.452+0530] {processor.py:186} INFO - Started process (PID=11476) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:35:32.453+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:35:32.455+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:35:32.454+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:35:32.460+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:35:32.476+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:35:32.476+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:35:32.488+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:35:32.488+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:35:32.502+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:36:02.649+0530] {processor.py:186} INFO - Started process (PID=11568) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:36:02.650+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:36:02.652+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:36:02.651+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:36:02.658+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:36:02.676+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:36:02.675+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:36:02.685+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:36:02.685+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:36:02.700+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:36:32.845+0530] {processor.py:186} INFO - Started process (PID=11654) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:36:32.848+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:36:32.849+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:36:32.849+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:36:32.855+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:36:32.872+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:36:32.871+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:36:32.881+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:36:32.880+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:36:32.896+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:37:03.044+0530] {processor.py:186} INFO - Started process (PID=11746) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:37:03.046+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:37:03.048+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:37:03.048+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:37:03.056+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:37:03.074+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:37:03.073+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:37:03.082+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:37:03.082+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:37:03.097+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T00:37:33.239+0530] {processor.py:186} INFO - Started process (PID=11838) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:37:33.241+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:37:33.243+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:37:33.243+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:37:33.250+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:37:33.271+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:37:33.270+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:37:33.282+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:37:33.281+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:37:33.298+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.064 seconds
+[2025-05-21T00:38:03.433+0530] {processor.py:186} INFO - Started process (PID=11957) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:38:03.435+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:38:03.437+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:38:03.436+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:38:03.443+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:38:03.461+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:38:03.460+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:38:03.470+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:38:03.470+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:38:03.486+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:38:33.629+0530] {processor.py:186} INFO - Started process (PID=12044) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:38:33.631+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:38:33.633+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:38:33.633+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:38:33.639+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:38:33.656+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:38:33.656+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:38:33.667+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:38:33.666+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:38:33.683+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:39:03.820+0530] {processor.py:186} INFO - Started process (PID=12136) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:39:03.821+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:39:03.824+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:39:03.824+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:39:03.830+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:39:03.847+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:39:03.847+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:39:03.857+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:39:03.856+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:39:03.872+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:39:34.015+0530] {processor.py:186} INFO - Started process (PID=12228) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:39:34.018+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:39:34.019+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:39:34.019+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:39:34.025+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:39:34.042+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:39:34.042+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:39:34.053+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:39:34.053+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:39:34.067+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:40:04.208+0530] {processor.py:186} INFO - Started process (PID=12326) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:40:04.208+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:40:04.210+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:40:04.210+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:40:04.217+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:40:04.236+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:40:04.236+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:40:04.246+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:40:04.246+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:40:04.262+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:40:34.399+0530] {processor.py:186} INFO - Started process (PID=12412) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:40:34.401+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:40:34.403+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:40:34.402+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:40:34.409+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:40:34.426+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:40:34.425+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:40:34.436+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:40:34.436+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:40:34.453+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:41:04.581+0530] {processor.py:186} INFO - Started process (PID=12504) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:41:04.582+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:41:04.583+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:41:04.583+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:41:04.589+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:41:04.605+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:41:04.605+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:41:04.615+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:41:04.615+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:41:04.630+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T00:41:34.771+0530] {processor.py:186} INFO - Started process (PID=12596) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:41:34.773+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:41:34.775+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:41:34.774+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:41:34.781+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:41:34.799+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:41:34.799+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:41:34.808+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:41:34.808+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:41:34.823+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:42:04.963+0530] {processor.py:186} INFO - Started process (PID=12688) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:42:04.963+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:42:04.965+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:42:04.965+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:42:04.971+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:42:04.987+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:42:04.987+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:42:04.996+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:42:04.996+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:42:05.013+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:42:35.156+0530] {processor.py:186} INFO - Started process (PID=12777) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:42:35.157+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:42:35.160+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:42:35.159+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:42:35.166+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:42:35.184+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:42:35.183+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:42:35.194+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:42:35.193+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:42:35.210+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:43:05.358+0530] {processor.py:186} INFO - Started process (PID=12893) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:43:05.358+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:43:05.360+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:43:05.360+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:43:05.365+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:43:05.382+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:43:05.381+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:43:05.391+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:43:05.390+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:43:05.404+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.051 seconds
+[2025-05-21T00:43:35.554+0530] {processor.py:186} INFO - Started process (PID=12985) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:43:35.556+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:43:35.558+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:43:35.558+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:43:35.564+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:43:35.581+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:43:35.580+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:43:35.590+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:43:35.589+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:43:35.605+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:44:05.693+0530] {processor.py:186} INFO - Started process (PID=13077) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:44:05.694+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:44:05.696+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:44:05.695+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:44:05.702+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:44:05.719+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:44:05.718+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:44:05.728+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:44:05.728+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:44:05.743+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T00:44:35.889+0530] {processor.py:186} INFO - Started process (PID=13163) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:44:35.890+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:44:35.892+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:44:35.891+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:44:35.897+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:44:35.914+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:44:35.914+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:44:35.924+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:44:35.923+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:44:35.939+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:45:06.065+0530] {processor.py:186} INFO - Started process (PID=13256) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:45:06.065+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:45:06.067+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:45:06.067+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:45:06.073+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:45:06.090+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:45:06.090+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:45:06.100+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:45:06.100+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:45:06.115+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:45:36.264+0530] {processor.py:186} INFO - Started process (PID=13348) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:45:36.265+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:45:36.267+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:45:36.267+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:45:36.273+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:45:36.293+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:45:36.292+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:45:36.305+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:45:36.305+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:45:36.323+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.065 seconds
+[2025-05-21T00:46:06.466+0530] {processor.py:186} INFO - Started process (PID=13440) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:46:06.468+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:46:06.470+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:46:06.469+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:46:06.476+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:46:06.493+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:46:06.492+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:46:06.502+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:46:06.501+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:46:06.520+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.060 seconds
+[2025-05-21T00:46:36.663+0530] {processor.py:186} INFO - Started process (PID=13529) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:46:36.664+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:46:36.667+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:46:36.666+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:46:36.672+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:46:36.690+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:46:36.690+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:46:36.700+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:46:36.700+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:46:36.716+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T00:47:06.868+0530] {processor.py:186} INFO - Started process (PID=13618) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:47:06.869+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:47:06.871+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:47:06.871+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:47:06.878+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:47:06.895+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:47:06.894+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:47:06.904+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:47:06.904+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:47:06.919+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T00:47:37.062+0530] {processor.py:186} INFO - Started process (PID=13710) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:47:37.063+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:47:37.064+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:47:37.064+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:47:37.071+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:47:37.088+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:47:37.088+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:47:37.098+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:47:37.098+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:47:37.113+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:48:07.256+0530] {processor.py:186} INFO - Started process (PID=13829) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:48:07.257+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:48:07.259+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:48:07.258+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:48:07.266+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:48:07.284+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:48:07.284+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:48:07.294+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:48:07.294+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:48:07.312+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.061 seconds
+[2025-05-21T00:48:37.454+0530] {processor.py:186} INFO - Started process (PID=13921) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:48:37.456+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:48:37.458+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:48:37.458+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:48:37.464+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:48:37.480+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:48:37.480+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:48:37.489+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:48:37.488+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:48:37.503+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T00:49:07.647+0530] {processor.py:186} INFO - Started process (PID=14007) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:49:07.648+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:49:07.650+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:49:07.649+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:49:07.656+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:49:07.673+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:49:07.673+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:49:07.683+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:49:07.683+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:49:07.700+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T00:49:37.841+0530] {processor.py:186} INFO - Started process (PID=14099) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:49:37.843+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:49:37.845+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:49:37.844+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:49:37.851+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:49:37.867+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:49:37.866+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:49:37.876+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:49:37.876+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:49:37.892+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:50:08.037+0530] {processor.py:186} INFO - Started process (PID=14197) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:50:08.039+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:50:08.041+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:50:08.041+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:50:08.047+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:50:08.065+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:50:08.064+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:50:08.074+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:50:08.074+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:50:08.088+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:50:38.231+0530] {processor.py:186} INFO - Started process (PID=14289) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:50:38.234+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:50:38.235+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:50:38.235+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:50:38.241+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:50:38.258+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:50:38.258+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:50:38.268+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:50:38.268+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:50:38.285+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T00:51:08.427+0530] {processor.py:186} INFO - Started process (PID=14375) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:51:08.429+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:51:08.431+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:51:08.430+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:51:08.436+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:51:08.453+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:51:08.452+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:51:08.462+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:51:08.462+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:51:08.477+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:51:38.622+0530] {processor.py:186} INFO - Started process (PID=14467) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:51:38.623+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:51:38.624+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:51:38.624+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:51:38.632+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:51:38.650+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:51:38.649+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:51:38.659+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:51:38.658+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:51:38.673+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:52:08.814+0530] {processor.py:186} INFO - Started process (PID=14559) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:52:08.815+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:52:08.816+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:52:08.816+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:52:08.823+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:52:08.841+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:52:08.840+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:52:08.850+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:52:08.850+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:52:08.865+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:52:39.006+0530] {processor.py:186} INFO - Started process (PID=14651) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:52:39.008+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:52:39.010+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:52:39.010+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:52:39.016+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:52:39.033+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:52:39.032+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:52:39.042+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:52:39.042+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:52:39.057+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:53:09.201+0530] {processor.py:186} INFO - Started process (PID=14764) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:53:09.203+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:53:09.205+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:53:09.204+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:53:09.211+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:53:09.228+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:53:09.228+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:53:09.238+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:53:09.237+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:53:09.255+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T00:53:39.401+0530] {processor.py:186} INFO - Started process (PID=14856) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:53:39.401+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:53:39.403+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:53:39.402+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:53:39.409+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:53:39.426+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:53:39.426+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:53:39.436+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:53:39.436+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:53:39.451+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T00:54:09.595+0530] {processor.py:186} INFO - Started process (PID=14948) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:54:09.597+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:54:09.599+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:54:09.599+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:54:09.606+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:54:09.622+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:54:09.622+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:54:09.632+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:54:09.632+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:54:09.647+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:54:39.787+0530] {processor.py:186} INFO - Started process (PID=15040) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:54:39.788+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:54:39.790+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:54:39.789+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:54:39.796+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:54:39.814+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:54:39.813+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:54:39.824+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:54:39.823+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:54:39.839+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:55:09.992+0530] {processor.py:186} INFO - Started process (PID=15127) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:55:09.993+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:55:09.994+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:55:09.994+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:55:10.002+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:55:10.020+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:55:10.020+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:55:10.031+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:55:10.031+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:55:10.049+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.063 seconds
+[2025-05-21T00:55:40.199+0530] {processor.py:186} INFO - Started process (PID=15219) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:55:40.201+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:55:40.203+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:55:40.203+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:55:40.210+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:55:40.226+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:55:40.225+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:55:40.235+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:55:40.235+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:55:40.252+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:56:10.396+0530] {processor.py:186} INFO - Started process (PID=15311) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:56:10.398+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:56:10.400+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:56:10.399+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:56:10.406+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:56:10.426+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:56:10.425+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:56:10.436+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:56:10.435+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:56:10.453+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.063 seconds
+[2025-05-21T00:56:40.588+0530] {processor.py:186} INFO - Started process (PID=15403) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:56:40.590+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:56:40.592+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:56:40.592+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:56:40.598+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:56:40.615+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:56:40.615+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:56:40.624+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:56:40.624+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:56:40.641+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:57:10.781+0530] {processor.py:186} INFO - Started process (PID=15492) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:57:10.783+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:57:10.784+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:57:10.784+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:57:10.792+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:57:10.810+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:57:10.809+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:57:10.818+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:57:10.818+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:57:10.833+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:57:40.970+0530] {processor.py:186} INFO - Started process (PID=15595) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:57:40.971+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:57:40.973+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:57:40.973+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:57:40.979+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:57:40.997+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:57:40.997+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:57:41.007+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:57:41.006+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:57:41.022+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T00:58:11.172+0530] {processor.py:186} INFO - Started process (PID=15700) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:58:11.174+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:58:11.177+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:58:11.176+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:58:11.184+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:58:11.202+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:58:11.201+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:58:11.212+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:58:11.212+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:58:11.227+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T00:58:41.370+0530] {processor.py:186} INFO - Started process (PID=15792) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:58:41.371+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:58:41.373+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:58:41.372+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:58:41.379+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:58:41.396+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:58:41.396+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:58:41.407+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:58:41.406+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:58:41.422+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T00:59:11.570+0530] {processor.py:186} INFO - Started process (PID=15884) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:59:11.571+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:59:11.573+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:59:11.573+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:59:11.579+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:59:11.595+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:59:11.595+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:59:11.604+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:59:11.604+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:59:11.619+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T00:59:41.768+0530] {processor.py:186} INFO - Started process (PID=15970) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:59:41.769+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T00:59:41.771+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:59:41.771+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:59:41.779+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T00:59:41.801+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:59:41.800+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T00:59:41.809+0530] {logging_mixin.py:190} INFO - [2025-05-21T00:59:41.809+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T00:59:41.825+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.062 seconds
+[2025-05-21T01:00:11.964+0530] {processor.py:186} INFO - Started process (PID=16068) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:00:11.965+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:00:11.967+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:00:11.967+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:00:11.973+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:00:11.992+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:00:11.991+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:00:12.004+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:00:12.003+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:00:12.021+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.063 seconds
+[2025-05-21T01:00:42.156+0530] {processor.py:186} INFO - Started process (PID=16160) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:00:42.157+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:00:42.159+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:00:42.158+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:00:42.166+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:00:42.183+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:00:42.183+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:00:42.193+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:00:42.192+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:00:42.210+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T01:01:12.350+0530] {processor.py:186} INFO - Started process (PID=16252) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:01:12.351+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:01:12.353+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:01:12.352+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:01:12.358+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:01:12.375+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:01:12.374+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:01:12.385+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:01:12.384+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:01:12.400+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:01:42.550+0530] {processor.py:186} INFO - Started process (PID=16338) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:01:42.551+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:01:42.553+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:01:42.553+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:01:42.558+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:01:42.575+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:01:42.575+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:01:42.584+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:01:42.584+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:01:42.599+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.053 seconds
+[2025-05-21T01:02:12.659+0530] {processor.py:186} INFO - Started process (PID=16430) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:02:12.661+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:02:12.662+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:02:12.662+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:02:12.668+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:02:12.687+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:02:12.686+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:02:12.696+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:02:12.696+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:02:12.710+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:02:42.848+0530] {processor.py:186} INFO - Started process (PID=16549) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:02:42.848+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:02:42.850+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:02:42.849+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:02:42.856+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:02:42.872+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:02:42.872+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:02:42.883+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:02:42.882+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:02:42.898+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:03:13.043+0530] {processor.py:186} INFO - Started process (PID=16641) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:03:13.045+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:03:13.047+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:03:13.046+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:03:13.053+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:03:13.069+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:03:13.068+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:03:13.077+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:03:13.077+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:03:13.092+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:03:43.236+0530] {processor.py:186} INFO - Started process (PID=16757) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:03:43.237+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:03:43.238+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:03:43.238+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:03:43.245+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:03:43.262+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:03:43.262+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:03:43.272+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:03:43.272+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:03:43.292+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.061 seconds
+[2025-05-21T01:04:13.435+0530] {processor.py:186} INFO - Started process (PID=16849) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:04:13.438+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:04:13.440+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:04:13.440+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:04:13.447+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:04:13.466+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:04:13.465+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:04:13.476+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:04:13.476+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:04:13.493+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.063 seconds
+[2025-05-21T01:04:43.630+0530] {processor.py:186} INFO - Started process (PID=16941) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:04:43.631+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:04:43.632+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:04:43.632+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:04:43.638+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:04:43.654+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:04:43.654+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:04:43.663+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:04:43.662+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:04:43.679+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.053 seconds
+[2025-05-21T01:05:13.821+0530] {processor.py:186} INFO - Started process (PID=17034) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:05:13.822+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:05:13.824+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:05:13.824+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:05:13.830+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:05:13.846+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:05:13.845+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:05:13.855+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:05:13.855+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:05:13.870+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:05:44.014+0530] {processor.py:186} INFO - Started process (PID=17120) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:05:44.015+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:05:44.017+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:05:44.017+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:05:44.023+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:05:44.041+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:05:44.040+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:05:44.051+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:05:44.051+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:05:44.065+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:06:14.205+0530] {processor.py:186} INFO - Started process (PID=17212) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:06:14.206+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:06:14.208+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:06:14.208+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:06:14.214+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:06:14.232+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:06:14.231+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:06:14.240+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:06:14.240+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:06:14.254+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:06:44.397+0530] {processor.py:186} INFO - Started process (PID=17304) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:06:44.399+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:06:44.400+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:06:44.400+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:06:44.406+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:06:44.423+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:06:44.423+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:06:44.432+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:06:44.432+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:06:44.448+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:07:14.596+0530] {processor.py:186} INFO - Started process (PID=17396) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:07:14.597+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:07:14.599+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:07:14.598+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:07:14.605+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:07:14.623+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:07:14.622+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:07:14.632+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:07:14.632+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:07:14.648+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:07:44.799+0530] {processor.py:186} INFO - Started process (PID=17509) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:07:44.800+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:07:44.802+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:07:44.801+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:07:44.808+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:07:44.825+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:07:44.825+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:07:44.835+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:07:44.835+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:07:44.850+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:08:14.991+0530] {processor.py:186} INFO - Started process (PID=17601) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:08:14.992+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:08:14.993+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:08:14.993+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:08:14.999+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:08:15.015+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:08:15.014+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:08:15.024+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:08:15.024+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:08:15.041+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:08:45.188+0530] {processor.py:186} INFO - Started process (PID=17694) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:08:45.191+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:08:45.192+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:08:45.192+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:08:45.198+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:08:45.215+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:08:45.214+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:08:45.224+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:08:45.224+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:08:45.241+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:09:15.385+0530] {processor.py:186} INFO - Started process (PID=17786) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:09:15.386+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:09:15.388+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:09:15.388+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:09:15.394+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:09:15.411+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:09:15.410+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:09:15.420+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:09:15.420+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:09:15.435+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:09:45.580+0530] {processor.py:186} INFO - Started process (PID=17872) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:09:45.582+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:09:45.584+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:09:45.584+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:09:45.590+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:09:45.607+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:09:45.607+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:09:45.618+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:09:45.617+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:09:45.634+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T01:10:15.758+0530] {processor.py:186} INFO - Started process (PID=17970) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:10:15.759+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:10:15.760+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:10:15.760+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:10:15.766+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:10:15.784+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:10:15.783+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:10:15.792+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:10:15.792+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:10:15.807+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.053 seconds
+[2025-05-21T01:10:45.949+0530] {processor.py:186} INFO - Started process (PID=18062) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:10:45.951+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:10:45.952+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:10:45.952+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:10:45.958+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:10:45.975+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:10:45.975+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:10:45.984+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:10:45.984+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:10:46.000+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:11:16.146+0530] {processor.py:186} INFO - Started process (PID=18154) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:11:16.147+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:11:16.149+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:11:16.148+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:11:16.154+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:11:16.171+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:11:16.170+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:11:16.180+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:11:16.180+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:11:16.195+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:11:46.343+0530] {processor.py:186} INFO - Started process (PID=18240) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:11:46.345+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:11:46.348+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:11:46.348+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:11:46.354+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:11:46.371+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:11:46.371+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:11:46.381+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:11:46.381+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:11:46.397+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T01:12:16.537+0530] {processor.py:186} INFO - Started process (PID=18332) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:12:16.540+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:12:16.541+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:12:16.541+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:12:16.547+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:12:16.565+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:12:16.565+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:12:16.574+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:12:16.574+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:12:16.591+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T01:12:46.729+0530] {processor.py:186} INFO - Started process (PID=18451) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:12:46.730+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:12:46.732+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:12:46.732+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:12:46.738+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:12:46.755+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:12:46.755+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:12:46.766+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:12:46.765+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:12:46.781+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:13:16.922+0530] {processor.py:186} INFO - Started process (PID=18543) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:13:16.924+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:13:16.926+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:13:16.925+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:13:16.932+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:13:16.949+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:13:16.948+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:13:16.959+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:13:16.959+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:13:16.974+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:13:47.113+0530] {processor.py:186} INFO - Started process (PID=18629) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:13:47.116+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:13:47.117+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:13:47.117+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:13:47.123+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:13:47.141+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:13:47.140+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:13:47.150+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:13:47.150+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:13:47.165+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:14:17.304+0530] {processor.py:186} INFO - Started process (PID=18721) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:14:17.307+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:14:17.309+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:14:17.308+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:14:17.315+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:14:17.331+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:14:17.331+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:14:17.341+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:14:17.341+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:14:17.357+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:14:47.497+0530] {processor.py:186} INFO - Started process (PID=18813) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:14:47.499+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:14:47.501+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:14:47.501+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:14:47.507+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:14:47.523+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:14:47.522+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:14:47.533+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:14:47.532+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:14:47.548+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:15:17.685+0530] {processor.py:186} INFO - Started process (PID=18906) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:15:17.687+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:15:17.688+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:15:17.688+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:15:17.695+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:15:17.713+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:15:17.712+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:15:17.721+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:15:17.721+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:15:17.736+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:15:47.877+0530] {processor.py:186} INFO - Started process (PID=18992) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:15:47.878+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:15:47.879+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:15:47.879+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:15:47.885+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:15:47.902+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:15:47.901+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:15:47.911+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:15:47.910+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:15:47.926+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.053 seconds
+[2025-05-21T01:16:18.066+0530] {processor.py:186} INFO - Started process (PID=19084) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:16:18.067+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:16:18.069+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:16:18.069+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:16:18.075+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:16:18.092+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:16:18.092+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:16:18.101+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:16:18.101+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:16:18.118+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:16:48.255+0530] {processor.py:186} INFO - Started process (PID=19176) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:16:48.256+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:16:48.257+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:16:48.257+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:16:48.263+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:16:48.282+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:16:48.282+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:16:48.292+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:16:48.292+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:16:48.310+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T01:17:18.447+0530] {processor.py:186} INFO - Started process (PID=19271) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:17:18.449+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:17:18.451+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:17:18.451+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:17:18.456+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:17:18.473+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:17:18.473+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:17:18.482+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:17:18.482+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:17:18.497+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:17:48.639+0530] {processor.py:186} INFO - Started process (PID=19384) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:17:48.641+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:17:48.643+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:17:48.643+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:17:48.649+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:17:48.666+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:17:48.665+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:17:48.676+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:17:48.675+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:17:48.692+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T01:18:18.834+0530] {processor.py:186} INFO - Started process (PID=19476) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:18:18.836+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:18:18.838+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:18:18.838+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:18:18.845+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:18:18.863+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:18:18.863+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:18:18.873+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:18:18.873+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:18:18.888+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T01:18:49.026+0530] {processor.py:186} INFO - Started process (PID=19568) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:18:49.028+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:18:49.030+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:18:49.030+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:18:49.036+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:18:49.054+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:18:49.054+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:18:49.064+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:18:49.063+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:18:49.078+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:19:19.216+0530] {processor.py:186} INFO - Started process (PID=19660) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:19:19.217+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:19:19.219+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:19:19.219+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:19:19.225+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:19:19.242+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:19:19.242+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:19:19.252+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:19:19.252+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:19:19.268+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:19:49.413+0530] {processor.py:186} INFO - Started process (PID=19746) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:19:49.415+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:19:49.417+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:19:49.416+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:19:49.424+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:19:49.443+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:19:49.443+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:19:49.454+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:19:49.453+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:19:49.471+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.064 seconds
+[2025-05-21T01:20:19.605+0530] {processor.py:186} INFO - Started process (PID=19844) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:20:19.606+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:20:19.608+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:20:19.607+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:20:19.613+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:20:19.630+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:20:19.630+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:20:19.640+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:20:19.640+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:20:19.656+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:20:49.728+0530] {processor.py:186} INFO - Started process (PID=19936) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:20:49.730+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:20:49.731+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:20:49.731+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:20:49.738+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:20:49.755+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:20:49.754+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:20:49.763+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:20:49.763+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:20:49.780+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:21:19.907+0530] {processor.py:186} INFO - Started process (PID=20028) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:21:19.907+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:21:19.909+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:21:19.909+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:21:19.915+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:21:19.931+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:21:19.931+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:21:19.941+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:21:19.941+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:21:19.957+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:21:50.089+0530] {processor.py:186} INFO - Started process (PID=20114) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:21:50.091+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:21:50.092+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:21:50.092+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:21:50.099+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:21:50.118+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:21:50.117+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:21:50.126+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:21:50.126+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:21:50.142+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T01:22:20.293+0530] {processor.py:186} INFO - Started process (PID=20207) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:22:20.295+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:22:20.297+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:22:20.297+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:22:20.303+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:22:20.319+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:22:20.319+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:22:20.328+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:22:20.328+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:22:20.342+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:22:50.487+0530] {processor.py:186} INFO - Started process (PID=20326) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:22:50.489+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:22:50.491+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:22:50.491+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:22:50.497+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:22:50.513+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:22:50.513+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:22:50.522+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:22:50.522+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:22:50.537+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:23:20.678+0530] {processor.py:186} INFO - Started process (PID=20418) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:23:20.679+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:23:20.681+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:23:20.680+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:23:20.687+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:23:20.705+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:23:20.704+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:23:20.715+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:23:20.715+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:23:20.733+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.061 seconds
+[2025-05-21T01:23:50.868+0530] {processor.py:186} INFO - Started process (PID=20504) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:23:50.870+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:23:50.872+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:23:50.872+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:23:50.879+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:23:50.895+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:23:50.895+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:23:50.904+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:23:50.904+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:23:50.920+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:24:21.059+0530] {processor.py:186} INFO - Started process (PID=20596) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:24:21.061+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:24:21.063+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:24:21.063+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:24:21.069+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:24:21.086+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:24:21.086+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:24:21.096+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:24:21.096+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:24:21.111+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:24:51.253+0530] {processor.py:186} INFO - Started process (PID=20689) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:24:51.256+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:24:51.257+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:24:51.257+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:24:51.264+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:24:51.283+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:24:51.283+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:24:51.293+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:24:51.293+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:24:51.310+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.061 seconds
+[2025-05-21T01:25:21.455+0530] {processor.py:186} INFO - Started process (PID=20781) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:25:21.457+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:25:21.459+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:25:21.458+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:25:21.465+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:25:21.482+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:25:21.481+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:25:21.491+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:25:21.491+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:25:21.506+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:25:51.650+0530] {processor.py:186} INFO - Started process (PID=20867) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:25:51.651+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:25:51.653+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:25:51.652+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:25:51.661+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:25:51.684+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:25:51.684+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:25:51.697+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:25:51.697+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:25:51.718+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.074 seconds
+[2025-05-21T01:26:21.847+0530] {processor.py:186} INFO - Started process (PID=20959) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:26:21.848+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:26:21.850+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:26:21.850+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:26:21.855+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:26:21.873+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:26:21.873+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:26:21.882+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:26:21.882+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:26:21.898+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:26:52.041+0530] {processor.py:186} INFO - Started process (PID=21051) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:26:52.042+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:26:52.043+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:26:52.043+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:26:52.050+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:26:52.067+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:26:52.066+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:26:52.076+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:26:52.075+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:26:52.091+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:27:22.236+0530] {processor.py:186} INFO - Started process (PID=21143) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:27:22.237+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:27:22.239+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:27:22.238+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:27:22.245+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:27:22.262+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:27:22.261+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:27:22.271+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:27:22.271+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:27:22.287+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:27:52.429+0530] {processor.py:186} INFO - Started process (PID=21262) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:27:52.430+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:27:52.432+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:27:52.432+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:27:52.439+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:27:52.457+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:27:52.457+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:27:52.468+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:27:52.468+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:27:52.485+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.061 seconds
+[2025-05-21T01:28:22.625+0530] {processor.py:186} INFO - Started process (PID=21348) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:28:22.626+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:28:22.627+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:28:22.627+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:28:22.635+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:28:22.655+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:28:22.655+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:28:22.665+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:28:22.665+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:28:22.685+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.065 seconds
+[2025-05-21T01:28:52.816+0530] {processor.py:186} INFO - Started process (PID=21440) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:28:52.819+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:28:52.821+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:28:52.820+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:28:52.827+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:28:52.844+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:28:52.843+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:28:52.852+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:28:52.852+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:28:52.867+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:29:23.004+0530] {processor.py:186} INFO - Started process (PID=21532) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:29:23.005+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:29:23.006+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:29:23.006+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:29:23.013+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:29:23.030+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:29:23.030+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:29:23.039+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:29:23.039+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:29:23.055+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:29:53.201+0530] {processor.py:186} INFO - Started process (PID=21630) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:29:53.202+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:29:53.204+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:29:53.204+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:29:53.211+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:29:53.230+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:29:53.229+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:29:53.240+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:29:53.240+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:29:53.260+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.065 seconds
+[2025-05-21T01:30:23.393+0530] {processor.py:186} INFO - Started process (PID=21716) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:30:23.394+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:30:23.395+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:30:23.395+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:30:23.401+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:30:23.418+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:30:23.418+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:30:23.428+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:30:23.428+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:30:23.443+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:30:53.584+0530] {processor.py:186} INFO - Started process (PID=21808) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:30:53.587+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:30:53.589+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:30:53.588+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:30:53.595+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:30:53.612+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:30:53.611+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:30:53.622+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:30:53.622+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:30:53.640+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.060 seconds
+[2025-05-21T01:31:23.779+0530] {processor.py:186} INFO - Started process (PID=21900) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:31:23.779+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:31:23.781+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:31:23.781+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:31:23.788+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:31:23.806+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:31:23.806+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:31:23.816+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:31:23.816+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:31:23.832+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:31:53.969+0530] {processor.py:186} INFO - Started process (PID=21992) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:31:53.970+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:31:53.972+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:31:53.972+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:31:53.977+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:31:53.993+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:31:53.993+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:31:54.003+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:31:54.002+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:31:54.018+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:32:24.163+0530] {processor.py:186} INFO - Started process (PID=22078) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:32:24.163+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:32:24.165+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:32:24.165+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:32:24.171+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:32:24.188+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:32:24.188+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:32:24.198+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:32:24.197+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:32:24.212+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:32:54.353+0530] {processor.py:186} INFO - Started process (PID=22197) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:32:54.354+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:32:54.356+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:32:54.355+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:32:54.362+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:32:54.379+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:32:54.379+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:32:54.389+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:32:54.389+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:32:54.405+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T01:33:24.545+0530] {processor.py:186} INFO - Started process (PID=22289) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:33:24.545+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:33:24.547+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:33:24.547+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:33:24.553+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:33:24.573+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:33:24.572+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:33:24.583+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:33:24.583+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:33:24.599+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.060 seconds
+[2025-05-21T01:33:54.735+0530] {processor.py:186} INFO - Started process (PID=22381) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:33:54.736+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:33:54.738+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:33:54.738+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:33:54.744+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:33:54.762+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:33:54.762+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:33:54.772+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:33:54.771+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:33:54.787+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.057 seconds
+[2025-05-21T01:34:24.926+0530] {processor.py:186} INFO - Started process (PID=22467) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:34:24.927+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:34:24.928+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:34:24.928+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:34:24.935+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:34:24.956+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:34:24.955+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:34:24.967+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:34:24.966+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:34:24.982+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.062 seconds
+[2025-05-21T01:34:55.113+0530] {processor.py:186} INFO - Started process (PID=22560) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:34:55.116+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:34:55.117+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:34:55.117+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:34:55.123+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:34:55.139+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:34:55.138+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:34:55.148+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:34:55.148+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:34:55.163+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:35:25.304+0530] {processor.py:186} INFO - Started process (PID=22652) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:35:25.305+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:35:25.306+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:35:25.306+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:35:25.313+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:35:25.333+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:35:25.332+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:35:25.344+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:35:25.344+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:35:25.360+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.061 seconds
+[2025-05-21T01:35:55.494+0530] {processor.py:186} INFO - Started process (PID=22744) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:35:55.496+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:35:55.497+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:35:55.497+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:35:55.504+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:35:55.521+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:35:55.520+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:35:55.532+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:35:55.531+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:35:55.546+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.056 seconds
+[2025-05-21T01:36:25.690+0530] {processor.py:186} INFO - Started process (PID=22830) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:36:25.691+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:36:25.693+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:36:25.693+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:36:25.699+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:36:25.715+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:36:25.715+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:36:25.725+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:36:25.724+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:36:25.740+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.054 seconds
+[2025-05-21T01:36:55.879+0530] {processor.py:186} INFO - Started process (PID=22922) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:36:55.880+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:36:55.881+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:36:55.881+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:36:55.887+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:36:55.904+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:36:55.903+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:36:55.913+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:36:55.913+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:36:55.929+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.055 seconds
+[2025-05-21T01:37:26.075+0530] {processor.py:186} INFO - Started process (PID=23014) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:37:26.078+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:37:26.080+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:37:26.079+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:37:26.086+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:37:26.103+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:37:26.103+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:37:26.113+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:37:26.113+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:37:26.128+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds
+[2025-05-21T01:37:56.268+0530] {processor.py:186} INFO - Started process (PID=23133) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:37:56.269+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:37:56.270+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:37:56.270+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:37:56.276+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:37:56.293+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:37:56.292+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:37:56.302+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:37:56.301+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:37:56.316+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.053 seconds
+[2025-05-21T01:38:26.462+0530] {processor.py:186} INFO - Started process (PID=23219) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:38:26.463+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:38:26.465+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:38:26.465+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:38:26.471+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:38:26.490+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:38:26.489+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:38:26.499+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:38:26.499+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:38:26.515+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.058 seconds
+[2025-05-21T01:38:56.653+0530] {processor.py:186} INFO - Started process (PID=23311) to work on /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:38:56.654+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/airbyte_dag.py for tasks to queue
+[2025-05-21T01:38:56.656+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:38:56.655+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:38:56.663+0530] {processor.py:925} INFO - DAG(s) 'airbyte_sync_dag' retrieved from /home/pranav_shirali/airflow-project/dags/airbyte_dag.py
+[2025-05-21T01:38:56.682+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:38:56.681+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T01:38:56.693+0530] {logging_mixin.py:190} INFO - [2025-05-21T01:38:56.693+0530] {dag.py:4180} INFO - Setting next_dagrun for airbyte_sync_dag to None, run_after=None
+[2025-05-21T01:38:56.707+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/airbyte_dag.py took 0.059 seconds

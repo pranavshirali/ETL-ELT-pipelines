@@ -1,0 +1,131 @@
+[2025-05-19T19:32:56.709+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-19T19:32:56.717+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: nyc_taxi_etl.load_to_snowflake manual__2025-05-19T14:01:40.668682+00:00 [queued]>
+[2025-05-19T19:32:56.721+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: nyc_taxi_etl.load_to_snowflake manual__2025-05-19T14:01:40.668682+00:00 [queued]>
+[2025-05-19T19:32:56.721+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-19T19:32:56.738+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): load_to_snowflake> on 2025-05-19 14:01:40.668682+00:00
+[2025-05-19T19:32:56.741+0530] {standard_task_runner.py:72} INFO - Started process 25444 to run task
+[2025-05-19T19:32:56.743+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'nyc_taxi_etl', 'load_to_snowflake', 'manual__2025-05-19T14:01:40.668682+00:00', '--job-id', '76', '--raw', '--subdir', 'DAGS_FOLDER/nyc_taxi_etl.py', '--cfg-path', '/tmp/tmph2pjmhqo']
+[2025-05-19T19:32:56.743+0530] {standard_task_runner.py:105} INFO - Job 76: Subtask load_to_snowflake
+[2025-05-19T19:32:56.769+0530] {task_command.py:467} INFO - Running <TaskInstance: nyc_taxi_etl.load_to_snowflake manual__2025-05-19T14:01:40.668682+00:00 [running]> on host Voldemort.
+[2025-05-19T19:32:56.815+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='nyc_taxi_etl' AIRFLOW_CTX_TASK_ID='load_to_snowflake' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T14:01:40.668682+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T14:01:40.668682+00:00'
+[2025-05-19T19:32:56.816+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-19T19:32:56.823+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-19T19:32:56.824+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/opt/spark/bin/spark-submit /home/pranav_shirali/airflow-project/scripts/ETL/load.py']
+[2025-05-19T19:32:56.828+0530] {subprocess.py:86} INFO - Output:
+[2025-05-19T19:32:58.076+0530] {subprocess.py:93} INFO - 25/05/19 19:32:58 WARN Utils: Your hostname, Voldemort resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+[2025-05-19T19:32:58.079+0530] {subprocess.py:93} INFO - 25/05/19 19:32:58 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2025-05-19T19:32:58.899+0530] {subprocess.py:93} INFO - 25/05/19 19:32:58 INFO SparkContext: Running Spark version 3.5.5
+[2025-05-19T19:32:58.899+0530] {subprocess.py:93} INFO - 25/05/19 19:32:58 INFO SparkContext: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64
+[2025-05-19T19:32:58.899+0530] {subprocess.py:93} INFO - 25/05/19 19:32:58 INFO SparkContext: Java version 11.0.27
+[2025-05-19T19:32:58.958+0530] {subprocess.py:93} INFO - 25/05/19 19:32:58 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-05-19T19:32:59.033+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO ResourceUtils: ==============================================================
+[2025-05-19T19:32:59.033+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-05-19T19:32:59.034+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO ResourceUtils: ==============================================================
+[2025-05-19T19:32:59.034+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SparkContext: Submitted application: NYC Taxi Load to Snowflake
+[2025-05-19T19:32:59.060+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-05-19T19:32:59.069+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO ResourceProfile: Limiting resource is cpu
+[2025-05-19T19:32:59.070+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-05-19T19:32:59.110+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SecurityManager: Changing view acls to: pranav_shirali
+[2025-05-19T19:32:59.111+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SecurityManager: Changing modify acls to: pranav_shirali
+[2025-05-19T19:32:59.111+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SecurityManager: Changing view acls groups to:
+[2025-05-19T19:32:59.112+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SecurityManager: Changing modify acls groups to:
+[2025-05-19T19:32:59.112+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: pranav_shirali; groups with view permissions: EMPTY; users with modify permissions: pranav_shirali; groups with modify permissions: EMPTY
+[2025-05-19T19:32:59.323+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO Utils: Successfully started service 'sparkDriver' on port 39065.
+[2025-05-19T19:32:59.347+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SparkEnv: Registering MapOutputTracker
+[2025-05-19T19:32:59.372+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SparkEnv: Registering BlockManagerMaster
+[2025-05-19T19:32:59.384+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-05-19T19:32:59.384+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-05-19T19:32:59.387+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-05-19T19:32:59.413+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-12cc814f-890b-45b6-b9f9-01e048c9b68e
+[2025-05-19T19:32:59.423+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2025-05-19T19:32:59.435+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-05-19T19:32:59.550+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2025-05-19T19:32:59.592+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2025-05-19T19:32:59.665+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO Executor: Starting executor ID driver on host 10.255.255.254
+[2025-05-19T19:32:59.665+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO Executor: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64
+[2025-05-19T19:32:59.665+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO Executor: Java version 11.0.27
+[2025-05-19T19:32:59.671+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2025-05-19T19:32:59.672+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@3c1aea8b for default.
+[2025-05-19T19:32:59.691+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46525.
+[2025-05-19T19:32:59.692+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO NettyBlockTransferService: Server created on 10.255.255.254:46525
+[2025-05-19T19:32:59.693+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-05-19T19:32:59.698+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.255.255.254, 46525, None)
+[2025-05-19T19:32:59.701+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO BlockManagerMasterEndpoint: Registering block manager 10.255.255.254:46525 with 434.4 MiB RAM, BlockManagerId(driver, 10.255.255.254, 46525, None)
+[2025-05-19T19:32:59.703+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.255.255.254, 46525, None)
+[2025-05-19T19:32:59.703+0530] {subprocess.py:93} INFO - 25/05/19 19:32:59 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.255.255.254, 46525, None)
+[2025-05-19T19:33:00.077+0530] {subprocess.py:93} INFO - 25/05/19 19:33:00 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2025-05-19T19:33:00.084+0530] {subprocess.py:93} INFO - 25/05/19 19:33:00 INFO SharedState: Warehouse path is 'file:/tmp/airflowtmptf5w3q4h/spark-warehouse'.
+[2025-05-19T19:33:04.088+0530] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-05-19T19:33:04.089+0530] {subprocess.py:93} INFO -   File "/home/pranav_shirali/airflow-project/scripts/ETL/load.py", line 6, in <module>
+[2025-05-19T19:33:04.089+0530] {subprocess.py:93} INFO -     trip_df = spark.read.parquet("/home/pranav_shirali/airflow-project/nyc_taxi_trip.parquet")
+[2025-05-19T19:33:04.089+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 544, in parquet
+[2025-05-19T19:33:04.089+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2025-05-19T19:33:04.089+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 185, in deco
+[2025-05-19T19:33:04.097+0530] {subprocess.py:93} INFO - pyspark.errors.exceptions.captured.AnalysisException: [PATH_NOT_FOUND] Path does not exist: file:/home/pranav_shirali/airflow-project/nyc_taxi_trip.parquet.
+[2025-05-19T19:33:04.157+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO SparkContext: Invoking stop() from shutdown hook
+[2025-05-19T19:33:04.157+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2025-05-19T19:33:04.171+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO SparkUI: Stopped Spark web UI at http://10.255.255.254:4040
+[2025-05-19T19:33:04.183+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2025-05-19T19:33:04.194+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO MemoryStore: MemoryStore cleared
+[2025-05-19T19:33:04.195+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO BlockManager: BlockManager stopped
+[2025-05-19T19:33:04.200+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2025-05-19T19:33:04.203+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2025-05-19T19:33:04.212+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO SparkContext: Successfully stopped SparkContext
+[2025-05-19T19:33:04.213+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO ShutdownHookManager: Shutdown hook called
+[2025-05-19T19:33:04.213+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-3def0312-605c-46ed-86bf-9b613c97985c/pyspark-74595e48-644b-4c6d-93ad-279b3c39324f
+[2025-05-19T19:33:04.216+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-6a8642c3-1272-44bb-a24f-94dca9731597
+[2025-05-19T19:33:04.221+0530] {subprocess.py:93} INFO - 25/05/19 19:33:04 INFO ShutdownHookManager: Deleting directory /tmp/spark-3def0312-605c-46ed-86bf-9b613c97985c
+[2025-05-19T19:33:04.255+0530] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-05-19T19:33:04.264+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-05-19T19:33:04.267+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=nyc_taxi_etl, task_id=load_to_snowflake, run_id=manual__2025-05-19T14:01:40.668682+00:00, execution_date=20250519T140140, start_date=20250519T140256, end_date=20250519T140304
+[2025-05-19T19:33:04.277+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-19T19:33:04.278+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 76 for task load_to_snowflake (Bash command failed. The command returned a non-zero exit code 1.; 25444)
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-05-19T19:33:04.298+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-19T19:33:04.308+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-19T19:33:04.309+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

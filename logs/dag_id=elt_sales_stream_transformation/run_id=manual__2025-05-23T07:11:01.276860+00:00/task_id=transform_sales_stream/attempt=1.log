@@ -1,0 +1,208 @@
+[2025-05-23T12:41:04.156+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-23T12:41:04.161+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: elt_sales_stream_transformation.transform_sales_stream manual__2025-05-23T07:11:01.276860+00:00 [queued]>
+[2025-05-23T12:41:04.165+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: elt_sales_stream_transformation.transform_sales_stream manual__2025-05-23T07:11:01.276860+00:00 [queued]>
+[2025-05-23T12:41:04.165+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-23T12:41:04.174+0530] {taskinstance.py:2888} INFO - Executing <Task(SQLExecuteQueryOperator): transform_sales_stream> on 2025-05-23 07:11:01.276860+00:00
+[2025-05-23T12:41:04.177+0530] {standard_task_runner.py:72} INFO - Started process 21611 to run task
+[2025-05-23T12:41:04.178+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'elt_sales_stream_transformation', 'transform_sales_stream', 'manual__2025-05-23T07:11:01.276860+00:00', '--job-id', '170', '--raw', '--subdir', 'DAGS_FOLDER/elt_transformation_dag.py', '--cfg-path', '/tmp/tmpvxslgh6u']
+[2025-05-23T12:41:04.179+0530] {standard_task_runner.py:105} INFO - Job 170: Subtask transform_sales_stream
+[2025-05-23T12:41:04.199+0530] {task_command.py:467} INFO - Running <TaskInstance: elt_sales_stream_transformation.transform_sales_stream manual__2025-05-23T07:11:01.276860+00:00 [running]> on host Voldemort.
+[2025-05-23T12:41:06.843+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='elt_sales_stream_transformation' AIRFLOW_CTX_TASK_ID='transform_sales_stream' AIRFLOW_CTX_EXECUTION_DATE='2025-05-23T07:11:01.276860+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-23T07:11:01.276860+00:00'
+[2025-05-23T12:41:06.844+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-23T12:41:06.853+0530] {sql.py:306} INFO - Executing: 
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.SALES_STREAM_TRANSFORMED AS
+        SELECT
+            REGION,
+            COUNTRY,
+            "ITEM TYPE",
+            "SALES CHANNEL",
+            "ORDER PRIORITY",
+            "ORDER DATE",
+            "ORDER ID",
+            "SHIP DATE",
+            "UNITS SOLD",
+            "UNIT PRICE",
+            "UNIT COST",
+            "TOTAL REVENUE",
+            "TOTAL COST",
+            "TOTAL PROFIT",
+            CASE
+                WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                ELSE "ORDER PRIORITY"
+            END AS "ORDER PRIORITY",
+            DATEDIFF(
+                'day',
+                COALESCE(
+                  TRY_TO_DATE("ORDER DATE", 'M/D/YYYY'),
+                  TRY_TO_DATE("ORDER DATE", 'MM/DD/YYYY'),
+                  TRY_TO_DATE("ORDER DATE", 'YYYY-MM-DD')
+                ),
+                COALESCE(
+                  TRY_TO_DATE("SHIP DATE", 'M/D/YYYY'),
+                  TRY_TO_DATE("SHIP DATE", 'MM/DD/YYYY'),
+                  TRY_TO_DATE("SHIP DATE", 'YYYY-MM-DD')
+                )
+            ) AS "SHIPMENT_LEAD_TIME"
+        FROM AIRFLOW_DB.PUBLIC."SALES STREAM";
+        
+[2025-05-23T12:41:06.857+0530] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-05-23T12:41:06.875+0530] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-05-23T12:41:06.875+0530] {connection.py:486} INFO - Snowflake Connector for Python Version: 3.15.0, Python Version: 3.10.12, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[2025-05-23T12:41:06.876+0530] {connection.py:1391} INFO - Connecting to GLOBAL Snowflake domain
+[2025-05-23T12:41:07.606+0530] {snowflake.py:521} INFO - Running statement: CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.SALES_STREAM_TRANSFORMED AS
+        SELECT
+            REGION,
+            COUNTRY,
+            "ITEM TYPE",
+            "SALES CHANNEL",
+            "ORDER PRIORITY",
+            "ORDER DATE",
+            "ORDER ID",
+            "SHIP DATE",
+            "UNITS SOLD",
+            "UNIT PRICE",
+            "UNIT COST",
+            "TOTAL REVENUE",
+            "TOTAL COST",
+            "TOTAL PROFIT",
+            CASE
+                WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                ELSE "ORDER PRIORITY"
+            END AS "ORDER PRIORITY",
+            DATEDIFF(
+                'day',
+                COALESCE(
+                  TRY_TO_DATE("ORDER DATE", 'M/D/YYYY'),
+                  TRY_TO_DATE("ORDER DATE", 'MM/DD/YYYY'),
+                  TRY_TO_DATE("ORDER DATE", 'YYYY-MM-DD')
+                ),
+                COALESCE(
+                  TRY_TO_DATE("SHIP DATE", 'M/D/YYYY'),
+                  TRY_TO_DATE("SHIP DATE", 'MM/DD/YYYY'),
+                  TRY_TO_DATE("SHIP DATE", 'YYYY-MM-DD')
+                )
+            ) AS "SHIPMENT_LEAD_TIME"
+        FROM AIRFLOW_DB.PUBLIC."SALES STREAM";, parameters: None
+[2025-05-23T12:41:07.607+0530] {sql.py:814} INFO - Running statement: CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.SALES_STREAM_TRANSFORMED AS
+        SELECT
+            REGION,
+            COUNTRY,
+            "ITEM TYPE",
+            "SALES CHANNEL",
+            "ORDER PRIORITY",
+            "ORDER DATE",
+            "ORDER ID",
+            "SHIP DATE",
+            "UNITS SOLD",
+            "UNIT PRICE",
+            "UNIT COST",
+            "TOTAL REVENUE",
+            "TOTAL COST",
+            "TOTAL PROFIT",
+            CASE
+                WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                ELSE "ORDER PRIORITY"
+            END AS "ORDER PRIORITY",
+            DATEDIFF(
+                'day',
+                COALESCE(
+                  TRY_TO_DATE("ORDER DATE", 'M/D/YYYY'),
+                  TRY_TO_DATE("ORDER DATE", 'MM/DD/YYYY'),
+                  TRY_TO_DATE("ORDER DATE", 'YYYY-MM-DD')
+                ),
+                COALESCE(
+                  TRY_TO_DATE("SHIP DATE", 'M/D/YYYY'),
+                  TRY_TO_DATE("SHIP DATE", 'MM/DD/YYYY'),
+                  TRY_TO_DATE("SHIP DATE", 'YYYY-MM-DD')
+                )
+            ) AS "SHIPMENT_LEAD_TIME"
+        FROM AIRFLOW_DB.PUBLIC."SALES STREAM";, parameters: None
+[2025-05-23T12:41:07.912+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 312, in execute
+    output = hook.run(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 522, in run
+    self._run_command(cur, sql_statement, parameters)  # type: ignore[attr-defined]
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 819, in _run_command
+    cur.execute(sql_statement)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/cursor.py", line 1134, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 279, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 334, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 210, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002025 (42S21): 01bc890f-3201-a520-000d-39de000865b6: SQL compilation error:
+duplicate column name 'ORDER PRIORITY'
+[2025-05-23T12:41:07.915+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=elt_sales_stream_transformation, task_id=transform_sales_stream, run_id=manual__2025-05-23T07:11:01.276860+00:00, execution_date=20250523T071101, start_date=20250523T071104, end_date=20250523T071107
+[2025-05-23T12:41:07.926+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-23T12:41:07.926+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 170 for task transform_sales_stream (002025 (42S21): 01bc890f-3201-a520-000d-39de000865b6: SQL compilation error:
+duplicate column name 'ORDER PRIORITY'; 21611)
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 312, in execute
+    output = hook.run(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/snowflake/hooks/snowflake.py", line 522, in run
+    self._run_command(cur, sql_statement, parameters)  # type: ignore[attr-defined]
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 819, in _run_command
+    cur.execute(sql_statement)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/cursor.py", line 1134, in execute
+    Error.errorhandler_wrapper(self.connection, self, error_class, errvalue)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 279, in errorhandler_wrapper
+    handed_over = Error.hand_to_other_handler(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 334, in hand_to_other_handler
+    cursor.errorhandler(connection, cursor, error_class, error_value)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/snowflake/connector/errors.py", line 210, in default_errorhandler
+    raise error_class(
+snowflake.connector.errors.ProgrammingError: 002025 (42S21): 01bc890f-3201-a520-000d-39de000865b6: SQL compilation error:
+duplicate column name 'ORDER PRIORITY'
+[2025-05-23T12:41:07.954+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-23T12:41:07.963+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-23T12:41:07.965+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

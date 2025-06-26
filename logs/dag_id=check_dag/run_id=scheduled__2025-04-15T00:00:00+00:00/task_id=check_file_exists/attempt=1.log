@@ -1,0 +1,20 @@
+[2025-04-16T21:22:18.270+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-04-16T21:22:18.279+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: check_dag.check_file_exists scheduled__2025-04-15T00:00:00+00:00 [queued]>
+[2025-04-16T21:22:18.284+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: check_dag.check_file_exists scheduled__2025-04-15T00:00:00+00:00 [queued]>
+[2025-04-16T21:22:18.284+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-04-16T21:22:18.296+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): check_file_exists> on 2025-04-15 00:00:00+00:00
+[2025-04-16T21:22:18.299+0530] {standard_task_runner.py:72} INFO - Started process 1052 to run task
+[2025-04-16T21:22:18.303+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'check_dag', 'check_file_exists', 'scheduled__2025-04-15T00:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/check_dag.py', '--cfg-path', '/tmp/tmp615t3ph7']
+[2025-04-16T21:22:18.305+0530] {standard_task_runner.py:105} INFO - Job 27: Subtask check_file_exists
+[2025-04-16T21:22:18.339+0530] {task_command.py:467} INFO - Running <TaskInstance: check_dag.check_file_exists scheduled__2025-04-15T00:00:00+00:00 [running]> on host Voldemort.
+[2025-04-16T21:22:18.394+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='check_dag' AIRFLOW_CTX_TASK_ID='check_file_exists' AIRFLOW_CTX_EXECUTION_DATE='2025-04-15T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-04-15T00:00:00+00:00'
+[2025-04-16T21:22:18.395+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-04-16T21:22:18.405+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-04-16T21:22:18.407+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'test -f /tmp/dummy']
+[2025-04-16T21:22:18.416+0530] {subprocess.py:86} INFO - Output:
+[2025-04-16T21:22:18.417+0530] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-04-16T21:22:18.432+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-04-16T21:22:18.433+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=check_dag, task_id=check_file_exists, run_id=scheduled__2025-04-15T00:00:00+00:00, execution_date=20250415T000000, start_date=20250416T155218, end_date=20250416T155218
+[2025-04-16T21:22:18.475+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-04-16T21:22:18.492+0530] {taskinstance.py:3900} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-04-16T21:22:18.495+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

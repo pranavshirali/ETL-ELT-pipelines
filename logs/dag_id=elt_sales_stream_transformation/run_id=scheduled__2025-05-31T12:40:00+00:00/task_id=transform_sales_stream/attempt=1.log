@@ -1,0 +1,290 @@
+[2025-06-02T14:34:11.662+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-06-02T14:34:11.671+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: elt_sales_stream_transformation.transform_sales_stream scheduled__2025-05-31T12:40:00+00:00 [queued]>
+[2025-06-02T14:34:11.676+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: elt_sales_stream_transformation.transform_sales_stream scheduled__2025-05-31T12:40:00+00:00 [queued]>
+[2025-06-02T14:34:11.676+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-06-02T14:34:11.689+0530] {taskinstance.py:2888} INFO - Executing <Task(SQLExecuteQueryOperator): transform_sales_stream> on 2025-05-31 12:40:00+00:00
+[2025-06-02T14:34:11.696+0530] {standard_task_runner.py:72} INFO - Started process 11670 to run task
+[2025-06-02T14:34:11.702+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'elt_sales_stream_transformation', 'transform_sales_stream', 'scheduled__2025-05-31T12:40:00+00:00', '--job-id', '257', '--raw', '--subdir', 'DAGS_FOLDER/elt_transformation_dag.py', '--cfg-path', '/tmp/tmpsnsqfltj']
+[2025-06-02T14:34:11.705+0530] {standard_task_runner.py:105} INFO - Job 257: Subtask transform_sales_stream
+[2025-06-02T14:34:11.758+0530] {task_command.py:467} INFO - Running <TaskInstance: elt_sales_stream_transformation.transform_sales_stream scheduled__2025-05-31T12:40:00+00:00 [running]> on host Voldemort.localdomain
+[2025-06-02T14:34:11.832+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='elt_sales_stream_transformation' AIRFLOW_CTX_TASK_ID='transform_sales_stream' AIRFLOW_CTX_EXECUTION_DATE='2025-05-31T12:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2025-05-31T12:40:00+00:00'
+[2025-06-02T14:34:11.833+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-06-02T14:34:11.847+0530] {sql.py:306} INFO - Executing: 
+        -- Region Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Region AS
+        SELECT ROW_NUMBER() OVER (ORDER BY REGION) AS Region_id, REGION
+        FROM (
+            SELECT DISTINCT REGION
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE REGION IS NOT NULL
+        );
+
+        -- Country Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Country AS
+        SELECT ROW_NUMBER() OVER (ORDER BY COUNTRY) AS Country_id, COUNTRY
+        FROM (
+            SELECT DISTINCT COUNTRY
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE COUNTRY IS NOT NULL
+        );
+
+        -- Item Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Item AS
+        SELECT ROW_NUMBER() OVER (ORDER BY "ITEM TYPE") AS Item_id, "ITEM TYPE" AS Item_type
+        FROM (
+            SELECT DISTINCT "ITEM TYPE"
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE "ITEM TYPE" IS NOT NULL
+        );
+
+        -- Order Priority Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority AS
+        SELECT ROW_NUMBER() OVER (ORDER BY ORDER_PRIORITY_FULL) AS OrderPriority_id, ORDER_PRIORITY_FULL AS ORDER_PRIORITY
+        FROM (
+            SELECT DISTINCT
+                CASE 
+                    WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                    WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                    WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                    WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                    ELSE "ORDER PRIORITY"
+                END AS ORDER_PRIORITY_FULL
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE "ORDER PRIORITY" IS NOT NULL
+        );
+
+        -- Orders Fact Table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Orders AS
+        SELECT
+            s."ORDER ID",
+            s."ITEM TYPE",
+            s."SHIP DATE",
+            s."UNIT COST",
+            s."ORDER DATE",
+            s."TOTAL COST",
+            s."UNIT PRICE",
+            s."UNITS SOLD",
+            s."TOTAL PROFIT",
+            s."SALES CHANNEL",
+            s."TOTAL REVENUE",
+            r.Region_id,
+            c.Country_id,
+            i.Item_id,
+            op.OrderPriority_id,
+            DATEDIFF(
+                'day',
+                TRY_TO_DATE(s."ORDER DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."SHIP DATE", 'MM/DD/YYYY')
+            ) AS SHIPMENT_LEAD_TIME
+        FROM (
+            SELECT *,
+                CASE 
+                    WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                    WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                    WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                    WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                    ELSE "ORDER PRIORITY"
+                END AS ORDER_PRIORITY_FULL
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE 
+                "ORDER ID" IS NOT NULL AND
+                "ITEM TYPE" IS NOT NULL AND
+                REGION IS NOT NULL AND
+                COUNTRY IS NOT NULL AND
+                "ORDER PRIORITY" IS NOT NULL
+        ) s
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Region r ON r.Region = s.REGION
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Country c ON c.Country = s.COUNTRY
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Item i ON i.Item_type = s."ITEM TYPE"
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority op ON op.ORDER_PRIORITY = s.ORDER_PRIORITY_FULL;
+        
+[2025-06-02T14:34:11.854+0530] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-06-02T14:34:11.967+0530] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-06-02T14:34:11.968+0530] {connection.py:486} INFO - Snowflake Connector for Python Version: 3.15.0, Python Version: 3.10.12, Platform: Linux-6.6.87.1-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[2025-06-02T14:34:11.969+0530] {connection.py:1391} INFO - Connecting to GLOBAL Snowflake domain
+[2025-06-02T14:34:12.746+0530] {snowflake.py:521} INFO - Running statement: -- Region Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Region AS
+        SELECT ROW_NUMBER() OVER (ORDER BY REGION) AS Region_id, REGION
+        FROM (
+            SELECT DISTINCT REGION
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE REGION IS NOT NULL
+        );, parameters: None
+[2025-06-02T14:34:12.747+0530] {sql.py:814} INFO - Running statement: -- Region Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Region AS
+        SELECT ROW_NUMBER() OVER (ORDER BY REGION) AS Region_id, REGION
+        FROM (
+            SELECT DISTINCT REGION
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE REGION IS NOT NULL
+        );, parameters: None
+[2025-06-02T14:34:13.718+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-06-02T14:34:13.718+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-06-02T14:34:13.719+0530] {snowflake.py:535} INFO - Snowflake query id: 01bcc1c0-0001-0f0f-0009-87f60002e18a
+[2025-06-02T14:34:13.719+0530] {snowflake.py:521} INFO - Running statement: -- Country Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Country AS
+        SELECT ROW_NUMBER() OVER (ORDER BY COUNTRY) AS Country_id, COUNTRY
+        FROM (
+            SELECT DISTINCT COUNTRY
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE COUNTRY IS NOT NULL
+        );, parameters: None
+[2025-06-02T14:34:13.719+0530] {sql.py:814} INFO - Running statement: -- Country Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Country AS
+        SELECT ROW_NUMBER() OVER (ORDER BY COUNTRY) AS Country_id, COUNTRY
+        FROM (
+            SELECT DISTINCT COUNTRY
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE COUNTRY IS NOT NULL
+        );, parameters: None
+[2025-06-02T14:34:14.491+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-06-02T14:34:14.492+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-06-02T14:34:14.492+0530] {snowflake.py:535} INFO - Snowflake query id: 01bcc1c0-0001-1039-0009-87f60002b18e
+[2025-06-02T14:34:14.492+0530] {snowflake.py:521} INFO - Running statement: -- Item Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Item AS
+        SELECT ROW_NUMBER() OVER (ORDER BY "ITEM TYPE") AS Item_id, "ITEM TYPE" AS Item_type
+        FROM (
+            SELECT DISTINCT "ITEM TYPE"
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE "ITEM TYPE" IS NOT NULL
+        );, parameters: None
+[2025-06-02T14:34:14.492+0530] {sql.py:814} INFO - Running statement: -- Item Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Item AS
+        SELECT ROW_NUMBER() OVER (ORDER BY "ITEM TYPE") AS Item_id, "ITEM TYPE" AS Item_type
+        FROM (
+            SELECT DISTINCT "ITEM TYPE"
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE "ITEM TYPE" IS NOT NULL
+        );, parameters: None
+[2025-06-02T14:34:15.045+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-06-02T14:34:15.045+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-06-02T14:34:15.045+0530] {snowflake.py:535} INFO - Snowflake query id: 01bcc1c0-0001-0fe1-0009-87f60002c196
+[2025-06-02T14:34:15.045+0530] {snowflake.py:521} INFO - Running statement: -- Order Priority Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority AS
+        SELECT ROW_NUMBER() OVER (ORDER BY ORDER_PRIORITY_FULL) AS OrderPriority_id, ORDER_PRIORITY_FULL AS ORDER_PRIORITY
+        FROM (
+            SELECT DISTINCT
+                CASE 
+                    WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                    WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                    WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                    WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                    ELSE "ORDER PRIORITY"
+                END AS ORDER_PRIORITY_FULL
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE "ORDER PRIORITY" IS NOT NULL
+        );, parameters: None
+[2025-06-02T14:34:15.046+0530] {sql.py:814} INFO - Running statement: -- Order Priority Dimension
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority AS
+        SELECT ROW_NUMBER() OVER (ORDER BY ORDER_PRIORITY_FULL) AS OrderPriority_id, ORDER_PRIORITY_FULL AS ORDER_PRIORITY
+        FROM (
+            SELECT DISTINCT
+                CASE 
+                    WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                    WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                    WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                    WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                    ELSE "ORDER PRIORITY"
+                END AS ORDER_PRIORITY_FULL
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE "ORDER PRIORITY" IS NOT NULL
+        );, parameters: None
+[2025-06-02T14:34:15.581+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-06-02T14:34:15.582+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-06-02T14:34:15.582+0530] {snowflake.py:535} INFO - Snowflake query id: 01bcc1c0-0001-0f0f-0009-87f60002e18e
+[2025-06-02T14:34:15.582+0530] {snowflake.py:521} INFO - Running statement: -- Orders Fact Table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Orders AS
+        SELECT
+            s."ORDER ID",
+            s."ITEM TYPE",
+            s."SHIP DATE",
+            s."UNIT COST",
+            s."ORDER DATE",
+            s."TOTAL COST",
+            s."UNIT PRICE",
+            s."UNITS SOLD",
+            s."TOTAL PROFIT",
+            s."SALES CHANNEL",
+            s."TOTAL REVENUE",
+            r.Region_id,
+            c.Country_id,
+            i.Item_id,
+            op.OrderPriority_id,
+            DATEDIFF(
+                'day',
+                TRY_TO_DATE(s."ORDER DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."SHIP DATE", 'MM/DD/YYYY')
+            ) AS SHIPMENT_LEAD_TIME
+        FROM (
+            SELECT *,
+                CASE 
+                    WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                    WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                    WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                    WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                    ELSE "ORDER PRIORITY"
+                END AS ORDER_PRIORITY_FULL
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE 
+                "ORDER ID" IS NOT NULL AND
+                "ITEM TYPE" IS NOT NULL AND
+                REGION IS NOT NULL AND
+                COUNTRY IS NOT NULL AND
+                "ORDER PRIORITY" IS NOT NULL
+        ) s
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Region r ON r.Region = s.REGION
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Country c ON c.Country = s.COUNTRY
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Item i ON i.Item_type = s."ITEM TYPE"
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority op ON op.ORDER_PRIORITY = s.ORDER_PRIORITY_FULL;, parameters: None
+[2025-06-02T14:34:15.583+0530] {sql.py:814} INFO - Running statement: -- Orders Fact Table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Orders AS
+        SELECT
+            s."ORDER ID",
+            s."ITEM TYPE",
+            s."SHIP DATE",
+            s."UNIT COST",
+            s."ORDER DATE",
+            s."TOTAL COST",
+            s."UNIT PRICE",
+            s."UNITS SOLD",
+            s."TOTAL PROFIT",
+            s."SALES CHANNEL",
+            s."TOTAL REVENUE",
+            r.Region_id,
+            c.Country_id,
+            i.Item_id,
+            op.OrderPriority_id,
+            DATEDIFF(
+                'day',
+                TRY_TO_DATE(s."ORDER DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."SHIP DATE", 'MM/DD/YYYY')
+            ) AS SHIPMENT_LEAD_TIME
+        FROM (
+            SELECT *,
+                CASE 
+                    WHEN "ORDER PRIORITY" = 'H' THEN 'High'
+                    WHEN "ORDER PRIORITY" = 'L' THEN 'Low'
+                    WHEN "ORDER PRIORITY" = 'M' THEN 'Medium'
+                    WHEN "ORDER PRIORITY" = 'C' THEN 'Cold'
+                    ELSE "ORDER PRIORITY"
+                END AS ORDER_PRIORITY_FULL
+            FROM AIRFLOW_DB.ELT_TRANSFORMED."SALES DATA RAW"
+            WHERE 
+                "ORDER ID" IS NOT NULL AND
+                "ITEM TYPE" IS NOT NULL AND
+                REGION IS NOT NULL AND
+                COUNTRY IS NOT NULL AND
+                "ORDER PRIORITY" IS NOT NULL
+        ) s
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Region r ON r.Region = s.REGION
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Country c ON c.Country = s.COUNTRY
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Item i ON i.Item_type = s."ITEM TYPE"
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority op ON op.ORDER_PRIORITY = s.ORDER_PRIORITY_FULL;, parameters: None
+[2025-06-02T14:34:18.383+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-06-02T14:34:18.383+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-06-02T14:34:18.384+0530] {snowflake.py:535} INFO - Snowflake query id: 01bcc1c0-0001-1039-0009-87f60002b192
+[2025-06-02T14:34:18.605+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-06-02T14:34:18.605+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=elt_sales_stream_transformation, task_id=transform_sales_stream, run_id=scheduled__2025-05-31T12:40:00+00:00, execution_date=20250531T124000, start_date=20250602T090411, end_date=20250602T090418
+[2025-06-02T14:34:18.636+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-06-02T14:34:18.645+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-06-02T14:34:18.646+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

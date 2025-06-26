@@ -1,0 +1,28 @@
+[2025-03-28T15:41:36.290+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-28T15:41:36.298+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: example_params_trigger_ui.select_languages manual__2025-03-28T10:11:32+00:00 [queued]>
+[2025-03-28T15:41:36.302+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: example_params_trigger_ui.select_languages manual__2025-03-28T10:11:32+00:00 [queued]>
+[2025-03-28T15:41:36.303+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-03-28T15:41:36.316+0530] {taskinstance.py:2888} INFO - Executing <Task(_BranchPythonDecoratedOperator): select_languages> on 2025-03-28 10:11:32+00:00
+[2025-03-28T15:41:36.318+0530] {standard_task_runner.py:72} INFO - Started process 626 to run task
+[2025-03-28T15:41:36.321+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'example_params_trigger_ui', 'select_languages', 'manual__2025-03-28T10:11:32+00:00', '--job-id', '3', '--raw', '--subdir', '/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py', '--cfg-path', '/tmp/tmp480haxyt']
+[2025-03-28T15:41:36.322+0530] {standard_task_runner.py:105} INFO - Job 3: Subtask select_languages
+[2025-03-28T15:41:36.355+0530] {task_command.py:467} INFO - Running <TaskInstance: example_params_trigger_ui.select_languages manual__2025-03-28T10:11:32+00:00 [running]> on host Voldemort.
+[2025-03-28T15:41:36.403+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='example_params_trigger_ui' AIRFLOW_CTX_TASK_ID='select_languages' AIRFLOW_CTX_EXECUTION_DATE='2025-03-28T10:11:32+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-28T10:11:32+00:00'
+[2025-03-28T15:41:36.404+0530] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-03-28T15:41:36.404+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-03-28T15:41:36.404+0530] {logging_mixin.py:190} INFO - Current task name:select_languages state:running start_date:2025-03-28 10:11:36.298754+00:00
+[2025-03-28T15:41:36.404+0530] {logging_mixin.py:190} INFO - Dag name:example_params_trigger_ui and current dag run status:running
+[2025-03-28T15:41:36.405+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-03-28T15:41:36.405+0530] {python.py:240} INFO - Done. Returned value was: ['generate_english_greeting', 'generate_german_greeting', 'generate_french_greeting']
+[2025-03-28T15:41:36.405+0530] {branch.py:38} INFO - Branch into ['generate_english_greeting', 'generate_german_greeting', 'generate_french_greeting']
+[2025-03-28T15:41:36.405+0530] {skipmixin.py:230} INFO - Following branch {'generate_french_greeting', 'generate_german_greeting', 'generate_english_greeting'}
+[2025-03-28T15:41:36.411+0530] {skipmixin.py:278} INFO - Skipping tasks []
+[2025-03-28T15:41:36.427+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-03-28T15:41:36.427+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=example_params_trigger_ui, task_id=select_languages, run_id=manual__2025-03-28T10:11:32+00:00, execution_date=20250328T101132, start_date=20250328T101136, end_date=20250328T101136
+[2025-03-28T15:41:36.434+0530] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-03-28T15:41:36.435+0530] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-03-28T15:41:36.435+0530] {logging_mixin.py:190} INFO - Dag name:example_params_trigger_ui queued_at:2025-03-28 10:11:34.306675+00:00
+[2025-03-28T15:41:36.435+0530] {logging_mixin.py:190} INFO - Task hostname:Voldemort. operator:_BranchPythonDecoratedOperator
+[2025-03-28T15:41:36.454+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-28T15:41:36.476+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-28T15:41:36.477+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

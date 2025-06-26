@@ -1,0 +1,274 @@
+[2025-05-23T15:25:15.911+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-23T15:25:15.917+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: elt_sales_stream_transformation.transform_sales_stream manual__2025-05-23T09:55:13.648361+00:00 [queued]>
+[2025-05-23T15:25:15.921+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: elt_sales_stream_transformation.transform_sales_stream manual__2025-05-23T09:55:13.648361+00:00 [queued]>
+[2025-05-23T15:25:15.922+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-23T15:25:15.932+0530] {taskinstance.py:2888} INFO - Executing <Task(SQLExecuteQueryOperator): transform_sales_stream> on 2025-05-23 09:55:13.648361+00:00
+[2025-05-23T15:25:15.935+0530] {standard_task_runner.py:72} INFO - Started process 50830 to run task
+[2025-05-23T15:25:15.937+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'elt_sales_stream_transformation', 'transform_sales_stream', 'manual__2025-05-23T09:55:13.648361+00:00', '--job-id', '196', '--raw', '--subdir', 'DAGS_FOLDER/elt_transformation_dag.py', '--cfg-path', '/tmp/tmpgil_80ts']
+[2025-05-23T15:25:15.939+0530] {standard_task_runner.py:105} INFO - Job 196: Subtask transform_sales_stream
+[2025-05-23T15:25:15.960+0530] {task_command.py:467} INFO - Running <TaskInstance: elt_sales_stream_transformation.transform_sales_stream manual__2025-05-23T09:55:13.648361+00:00 [running]> on host Voldemort.
+[2025-05-23T15:25:16.016+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='elt_sales_stream_transformation' AIRFLOW_CTX_TASK_ID='transform_sales_stream' AIRFLOW_CTX_EXECUTION_DATE='2025-05-23T09:55:13.648361+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-23T09:55:13.648361+00:00'
+[2025-05-23T15:25:16.017+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-23T15:25:16.027+0530] {sql.py:306} INFO - Executing: 
+        -- Create Region table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Region AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY REGION) AS Region_id,
+            REGION
+        FROM (
+            SELECT DISTINCT REGION
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );
+
+        -- Create Country table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Country AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY COUNTRY) AS Country_id,
+            COUNTRY
+        FROM (
+            SELECT DISTINCT COUNTRY
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );
+
+        -- Create Item table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Item AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY ITEM_TYPE) AS Item_id,
+            ITEM_TYPE AS Item_type
+        FROM (
+            SELECT DISTINCT ITEM_TYPE
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );
+
+        -- Create Order_Priority table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY ORDER_PRIORITY) AS OrderPriority_id,
+            CASE
+                WHEN ORDER_PRIORITY = 'H' THEN 'High'
+                WHEN ORDER_PRIORITY = 'L' THEN 'Low'
+                WHEN ORDER_PRIORITY = 'M' THEN 'Medium'
+                WHEN ORDER_PRIORITY = 'C' THEN 'Cold'
+                ELSE ORDER_PRIORITY
+            END AS ORDER_PRIORITY
+        FROM (
+            SELECT DISTINCT "ORDER_PRIORITY" AS ORDER_PRIORITY
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );
+
+
+
+        -- Create Orders table with JOINs
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Orders AS
+        SELECT
+            s."SALES_CHANNEL",
+            s."ORDER_DATE",
+            s."ORDER_ID",
+            s."SHIP_DATE",
+            s."UNITS_SOLD",
+            s."UNIT_PRICE",
+            s."UNIT_COST",
+            s."TOTAL_REVENUE",
+            s."TOTAL_COST",
+            s."TOTAL_PROFIT",
+            r.Region_id,
+            c.Country_id,
+            i.Item_id,
+            op.OrderPriority_id,
+            DATEDIFF(
+                'day',
+                COALESCE(
+                TRY_TO_DATE(s."ORDER_DATE", 'M/D/YYYY'),
+                TRY_TO_DATE(s."ORDER_DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."ORDER_DATE", 'YYYY-MM-DD')
+                ),
+                COALESCE(
+                TRY_TO_DATE(s."SHIP_DATE", 'M/D/YYYY'),
+                TRY_TO_DATE(s."SHIP_DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."SHIP_DATE", 'YYYY-MM-DD')
+                )
+            ) AS SHIPMENT_LEAD_TIME
+        FROM AIRFLOW_DB.PUBLIC."SALES STREAM" s
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Region r ON r.Region = s.REGION
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Country c ON c.Country = s.COUNTRY
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Item i ON i.Item_type = s.ITEM_TYPE
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority op ON op.ORDER_PRIORITY = s.ORDER_PRIORITY
+        
+[2025-05-23T15:25:16.031+0530] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-05-23T15:25:16.047+0530] {base.py:84} INFO - Retrieving connection 'snowflake_con'
+[2025-05-23T15:25:16.048+0530] {connection.py:486} INFO - Snowflake Connector for Python Version: 3.15.0, Python Version: 3.10.12, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.35
+[2025-05-23T15:25:16.048+0530] {connection.py:1391} INFO - Connecting to GLOBAL Snowflake domain
+[2025-05-23T15:25:16.979+0530] {snowflake.py:521} INFO - Running statement: -- Create Region table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Region AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY REGION) AS Region_id,
+            REGION
+        FROM (
+            SELECT DISTINCT REGION
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );, parameters: None
+[2025-05-23T15:25:16.979+0530] {sql.py:814} INFO - Running statement: -- Create Region table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Region AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY REGION) AS Region_id,
+            REGION
+        FROM (
+            SELECT DISTINCT REGION
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );, parameters: None
+[2025-05-23T15:25:17.770+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T15:25:17.770+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T15:25:17.770+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc89b3-3201-a521-000d-39de0008a126
+[2025-05-23T15:25:17.770+0530] {snowflake.py:521} INFO - Running statement: -- Create Country table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Country AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY COUNTRY) AS Country_id,
+            COUNTRY
+        FROM (
+            SELECT DISTINCT COUNTRY
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );, parameters: None
+[2025-05-23T15:25:17.771+0530] {sql.py:814} INFO - Running statement: -- Create Country table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Country AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY COUNTRY) AS Country_id,
+            COUNTRY
+        FROM (
+            SELECT DISTINCT COUNTRY
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );, parameters: None
+[2025-05-23T15:25:18.402+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T15:25:18.403+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T15:25:18.403+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc89b3-3201-a522-000d-39de0008b056
+[2025-05-23T15:25:18.403+0530] {snowflake.py:521} INFO - Running statement: -- Create Item table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Item AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY ITEM_TYPE) AS Item_id,
+            ITEM_TYPE AS Item_type
+        FROM (
+            SELECT DISTINCT ITEM_TYPE
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );, parameters: None
+[2025-05-23T15:25:18.403+0530] {sql.py:814} INFO - Running statement: -- Create Item table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Item AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY ITEM_TYPE) AS Item_id,
+            ITEM_TYPE AS Item_type
+        FROM (
+            SELECT DISTINCT ITEM_TYPE
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );, parameters: None
+[2025-05-23T15:25:19.410+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T15:25:19.410+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T15:25:19.411+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc89b3-3201-a520-000d-39de00086d82
+[2025-05-23T15:25:19.411+0530] {snowflake.py:521} INFO - Running statement: -- Create Order_Priority table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY ORDER_PRIORITY) AS OrderPriority_id,
+            CASE
+                WHEN ORDER_PRIORITY = 'H' THEN 'High'
+                WHEN ORDER_PRIORITY = 'L' THEN 'Low'
+                WHEN ORDER_PRIORITY = 'M' THEN 'Medium'
+                WHEN ORDER_PRIORITY = 'C' THEN 'Cold'
+                ELSE ORDER_PRIORITY
+            END AS ORDER_PRIORITY
+        FROM (
+            SELECT DISTINCT "ORDER_PRIORITY" AS ORDER_PRIORITY
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );, parameters: None
+[2025-05-23T15:25:19.411+0530] {sql.py:814} INFO - Running statement: -- Create Order_Priority table
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority AS
+        SELECT
+            ROW_NUMBER() OVER (ORDER BY ORDER_PRIORITY) AS OrderPriority_id,
+            CASE
+                WHEN ORDER_PRIORITY = 'H' THEN 'High'
+                WHEN ORDER_PRIORITY = 'L' THEN 'Low'
+                WHEN ORDER_PRIORITY = 'M' THEN 'Medium'
+                WHEN ORDER_PRIORITY = 'C' THEN 'Cold'
+                ELSE ORDER_PRIORITY
+            END AS ORDER_PRIORITY
+        FROM (
+            SELECT DISTINCT "ORDER_PRIORITY" AS ORDER_PRIORITY
+            FROM AIRFLOW_DB.PUBLIC."SALES STREAM"
+        );, parameters: None
+[2025-05-23T15:25:19.869+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T15:25:19.869+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T15:25:19.869+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc89b3-3201-a522-000d-39de0008b05a
+[2025-05-23T15:25:19.869+0530] {snowflake.py:521} INFO - Running statement: -- Create Orders table with JOINs
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Orders AS
+        SELECT
+            s."SALES_CHANNEL",
+            s."ORDER_DATE",
+            s."ORDER_ID",
+            s."SHIP_DATE",
+            s."UNITS_SOLD",
+            s."UNIT_PRICE",
+            s."UNIT_COST",
+            s."TOTAL_REVENUE",
+            s."TOTAL_COST",
+            s."TOTAL_PROFIT",
+            r.Region_id,
+            c.Country_id,
+            i.Item_id,
+            op.OrderPriority_id,
+            DATEDIFF(
+                'day',
+                COALESCE(
+                TRY_TO_DATE(s."ORDER_DATE", 'M/D/YYYY'),
+                TRY_TO_DATE(s."ORDER_DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."ORDER_DATE", 'YYYY-MM-DD')
+                ),
+                COALESCE(
+                TRY_TO_DATE(s."SHIP_DATE", 'M/D/YYYY'),
+                TRY_TO_DATE(s."SHIP_DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."SHIP_DATE", 'YYYY-MM-DD')
+                )
+            ) AS SHIPMENT_LEAD_TIME
+        FROM AIRFLOW_DB.PUBLIC."SALES STREAM" s
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Region r ON r.Region = s.REGION
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Country c ON c.Country = s.COUNTRY
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Item i ON i.Item_type = s.ITEM_TYPE
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority op ON op.ORDER_PRIORITY = s.ORDER_PRIORITY, parameters: None
+[2025-05-23T15:25:19.869+0530] {sql.py:814} INFO - Running statement: -- Create Orders table with JOINs
+        CREATE OR REPLACE TABLE AIRFLOW_DB.ELT_TRANSFORMED.Orders AS
+        SELECT
+            s."SALES_CHANNEL",
+            s."ORDER_DATE",
+            s."ORDER_ID",
+            s."SHIP_DATE",
+            s."UNITS_SOLD",
+            s."UNIT_PRICE",
+            s."UNIT_COST",
+            s."TOTAL_REVENUE",
+            s."TOTAL_COST",
+            s."TOTAL_PROFIT",
+            r.Region_id,
+            c.Country_id,
+            i.Item_id,
+            op.OrderPriority_id,
+            DATEDIFF(
+                'day',
+                COALESCE(
+                TRY_TO_DATE(s."ORDER_DATE", 'M/D/YYYY'),
+                TRY_TO_DATE(s."ORDER_DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."ORDER_DATE", 'YYYY-MM-DD')
+                ),
+                COALESCE(
+                TRY_TO_DATE(s."SHIP_DATE", 'M/D/YYYY'),
+                TRY_TO_DATE(s."SHIP_DATE", 'MM/DD/YYYY'),
+                TRY_TO_DATE(s."SHIP_DATE", 'YYYY-MM-DD')
+                )
+            ) AS SHIPMENT_LEAD_TIME
+        FROM AIRFLOW_DB.PUBLIC."SALES STREAM" s
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Region r ON r.Region = s.REGION
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Country c ON c.Country = s.COUNTRY
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Item i ON i.Item_type = s.ITEM_TYPE
+        JOIN AIRFLOW_DB.ELT_TRANSFORMED.Order_Priority op ON op.ORDER_PRIORITY = s.ORDER_PRIORITY, parameters: None
+[2025-05-23T15:25:20.473+0530] {sql.py:823} INFO - Rows affected: 1
+[2025-05-23T15:25:20.474+0530] {snowflake.py:534} INFO - Rows affected: 1
+[2025-05-23T15:25:20.474+0530] {snowflake.py:535} INFO - Snowflake query id: 01bc89b3-3201-a520-000d-39de00086d86
+[2025-05-23T15:25:20.725+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-23T15:25:20.726+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=elt_sales_stream_transformation, task_id=transform_sales_stream, run_id=manual__2025-05-23T09:55:13.648361+00:00, execution_date=20250523T095513, start_date=20250523T095515, end_date=20250523T095520
+[2025-05-23T15:25:20.761+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-23T15:25:20.770+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-23T15:25:20.770+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

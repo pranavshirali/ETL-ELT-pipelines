@@ -1,0 +1,213 @@
+[2025-05-19T19:28:02.103+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-19T19:28:02.110+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: nyc_taxi_etl.extract_from_azure manual__2025-05-19T13:57:59.365430+00:00 [queued]>
+[2025-05-19T19:28:02.114+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: nyc_taxi_etl.extract_from_azure manual__2025-05-19T13:57:59.365430+00:00 [queued]>
+[2025-05-19T19:28:02.115+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-19T19:28:02.131+0530] {taskinstance.py:2888} INFO - Executing <Task(BashOperator): extract_from_azure> on 2025-05-19 13:57:59.365430+00:00
+[2025-05-19T19:28:02.133+0530] {standard_task_runner.py:72} INFO - Started process 22996 to run task
+[2025-05-19T19:28:02.136+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'nyc_taxi_etl', 'extract_from_azure', 'manual__2025-05-19T13:57:59.365430+00:00', '--job-id', '73', '--raw', '--subdir', 'DAGS_FOLDER/nyc_taxi_etl.py', '--cfg-path', '/tmp/tmp1zseisbr']
+[2025-05-19T19:28:02.138+0530] {standard_task_runner.py:105} INFO - Job 73: Subtask extract_from_azure
+[2025-05-19T19:28:02.164+0530] {task_command.py:467} INFO - Running <TaskInstance: nyc_taxi_etl.extract_from_azure manual__2025-05-19T13:57:59.365430+00:00 [running]> on host Voldemort.
+[2025-05-19T19:28:02.210+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='nyc_taxi_etl' AIRFLOW_CTX_TASK_ID='extract_from_azure' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T13:57:59.365430+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T13:57:59.365430+00:00'
+[2025-05-19T19:28:02.210+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-19T19:28:02.224+0530] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-05-19T19:28:02.225+0530] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', '/opt/spark/bin/spark-submit /home/pranav_shirali/airflow-project/scripts/ETL/extract.py']
+[2025-05-19T19:28:02.229+0530] {subprocess.py:86} INFO - Output:
+[2025-05-19T19:28:04.140+0530] {subprocess.py:93} INFO - 25/05/19 19:28:04 WARN Utils: Your hostname, Voldemort resolves to a loopback address: 127.0.1.1; using 10.255.255.254 instead (on interface lo)
+[2025-05-19T19:28:04.142+0530] {subprocess.py:93} INFO - 25/05/19 19:28:04 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2025-05-19T19:28:05.319+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SparkContext: Running Spark version 3.5.5
+[2025-05-19T19:28:05.319+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SparkContext: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64
+[2025-05-19T19:28:05.319+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SparkContext: Java version 11.0.27
+[2025-05-19T19:28:05.401+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2025-05-19T19:28:05.503+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO ResourceUtils: ==============================================================
+[2025-05-19T19:28:05.503+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO ResourceUtils: No custom resources configured for spark.driver.
+[2025-05-19T19:28:05.503+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO ResourceUtils: ==============================================================
+[2025-05-19T19:28:05.504+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SparkContext: Submitted application: NYC Taxi Extract
+[2025-05-19T19:28:05.529+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO ResourceProfile: Default ResourceProfile created, executor resources: Map(cores -> name: cores, amount: 1, script: , vendor: , memory -> name: memory, amount: 1024, script: , vendor: , offHeap -> name: offHeap, amount: 0, script: , vendor: ), task resources: Map(cpus -> name: cpus, amount: 1.0)
+[2025-05-19T19:28:05.539+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO ResourceProfile: Limiting resource is cpu
+[2025-05-19T19:28:05.540+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO ResourceProfileManager: Added ResourceProfile id: 0
+[2025-05-19T19:28:05.599+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SecurityManager: Changing view acls to: pranav_shirali
+[2025-05-19T19:28:05.599+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SecurityManager: Changing modify acls to: pranav_shirali
+[2025-05-19T19:28:05.600+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SecurityManager: Changing view acls groups to:
+[2025-05-19T19:28:05.600+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SecurityManager: Changing modify acls groups to:
+[2025-05-19T19:28:05.600+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users with view permissions: pranav_shirali; groups with view permissions: EMPTY; users with modify permissions: pranav_shirali; groups with modify permissions: EMPTY
+[2025-05-19T19:28:05.843+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO Utils: Successfully started service 'sparkDriver' on port 33719.
+[2025-05-19T19:28:05.877+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SparkEnv: Registering MapOutputTracker
+[2025-05-19T19:28:05.908+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SparkEnv: Registering BlockManagerMaster
+[2025-05-19T19:28:05.926+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2025-05-19T19:28:05.926+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2025-05-19T19:28:05.930+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2025-05-19T19:28:05.955+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-2c7d0e2c-85a4-42ef-986e-ece5cef09176
+[2025-05-19T19:28:05.972+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO MemoryStore: MemoryStore started with capacity 434.4 MiB
+[2025-05-19T19:28:05.984+0530] {subprocess.py:93} INFO - 25/05/19 19:28:05 INFO SparkEnv: Registering OutputCommitCoordinator
+[2025-05-19T19:28:06.147+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO JettyUtils: Start Jetty 0.0.0.0:4040 for SparkUI
+[2025-05-19T19:28:06.205+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Utils: Successfully started service 'SparkUI' on port 4040.
+[2025-05-19T19:28:06.239+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO SparkContext: Added JAR /opt/spark/jars/hadoop-azure-3.3.1.jar at spark://10.255.255.254:33719/jars/hadoop-azure-3.3.1.jar with timestamp 1747663085309
+[2025-05-19T19:28:06.239+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO SparkContext: Added JAR /opt/spark/jars/azure-storage-8.6.6.jar at spark://10.255.255.254:33719/jars/azure-storage-8.6.6.jar with timestamp 1747663085309
+[2025-05-19T19:28:06.240+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO SparkContext: Added JAR /opt/spark/jars/hadoop-azure-datalake-3.3.1.jar at spark://10.255.255.254:33719/jars/hadoop-azure-datalake-3.3.1.jar with timestamp 1747663085309
+[2025-05-19T19:28:06.297+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Starting executor ID driver on host 10.255.255.254
+[2025-05-19T19:28:06.297+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: OS info Linux, 5.15.167.4-microsoft-standard-WSL2, amd64
+[2025-05-19T19:28:06.298+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Java version 11.0.27
+[2025-05-19T19:28:06.302+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Starting executor with user classpath (userClassPathFirst = false): ''
+[2025-05-19T19:28:06.303+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Created or updated repl class loader org.apache.spark.util.MutableURLClassLoader@54aa6164 for default.
+[2025-05-19T19:28:06.313+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Fetching spark://10.255.255.254:33719/jars/hadoop-azure-datalake-3.3.1.jar with timestamp 1747663085309
+[2025-05-19T19:28:06.363+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO TransportClientFactory: Successfully created connection to /10.255.255.254:33719 after 26 ms (0 ms spent in bootstraps)
+[2025-05-19T19:28:06.369+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Utils: Fetching spark://10.255.255.254:33719/jars/hadoop-azure-datalake-3.3.1.jar to /tmp/spark-5535d503-803b-4253-9f2e-1f95304b672f/userFiles-4c3afb64-b1b1-4a86-b761-915070223e0d/fetchFileTemp8959979074295451248.tmp
+[2025-05-19T19:28:06.401+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Adding file:/tmp/spark-5535d503-803b-4253-9f2e-1f95304b672f/userFiles-4c3afb64-b1b1-4a86-b761-915070223e0d/hadoop-azure-datalake-3.3.1.jar to class loader default
+[2025-05-19T19:28:06.401+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Fetching spark://10.255.255.254:33719/jars/hadoop-azure-3.3.1.jar with timestamp 1747663085309
+[2025-05-19T19:28:06.402+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Utils: Fetching spark://10.255.255.254:33719/jars/hadoop-azure-3.3.1.jar to /tmp/spark-5535d503-803b-4253-9f2e-1f95304b672f/userFiles-4c3afb64-b1b1-4a86-b761-915070223e0d/fetchFileTemp6115431136173654260.tmp
+[2025-05-19T19:28:06.409+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Adding file:/tmp/spark-5535d503-803b-4253-9f2e-1f95304b672f/userFiles-4c3afb64-b1b1-4a86-b761-915070223e0d/hadoop-azure-3.3.1.jar to class loader default
+[2025-05-19T19:28:06.410+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Fetching spark://10.255.255.254:33719/jars/azure-storage-8.6.6.jar with timestamp 1747663085309
+[2025-05-19T19:28:06.410+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Utils: Fetching spark://10.255.255.254:33719/jars/azure-storage-8.6.6.jar to /tmp/spark-5535d503-803b-4253-9f2e-1f95304b672f/userFiles-4c3afb64-b1b1-4a86-b761-915070223e0d/fetchFileTemp10097577700919425813.tmp
+[2025-05-19T19:28:06.419+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Executor: Adding file:/tmp/spark-5535d503-803b-4253-9f2e-1f95304b672f/userFiles-4c3afb64-b1b1-4a86-b761-915070223e0d/azure-storage-8.6.6.jar to class loader default
+[2025-05-19T19:28:06.432+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 46425.
+[2025-05-19T19:28:06.433+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO NettyBlockTransferService: Server created on 10.255.255.254:46425
+[2025-05-19T19:28:06.434+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2025-05-19T19:28:06.440+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 10.255.255.254, 46425, None)
+[2025-05-19T19:28:06.442+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO BlockManagerMasterEndpoint: Registering block manager 10.255.255.254:46425 with 434.4 MiB RAM, BlockManagerId(driver, 10.255.255.254, 46425, None)
+[2025-05-19T19:28:06.444+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 10.255.255.254, 46425, None)
+[2025-05-19T19:28:06.445+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 10.255.255.254, 46425, None)
+[2025-05-19T19:28:06.890+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO SharedState: Setting hive.metastore.warehouse.dir ('null') to the value of spark.sql.warehouse.dir.
+[2025-05-19T19:28:06.899+0530] {subprocess.py:93} INFO - 25/05/19 19:28:06 INFO SharedState: Warehouse path is 'file:/tmp/airflowtmpkpxjmuau/spark-warehouse'.
+[2025-05-19T19:28:09.311+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 WARN FileStreamSink: Assume no metadata directory. Error while looking for metadata directory in the path: abfss://nyc-taxi-data@tietoevryproject1.dfs.core.windows.net/part.0.parquet.
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - org.apache.hadoop.fs.FileAlreadyExistsException: Operation failed: "This endpoint does not support BlobStorageEvents or SoftDelete. Please disable these account features if you would like to use this endpoint.", 409, HEAD, https://tietoevryproject1.dfs.core.windows.net/nyc-taxi-data/?upn=false&action=getAccessControl&timeout=90
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystem.checkException(AzureBlobFileSystem.java:1206)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystem.getFileStatus(AzureBlobFileSystem.java:509)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem.isDirectory(FileSystem.java:1777)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.streaming.FileStreamSink$.hasMetadata(FileStreamSink.scala:54)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.DataSource.resolveRelation(DataSource.scala:366)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameReader.loadV1Source(DataFrameReader.scala:229)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameReader.$anonfun$load$2(DataFrameReader.scala:211)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at scala.Option.getOrElse(Option.scala:189)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameReader.load(DataFrameReader.scala:211)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.DataFrameReader.parquet(DataFrameReader.scala:563)
+[2025-05-19T19:28:09.312+0530] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:244)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:374)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at py4j.Gateway.invoke(Gateway.java:282)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at py4j.commands.AbstractCommand.invokeMethod(AbstractCommand.java:132)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at py4j.commands.CallCommand.execute(CallCommand.java:79)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.waitForCommands(ClientServerConnection.java:182)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at py4j.ClientServerConnection.run(ClientServerConnection.java:106)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at java.base/java.lang.Thread.run(Thread.java:829)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - Caused by: Operation failed: "This endpoint does not support BlobStorageEvents or SoftDelete. Please disable these account features if you would like to use this endpoint.", 409, HEAD, https://tietoevryproject1.dfs.core.windows.net/nyc-taxi-data/?upn=false&action=getAccessControl&timeout=90
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsRestOperation.completeExecute(AbfsRestOperation.java:218)
+[2025-05-19T19:28:09.313+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsRestOperation.lambda$execute$0(AbfsRestOperation.java:181)
+[2025-05-19T19:28:09.314+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.statistics.impl.IOStatisticsBinding.trackDurationOfInvocation(IOStatisticsBinding.java:464)
+[2025-05-19T19:28:09.314+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsRestOperation.execute(AbfsRestOperation.java:179)
+[2025-05-19T19:28:09.314+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsClient.getAclStatus(AbfsClient.java:942)
+[2025-05-19T19:28:09.314+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsClient.getAclStatus(AbfsClient.java:924)
+[2025-05-19T19:28:09.314+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystemStore.getIsNamespaceEnabled(AzureBlobFileSystemStore.java:324)
+[2025-05-19T19:28:09.314+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystemStore.getFileStatus(AzureBlobFileSystemStore.java:836)
+[2025-05-19T19:28:09.314+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystem.getFileStatus(AzureBlobFileSystem.java:507)
+[2025-05-19T19:28:09.314+0530] {subprocess.py:93} INFO - 	... 20 more
+[2025-05-19T19:28:09.587+0530] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2025-05-19T19:28:09.588+0530] {subprocess.py:93} INFO -   File "/home/pranav_shirali/airflow-project/scripts/ETL/extract.py", line 15, in <module>
+[2025-05-19T19:28:09.588+0530] {subprocess.py:93} INFO -     df = spark.read.parquet(file_path)
+[2025-05-19T19:28:09.589+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/sql/readwriter.py", line 544, in parquet
+[2025-05-19T19:28:09.589+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/java_gateway.py", line 1322, in __call__
+[2025-05-19T19:28:09.589+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/pyspark.zip/pyspark/errors/exceptions/captured.py", line 179, in deco
+[2025-05-19T19:28:09.589+0530] {subprocess.py:93} INFO -   File "/opt/spark/python/lib/py4j-0.10.9.7-src.zip/py4j/protocol.py", line 326, in get_return_value
+[2025-05-19T19:28:09.589+0530] {subprocess.py:93} INFO - py4j.protocol.Py4JJavaError: An error occurred while calling o30.parquet.
+[2025-05-19T19:28:09.589+0530] {subprocess.py:93} INFO - : org.apache.hadoop.fs.FileAlreadyExistsException: Operation failed: "This endpoint does not support BlobStorageEvents or SoftDelete. Please disable these account features if you would like to use this endpoint.", 409, HEAD, https://tietoevryproject1.dfs.core.windows.net/nyc-taxi-data/?upn=false&action=getAccessControl&timeout=90
+[2025-05-19T19:28:09.590+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystem.checkException(AzureBlobFileSystem.java:1206)
+[2025-05-19T19:28:09.590+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystem.getFileStatus(AzureBlobFileSystem.java:509)
+[2025-05-19T19:28:09.590+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.FileSystem.exists(FileSystem.java:1760)
+[2025-05-19T19:28:09.590+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystem.exists(AzureBlobFileSystem.java:1038)
+[2025-05-19T19:28:09.590+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$4(DataSource.scala:756)
+[2025-05-19T19:28:09.590+0530] {subprocess.py:93} INFO - 	at org.apache.spark.sql.execution.datasources.DataSource$.$anonfun$checkAndGlobPathIfNecessary$4$adapted(DataSource.scala:754)
+[2025-05-19T19:28:09.590+0530] {subprocess.py:93} INFO - 	at org.apache.spark.util.ThreadUtils$.$anonfun$parmap$2(ThreadUtils.scala:384)
+[2025-05-19T19:28:09.590+0530] {subprocess.py:93} INFO - 	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:659)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at scala.util.Success.map(Try.scala:213)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1426)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:290)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1020)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1656)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1594)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:183)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - Caused by: Operation failed: "This endpoint does not support BlobStorageEvents or SoftDelete. Please disable these account features if you would like to use this endpoint.", 409, HEAD, https://tietoevryproject1.dfs.core.windows.net/nyc-taxi-data/?upn=false&action=getAccessControl&timeout=90
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsRestOperation.completeExecute(AbfsRestOperation.java:218)
+[2025-05-19T19:28:09.591+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsRestOperation.lambda$execute$0(AbfsRestOperation.java:181)
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.statistics.impl.IOStatisticsBinding.trackDurationOfInvocation(IOStatisticsBinding.java:464)
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsRestOperation.execute(AbfsRestOperation.java:179)
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsClient.getAclStatus(AbfsClient.java:942)
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.services.AbfsClient.getAclStatus(AbfsClient.java:924)
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystemStore.getIsNamespaceEnabled(AzureBlobFileSystemStore.java:324)
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystemStore.getFileStatus(AzureBlobFileSystemStore.java:836)
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 	at org.apache.hadoop.fs.azurebfs.AzureBlobFileSystem.getFileStatus(AzureBlobFileSystem.java:507)
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 	... 18 more
+[2025-05-19T19:28:09.592+0530] {subprocess.py:93} INFO - 
+[2025-05-19T19:28:09.636+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO SparkContext: Invoking stop() from shutdown hook
+[2025-05-19T19:28:09.637+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO SparkContext: SparkContext is stopping with exitCode 0.
+[2025-05-19T19:28:09.649+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO SparkUI: Stopped Spark web UI at http://10.255.255.254:4040
+[2025-05-19T19:28:09.662+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2025-05-19T19:28:09.674+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO MemoryStore: MemoryStore cleared
+[2025-05-19T19:28:09.674+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO BlockManager: BlockManager stopped
+[2025-05-19T19:28:09.679+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2025-05-19T19:28:09.687+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2025-05-19T19:28:09.694+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO SparkContext: Successfully stopped SparkContext
+[2025-05-19T19:28:09.694+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO ShutdownHookManager: Shutdown hook called
+[2025-05-19T19:28:09.694+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-5535d503-803b-4253-9f2e-1f95304b672f
+[2025-05-19T19:28:09.697+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-e7ad9c9e-0e02-4f01-b9c9-39207517fdfc
+[2025-05-19T19:28:09.700+0530] {subprocess.py:93} INFO - 25/05/19 19:28:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-5535d503-803b-4253-9f2e-1f95304b672f/pyspark-225a11eb-fa99-4251-b3ac-58ea18a97e56
+[2025-05-19T19:28:09.748+0530] {subprocess.py:97} INFO - Command exited with return code 1
+[2025-05-19T19:28:09.754+0530] {taskinstance.py:3310} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-05-19T19:28:09.758+0530] {taskinstance.py:1225} INFO - Marking task as FAILED. dag_id=nyc_taxi_etl, task_id=extract_from_azure, run_id=manual__2025-05-19T13:57:59.365430+00:00, execution_date=20250519T135759, start_date=20250519T135802, end_date=20250519T135809
+[2025-05-19T19:28:09.766+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-19T19:28:09.766+0530] {standard_task_runner.py:124} ERROR - Failed to execute job 73 for task extract_from_azure (Bash command failed. The command returned a non-zero exit code 1.; 22996)
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/cli.py", line 115, in wrapper
+    return f(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3004, in _run_raw_task
+    return _run_raw_task(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 273, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3158, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 3182, in _execute_task
+    return _execute_task(self, context, task_orig)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 767, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 733, in _execute_callable
+    return ExecutionCallableRunner(
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/baseoperator.py", line 406, in wrapper
+    return func(self, *args, **kwargs)
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/operators/bash.py", line 249, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2025-05-19T19:28:09.794+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-19T19:28:09.807+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-19T19:28:09.812+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

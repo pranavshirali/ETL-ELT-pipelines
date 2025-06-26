@@ -1,0 +1,20 @@
+[2025-05-21T14:41:55.871+0530] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-21T14:41:55.878+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: airbyte_sync_dag.wait_for_airbyte_sync manual__2025-05-21T08:52:31.066226+00:00 [queued]>
+[2025-05-21T14:41:55.882+0530] {taskinstance.py:2612} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: airbyte_sync_dag.wait_for_airbyte_sync manual__2025-05-21T08:52:31.066226+00:00 [queued]>
+[2025-05-21T14:41:55.883+0530] {taskinstance.py:2865} INFO - Starting attempt 1 of 1
+[2025-05-21T14:41:55.893+0530] {taskinstance.py:2888} INFO - Executing <Task(AirbyteJobSensor): wait_for_airbyte_sync> on 2025-05-21 08:52:31.066226+00:00
+[2025-05-21T14:41:55.895+0530] {standard_task_runner.py:72} INFO - Started process 39236 to run task
+[2025-05-21T14:41:55.898+0530] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'airbyte_sync_dag', 'wait_for_airbyte_sync', 'manual__2025-05-21T08:52:31.066226+00:00', '--job-id', '98', '--raw', '--subdir', 'DAGS_FOLDER/airbyte_dag.py', '--cfg-path', '/tmp/tmp1k08cj3n']
+[2025-05-21T14:41:55.899+0530] {standard_task_runner.py:105} INFO - Job 98: Subtask wait_for_airbyte_sync
+[2025-05-21T14:41:55.923+0530] {task_command.py:467} INFO - Running <TaskInstance: airbyte_sync_dag.wait_for_airbyte_sync manual__2025-05-21T08:52:31.066226+00:00 [running]> on host Voldemort.
+[2025-05-21T14:41:55.967+0530] {taskinstance.py:3131} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='airbyte_sync_dag' AIRFLOW_CTX_TASK_ID='wait_for_airbyte_sync' AIRFLOW_CTX_EXECUTION_DATE='2025-05-21T08:52:31.066226+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-21T08:52:31.066226+00:00'
+[2025-05-21T14:41:55.968+0530] {taskinstance.py:731} INFO - ::endgroup::
+[2025-05-21T14:41:55.987+0530] {baseoperator.py:405} WARNING - AirbyteJobSensor.execute cannot be called outside TaskInstance!
+[2025-05-21T14:41:55.991+0530] {base.py:84} INFO - Retrieving connection 'airbyte_cloud'
+[2025-05-21T14:41:56.748+0530] {airbyte.py:87} INFO - Job 37141223 completed successfully.
+[2025-05-21T14:41:56.748+0530] {base.py:336} INFO - Success criteria met. Exiting.
+[2025-05-21T14:41:56.752+0530] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2025-05-21T14:41:56.752+0530] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=airbyte_sync_dag, task_id=wait_for_airbyte_sync, run_id=manual__2025-05-21T08:52:31.066226+00:00, execution_date=20250521T085231, start_date=20250521T091155, end_date=20250521T091156
+[2025-05-21T14:41:56.791+0530] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-21T14:41:56.800+0530] {taskinstance.py:3900} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-21T14:41:56.801+0530] {local_task_job_runner.py:245} INFO - ::endgroup::

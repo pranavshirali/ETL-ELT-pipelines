@@ -1,0 +1,1207 @@
+[2025-06-04T15:51:22.727+0530] {processor.py:186} INFO - Started process (PID=5071) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:51:22.728+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T15:51:22.730+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:51:22.730+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:51:22.754+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:51:22.987+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:51:22.986+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T15:51:22.999+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:51:22.999+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T15:51:23.030+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.311 seconds
+[2025-06-04T15:51:53.834+0530] {processor.py:186} INFO - Started process (PID=5290) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:51:53.835+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T15:51:53.839+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:51:53.839+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:51:53.851+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:51:53.882+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:51:53.882+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T15:51:53.896+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:51:53.896+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T15:51:53.921+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.095 seconds
+[2025-06-04T15:52:24.757+0530] {processor.py:186} INFO - Started process (PID=5419) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:52:24.766+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T15:52:24.769+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:52:24.769+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:52:24.778+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:52:24.803+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:52:24.803+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T15:52:24.817+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:52:24.817+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T15:52:24.833+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.085 seconds
+[2025-06-04T15:52:55.645+0530] {processor.py:186} INFO - Started process (PID=5512) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:52:55.646+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T15:52:55.651+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:52:55.651+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:52:55.663+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:52:55.693+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:52:55.693+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T15:52:55.709+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:52:55.709+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T15:52:55.740+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.105 seconds
+[2025-06-04T15:53:26.329+0530] {processor.py:186} INFO - Started process (PID=5638) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:53:26.330+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T15:53:26.334+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:53:26.334+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:53:26.345+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:53:26.376+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:53:26.375+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T15:53:26.393+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:53:26.393+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T15:53:26.422+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.102 seconds
+[2025-06-04T15:58:42.210+0530] {processor.py:186} INFO - Started process (PID=6918) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:58:42.212+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T15:58:42.214+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:58:42.214+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:58:42.234+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:58:42.270+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:58:42.270+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T15:58:42.289+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:58:42.288+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T15:58:42.329+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.129 seconds
+[2025-06-04T15:59:12.825+0530] {processor.py:186} INFO - Started process (PID=7036) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:59:12.826+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T15:59:12.829+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:59:12.828+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:59:12.834+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:59:12.856+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:59:12.856+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T15:59:12.867+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:59:12.867+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T15:59:12.883+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.064 seconds
+[2025-06-04T15:59:43.810+0530] {processor.py:186} INFO - Started process (PID=7123) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:59:43.813+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T15:59:43.815+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:59:43.815+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:59:43.822+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T15:59:43.844+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:59:43.843+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T15:59:43.854+0530] {logging_mixin.py:190} INFO - [2025-06-04T15:59:43.854+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T15:59:43.872+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.069 seconds
+[2025-06-04T16:00:14.790+0530] {processor.py:186} INFO - Started process (PID=7219) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:00:14.791+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:00:14.794+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:00:14.794+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:00:14.800+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:00:14.820+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:00:14.820+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:00:14.833+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:00:14.832+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:00:14.848+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.064 seconds
+[2025-06-04T16:00:45.719+0530] {processor.py:186} INFO - Started process (PID=7306) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:00:45.720+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:00:45.723+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:00:45.722+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:00:45.728+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:00:45.747+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:00:45.747+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:00:45.759+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:00:45.759+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:00:45.776+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.064 seconds
+[2025-06-04T16:01:16.532+0530] {processor.py:186} INFO - Started process (PID=7393) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:01:16.533+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:01:16.536+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:01:16.536+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:01:16.633+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:01:16.664+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:01:16.664+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:01:16.675+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:01:16.675+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:01:16.690+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.165 seconds
+[2025-06-04T16:01:46.763+0530] {processor.py:186} INFO - Started process (PID=7474) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:01:46.765+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:01:46.768+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:01:46.767+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:01:46.775+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:01:46.801+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:01:46.801+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:01:46.815+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:01:46.815+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:01:46.837+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.082 seconds
+[2025-06-04T16:02:18.736+0530] {processor.py:186} INFO - Started process (PID=7568) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:02:18.737+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:02:18.744+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:02:18.743+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:02:18.752+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:02:18.788+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:02:18.787+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:02:18.804+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:02:18.804+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:02:18.828+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.101 seconds
+[2025-06-04T16:02:49.958+0530] {processor.py:186} INFO - Started process (PID=7662) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:02:49.961+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:02:49.964+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:02:49.964+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:02:49.970+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:02:49.992+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:02:49.991+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:02:50.004+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:02:50.004+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:02:50.021+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.070 seconds
+[2025-06-04T16:03:20.726+0530] {processor.py:186} INFO - Started process (PID=7749) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:03:20.727+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:03:20.730+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:03:20.729+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:03:20.735+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:03:20.760+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:03:20.759+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:03:20.778+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:03:20.777+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:03:20.802+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.081 seconds
+[2025-06-04T16:03:51.646+0530] {processor.py:186} INFO - Started process (PID=7836) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:03:51.648+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:03:51.652+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:03:51.651+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:03:51.658+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:03:51.697+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:03:51.696+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:03:51.730+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:03:51.730+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:03:51.758+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.121 seconds
+[2025-06-04T16:04:22.396+0530] {processor.py:186} INFO - Started process (PID=8255) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:04:22.399+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:04:22.402+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:04:22.402+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:04:22.410+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:04:22.438+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:04:22.438+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:04:22.454+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:04:22.453+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:04:22.475+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.087 seconds
+[2025-06-04T16:04:53.163+0530] {processor.py:186} INFO - Started process (PID=8398) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:04:53.164+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:04:53.168+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:04:53.167+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:04:53.177+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:04:53.205+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:04:53.205+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:04:53.219+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:04:53.219+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:04:53.273+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.121 seconds
+[2025-06-04T16:05:24.042+0530] {processor.py:186} INFO - Started process (PID=8488) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:05:24.045+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:05:24.048+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:05:24.048+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:05:24.055+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:05:24.078+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:05:24.078+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:05:24.090+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:05:24.090+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:05:24.107+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T16:05:54.683+0530] {processor.py:186} INFO - Started process (PID=8576) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:05:54.684+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:05:54.687+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:05:54.686+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:05:54.693+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:05:54.716+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:05:54.715+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:05:54.727+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:05:54.727+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:05:54.743+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.066 seconds
+[2025-06-04T16:06:24.885+0530] {processor.py:186} INFO - Started process (PID=8663) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:06:24.888+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:06:24.891+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:06:24.891+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:06:24.899+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:06:24.927+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:06:24.927+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:06:24.940+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:06:24.940+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:06:24.957+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.079 seconds
+[2025-06-04T16:06:55.652+0530] {processor.py:186} INFO - Started process (PID=8750) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:06:55.653+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:06:55.657+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:06:55.656+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:06:55.664+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:06:55.687+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:06:55.687+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:06:55.699+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:06:55.699+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:06:55.716+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.070 seconds
+[2025-06-04T16:07:26.226+0530] {processor.py:186} INFO - Started process (PID=8843) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:07:26.228+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:07:26.231+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:07:26.231+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:07:26.238+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:07:26.264+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:07:26.264+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:07:26.278+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:07:26.278+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:07:26.298+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.079 seconds
+[2025-06-04T16:07:56.840+0530] {processor.py:186} INFO - Started process (PID=8930) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:07:56.841+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:07:56.844+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:07:56.844+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:07:56.851+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:07:56.876+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:07:56.876+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:07:56.892+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:07:56.892+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:07:56.916+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.082 seconds
+[2025-06-04T16:08:27.942+0530] {processor.py:186} INFO - Started process (PID=9023) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:08:27.945+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:08:27.947+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:08:27.947+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:08:27.954+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:08:27.980+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:08:27.979+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:08:27.990+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:08:27.990+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:08:28.010+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T16:08:58.550+0530] {processor.py:186} INFO - Started process (PID=9110) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:08:58.551+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:08:58.554+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:08:58.553+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:08:58.560+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:08:58.583+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:08:58.583+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:08:58.596+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:08:58.595+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:08:58.614+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T16:09:29.024+0530] {processor.py:186} INFO - Started process (PID=9191) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:09:29.026+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:09:29.029+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:09:29.028+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:09:29.036+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:09:29.069+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:09:29.068+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:09:29.083+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:09:29.083+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:09:29.102+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.084 seconds
+[2025-06-04T16:09:59.199+0530] {processor.py:186} INFO - Started process (PID=9278) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:09:59.200+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:09:59.202+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:09:59.202+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:09:59.208+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:09:59.235+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:09:59.235+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:09:59.247+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:09:59.247+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:09:59.266+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T16:10:29.826+0530] {processor.py:186} INFO - Started process (PID=9365) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:10:29.828+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:10:29.832+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:10:29.831+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:10:29.839+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:10:29.871+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:10:29.871+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:10:29.888+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:10:29.887+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:10:29.911+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.093 seconds
+[2025-06-04T16:11:02.561+0530] {processor.py:186} INFO - Started process (PID=9458) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:11:02.562+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:11:02.565+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:11:02.565+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:11:02.571+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:11:02.596+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:11:02.596+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:11:02.610+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:11:02.610+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:11:02.632+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.079 seconds
+[2025-06-04T16:11:33.687+0530] {processor.py:186} INFO - Started process (PID=9555) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:11:33.688+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:11:33.692+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:11:33.692+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:11:33.702+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:11:33.736+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:11:33.735+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:11:33.753+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:11:33.753+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:11:33.776+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.096 seconds
+[2025-06-04T16:12:04.288+0530] {processor.py:186} INFO - Started process (PID=9646) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:12:04.289+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:12:04.291+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:12:04.291+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:12:04.297+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:12:04.326+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:12:04.326+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:12:04.338+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:12:04.338+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:12:04.362+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.082 seconds
+[2025-06-04T16:12:34.943+0530] {processor.py:186} INFO - Started process (PID=9733) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:12:34.944+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:12:34.949+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:12:34.948+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:12:34.957+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:12:34.983+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:12:34.983+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:12:34.995+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:12:34.995+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:12:35.012+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.076 seconds
+[2025-06-04T16:13:05.279+0530] {processor.py:186} INFO - Started process (PID=9820) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:13:05.280+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:13:05.282+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:13:05.282+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:13:05.289+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:13:05.312+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:13:05.312+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:13:05.325+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:13:05.325+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:13:05.341+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.068 seconds
+[2025-06-04T16:13:36.304+0530] {processor.py:186} INFO - Started process (PID=9907) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:13:36.306+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:13:36.309+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:13:36.309+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:13:36.316+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:13:36.342+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:13:36.342+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:13:36.358+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:13:36.358+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:13:36.379+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.081 seconds
+[2025-06-04T16:14:07.066+0530] {processor.py:186} INFO - Started process (PID=9994) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:14:07.068+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:14:07.071+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:14:07.071+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:14:07.079+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:14:07.106+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:14:07.106+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:14:07.120+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:14:07.119+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:14:07.147+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.089 seconds
+[2025-06-04T16:14:37.855+0530] {processor.py:186} INFO - Started process (PID=10081) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:14:37.859+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:14:37.869+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:14:37.869+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:14:37.879+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:14:37.956+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:14:37.956+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:14:37.970+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:14:37.969+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:14:38.002+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.162 seconds
+[2025-06-04T16:15:08.637+0530] {processor.py:186} INFO - Started process (PID=10168) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:15:08.638+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:15:08.641+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:15:08.641+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:15:08.649+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:15:08.675+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:15:08.675+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:15:08.688+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:15:08.688+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:15:08.707+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.078 seconds
+[2025-06-04T16:15:39.429+0530] {processor.py:186} INFO - Started process (PID=10255) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:15:39.430+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:15:39.433+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:15:39.432+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:15:39.439+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:15:39.465+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:15:39.465+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:15:39.479+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:15:39.479+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:15:39.501+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.079 seconds
+[2025-06-04T16:16:10.517+0530] {processor.py:186} INFO - Started process (PID=10342) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:16:10.518+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:16:10.523+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:16:10.522+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:16:10.532+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:16:10.558+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:16:10.557+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:16:10.573+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:16:10.573+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:16:10.597+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.087 seconds
+[2025-06-04T16:16:41.660+0530] {processor.py:186} INFO - Started process (PID=10437) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:16:41.663+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:16:41.667+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:16:41.667+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:16:41.674+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:16:41.701+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:16:41.701+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:16:41.717+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:16:41.717+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:16:41.744+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.091 seconds
+[2025-06-04T16:17:11.929+0530] {processor.py:186} INFO - Started process (PID=10539) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:17:11.930+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:17:11.933+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:17:11.933+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:17:11.940+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:17:11.970+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:17:11.970+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:17:11.989+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:17:11.988+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:17:12.017+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.096 seconds
+[2025-06-04T16:17:42.099+0530] {processor.py:186} INFO - Started process (PID=10626) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:17:42.108+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:17:42.115+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:17:42.114+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:17:42.127+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:17:42.161+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:17:42.160+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:17:42.173+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:17:42.173+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:17:42.202+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.114 seconds
+[2025-06-04T16:18:12.811+0530] {processor.py:186} INFO - Started process (PID=10714) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:18:12.812+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:18:12.815+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:18:12.815+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:18:12.822+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:18:12.847+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:18:12.847+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:18:12.859+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:18:12.859+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:18:12.878+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T16:18:43.724+0530] {processor.py:186} INFO - Started process (PID=10801) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:18:43.726+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:18:43.729+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:18:43.728+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:18:43.743+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:18:43.773+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:18:43.772+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:18:43.786+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:18:43.786+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:18:43.810+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.092 seconds
+[2025-06-04T16:19:14.614+0530] {processor.py:186} INFO - Started process (PID=10888) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:19:14.615+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:19:14.619+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:19:14.618+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:19:14.626+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:19:14.650+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:19:14.650+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:19:14.664+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:19:14.663+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:19:14.682+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T16:19:44.955+0530] {processor.py:186} INFO - Started process (PID=10969) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:19:44.956+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:19:44.959+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:19:44.958+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:19:44.966+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:19:44.991+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:19:44.990+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:19:45.003+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:19:45.003+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:19:45.021+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.072 seconds
+[2025-06-04T16:20:15.305+0530] {processor.py:186} INFO - Started process (PID=11056) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:20:15.306+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:20:15.309+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:20:15.308+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:20:15.315+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:20:15.338+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:20:15.338+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:20:15.350+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:20:15.350+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:20:15.371+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.072 seconds
+[2025-06-04T16:20:46.327+0530] {processor.py:186} INFO - Started process (PID=11143) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:20:46.328+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:20:46.331+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:20:46.330+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:20:46.338+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:20:46.363+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:20:46.362+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:20:46.374+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:20:46.373+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:20:46.390+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.069 seconds
+[2025-06-04T16:21:17.338+0530] {processor.py:186} INFO - Started process (PID=11232) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:21:17.341+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:21:17.346+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:21:17.345+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:21:17.354+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:21:17.380+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:21:17.379+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:21:17.393+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:21:17.393+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:21:17.411+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.080 seconds
+[2025-06-04T16:21:47.916+0530] {processor.py:186} INFO - Started process (PID=11320) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:21:47.918+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:21:47.920+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:21:47.920+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:21:47.928+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:21:47.952+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:21:47.952+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:21:47.963+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:21:47.963+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:21:47.979+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.070 seconds
+[2025-06-04T16:22:18.646+0530] {processor.py:186} INFO - Started process (PID=11414) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:22:18.648+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:22:18.652+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:22:18.651+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:22:18.658+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:22:18.690+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:22:18.690+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:22:18.703+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:22:18.703+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:22:18.726+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.087 seconds
+[2025-06-04T16:22:49.002+0530] {processor.py:186} INFO - Started process (PID=11506) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:22:49.004+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:22:49.007+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:22:49.006+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:22:49.015+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:22:49.049+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:22:49.049+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:22:49.062+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:22:49.062+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:22:49.081+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.088 seconds
+[2025-06-04T16:23:07.841+0530] {processor.py:186} INFO - Started process (PID=11561) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:07.842+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:23:07.844+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:23:07.844+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:07.849+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:23:07.847+0530] {dagbag.py:387} ERROR - Failed to import: /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+Traceback (most recent call last):
+  File "/home/pranav_shirali/airflow-project/airflow-env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py", line 45
+    # extract >> transform >> load
+                                  ^
+IndentationError: expected an indented block after 'with' statement on line 11
+[2025-06-04T16:23:07.850+0530] {processor.py:927} WARNING - No viable dags retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:07.873+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.041 seconds
+[2025-06-04T16:23:09.907+0530] {processor.py:186} INFO - Started process (PID=11569) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:09.908+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:23:09.912+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:23:09.911+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:09.919+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:09.945+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:23:09.945+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:23:09.956+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:23:09.956+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:23:09.982+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.081 seconds
+[2025-06-04T16:23:41.019+0530] {processor.py:186} INFO - Started process (PID=11681) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:41.021+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:23:41.025+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:23:41.025+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:41.032+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:23:41.054+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:23:41.054+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:23:41.064+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:23:41.064+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:23:41.080+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.066 seconds
+[2025-06-04T16:24:11.150+0530] {processor.py:186} INFO - Started process (PID=11768) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:24:11.153+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:24:11.156+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:24:11.156+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:24:11.162+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:24:11.189+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:24:11.188+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:24:11.200+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:24:11.200+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:24:11.218+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T16:24:42.089+0530] {processor.py:186} INFO - Started process (PID=11855) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:24:42.090+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:24:42.092+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:24:42.092+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:24:42.099+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:24:42.120+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:24:42.120+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:24:42.132+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:24:42.131+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:24:42.148+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.066 seconds
+[2025-06-04T16:25:13.152+0530] {processor.py:186} INFO - Started process (PID=11947) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:13.154+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:25:13.158+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:13.157+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:13.165+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:13.188+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:13.187+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:25:13.202+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:13.202+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:25:13.221+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T16:25:19.586+0530] {processor.py:186} INFO - Started process (PID=11966) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:19.587+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:25:19.590+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:19.589+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:19.597+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:19.621+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:19.620+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:25:19.633+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:19.633+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:25:19.660+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.080 seconds
+[2025-06-04T16:25:50.307+0530] {processor.py:186} INFO - Started process (PID=12082) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:50.309+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:25:50.312+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:50.311+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:50.319+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:25:50.342+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:50.341+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:25:50.355+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:25:50.355+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:25:50.386+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.086 seconds
+[2025-06-04T16:26:21.076+0530] {processor.py:186} INFO - Started process (PID=12171) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:26:21.077+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:26:21.079+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:26:21.079+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:26:21.085+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:26:21.178+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:26:21.178+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:26:21.194+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:26:21.194+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:26:21.225+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.156 seconds
+[2025-06-04T16:26:53.956+0530] {processor.py:186} INFO - Started process (PID=12296) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:26:53.959+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:26:53.966+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:26:53.963+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:26:53.979+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:26:54.025+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:26:54.024+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:26:54.057+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:26:54.056+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:26:54.094+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.150 seconds
+[2025-06-04T16:27:24.204+0530] {processor.py:186} INFO - Started process (PID=12395) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:27:24.206+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:27:24.210+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:27:24.210+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:27:24.216+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:27:24.240+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:27:24.239+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:27:24.257+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:27:24.257+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:27:24.275+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.083 seconds
+[2025-06-04T16:31:59.273+0530] {processor.py:186} INFO - Started process (PID=13535) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:31:59.274+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:31:59.275+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:31:59.275+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:31:59.281+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:31:59.321+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:31:59.321+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:31:59.339+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:31:59.339+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:31:59.367+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.100 seconds
+[2025-06-04T16:32:30.002+0530] {processor.py:186} INFO - Started process (PID=13691) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:32:30.004+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:32:30.007+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:32:30.007+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:32:30.013+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:32:30.035+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:32:30.035+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:32:30.045+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:32:30.045+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:32:30.061+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.065 seconds
+[2025-06-04T16:33:00.716+0530] {processor.py:186} INFO - Started process (PID=13778) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:33:00.719+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:33:00.722+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:33:00.721+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:33:00.729+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:33:00.757+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:33:00.757+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:33:00.768+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:33:00.768+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:33:00.786+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.081 seconds
+[2025-06-04T16:33:31.178+0530] {processor.py:186} INFO - Started process (PID=13865) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:33:31.180+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:33:31.183+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:33:31.182+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:33:31.189+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:33:31.220+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:33:31.219+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:33:31.232+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:33:31.232+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:33:31.251+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.080 seconds
+[2025-06-04T16:34:01.747+0530] {processor.py:186} INFO - Started process (PID=13984) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:34:01.748+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:34:01.752+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:34:01.751+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:34:01.760+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:34:01.783+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:34:01.783+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:34:01.795+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:34:01.795+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:34:01.810+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T16:34:32.446+0530] {processor.py:186} INFO - Started process (PID=14071) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:34:32.448+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:34:32.452+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:34:32.451+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:34:32.460+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:34:32.486+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:34:32.486+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:34:32.501+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:34:32.501+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:34:32.520+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.083 seconds
+[2025-06-04T16:35:02.923+0530] {processor.py:186} INFO - Started process (PID=14158) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:35:02.924+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:35:02.926+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:35:02.926+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:35:02.932+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:35:02.952+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:35:02.952+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:35:02.962+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:35:02.962+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:35:02.978+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.061 seconds
+[2025-06-04T16:35:33.429+0530] {processor.py:186} INFO - Started process (PID=14247) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:35:33.431+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:35:33.434+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:35:33.434+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:35:33.440+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:35:33.462+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:35:33.462+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:35:33.475+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:35:33.475+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:35:33.508+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.085 seconds
+[2025-06-04T16:36:03.973+0530] {processor.py:186} INFO - Started process (PID=14334) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:36:03.975+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:36:03.978+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:36:03.977+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:36:03.984+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:36:04.011+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:36:04.011+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:36:04.023+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:36:04.023+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:36:04.039+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T16:36:34.607+0530] {processor.py:186} INFO - Started process (PID=14421) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:36:34.609+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:36:34.612+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:36:34.612+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:36:34.618+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:36:34.652+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:36:34.652+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:36:34.664+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:36:34.664+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:36:34.683+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.082 seconds
+[2025-06-04T16:37:04.978+0530] {processor.py:186} INFO - Started process (PID=14520) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:37:04.985+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:37:04.988+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:37:04.987+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:37:04.994+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:37:05.018+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:37:05.017+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:37:05.030+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:37:05.030+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:37:05.046+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T16:37:35.410+0530] {processor.py:186} INFO - Started process (PID=14607) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:37:35.412+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:37:35.414+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:37:35.414+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:37:35.420+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:37:35.444+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:37:35.444+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:37:35.457+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:37:35.457+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:37:35.477+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.079 seconds
+[2025-06-04T16:38:05.748+0530] {processor.py:186} INFO - Started process (PID=14705) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:38:05.750+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:38:05.755+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:38:05.754+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:38:05.767+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:38:05.819+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:38:05.819+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:38:05.842+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:38:05.842+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:38:05.886+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.146 seconds
+[2025-06-04T16:38:36.105+0530] {processor.py:186} INFO - Started process (PID=14794) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:38:36.106+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:38:36.108+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:38:36.108+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:38:36.114+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:38:36.142+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:38:36.142+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:38:36.155+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:38:36.154+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:38:36.172+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T16:39:06.410+0530] {processor.py:186} INFO - Started process (PID=14882) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:39:06.411+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:39:06.416+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:39:06.415+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:39:06.424+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:39:06.463+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:39:06.463+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:39:06.474+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:39:06.473+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:39:06.490+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.089 seconds
+[2025-06-04T16:39:37.404+0530] {processor.py:186} INFO - Started process (PID=14969) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:39:37.405+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:39:37.408+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:39:37.408+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:39:37.416+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:39:37.447+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:39:37.447+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:39:37.460+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:39:37.460+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:39:37.477+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.082 seconds
+[2025-06-04T16:40:07.781+0530] {processor.py:186} INFO - Started process (PID=15062) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:40:07.785+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:40:07.789+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:40:07.788+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:40:07.796+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:40:07.818+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:40:07.818+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:40:07.829+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:40:07.829+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:40:07.843+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.068 seconds
+[2025-06-04T16:40:38.395+0530] {processor.py:186} INFO - Started process (PID=15149) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:40:38.398+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:40:38.401+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:40:38.400+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:40:38.409+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:40:38.437+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:40:38.437+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:40:38.451+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:40:38.450+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:40:38.470+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.085 seconds
+[2025-06-04T16:41:08.928+0530] {processor.py:186} INFO - Started process (PID=15236) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:41:08.929+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:41:08.933+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:41:08.932+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:41:08.942+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:41:08.971+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:41:08.971+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:41:08.986+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:41:08.986+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:41:09.007+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.086 seconds
+[2025-06-04T16:41:39.411+0530] {processor.py:186} INFO - Started process (PID=15323) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:41:39.414+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:41:39.416+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:41:39.416+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:41:39.422+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:41:39.446+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:41:39.446+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:41:39.462+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:41:39.462+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:41:39.478+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T16:42:10.063+0530] {processor.py:186} INFO - Started process (PID=15411) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:42:10.066+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:42:10.070+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:42:10.070+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:42:10.077+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:42:10.103+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:42:10.102+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:42:10.117+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:42:10.116+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:42:10.137+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.081 seconds
+[2025-06-04T16:42:40.250+0530] {processor.py:186} INFO - Started process (PID=15504) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:42:40.253+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:42:40.256+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:42:40.255+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:42:40.262+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:42:40.287+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:42:40.287+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:42:40.300+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:42:40.300+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:42:40.319+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T16:43:10.830+0530] {processor.py:186} INFO - Started process (PID=15591) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:43:10.832+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:43:10.836+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:43:10.835+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:43:10.844+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:43:10.878+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:43:10.878+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:43:10.892+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:43:10.892+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:43:10.915+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.093 seconds
+[2025-06-04T16:43:41.207+0530] {processor.py:186} INFO - Started process (PID=15678) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:43:41.208+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:43:41.210+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:43:41.210+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:43:41.216+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:43:41.242+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:43:41.242+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:43:41.254+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:43:41.254+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:43:41.271+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.070 seconds
+[2025-06-04T16:44:11.528+0530] {processor.py:186} INFO - Started process (PID=15765) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:44:11.532+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:44:11.535+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:44:11.535+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:44:11.542+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:44:11.566+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:44:11.566+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:44:11.577+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:44:11.577+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:44:11.599+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.078 seconds
+[2025-06-04T16:44:41.861+0530] {processor.py:186} INFO - Started process (PID=15853) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:44:41.863+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:44:41.866+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:44:41.866+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:44:41.874+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:44:41.900+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:44:41.899+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:44:41.912+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:44:41.912+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:44:41.929+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T16:45:12.533+0530] {processor.py:186} INFO - Started process (PID=15946) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:45:12.535+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:45:12.538+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:45:12.537+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:45:12.545+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:45:12.570+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:45:12.569+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:45:12.581+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:45:12.581+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:45:12.597+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.070 seconds
+[2025-06-04T16:45:43.040+0530] {processor.py:186} INFO - Started process (PID=16033) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:45:43.042+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:45:43.045+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:45:43.045+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:45:43.052+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:45:43.077+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:45:43.076+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:45:43.087+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:45:43.087+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:45:43.103+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.070 seconds
+[2025-06-04T16:46:13.390+0530] {processor.py:186} INFO - Started process (PID=16120) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:46:13.393+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:46:13.396+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:46:13.396+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:46:13.403+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:46:13.432+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:46:13.431+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:46:13.443+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:46:13.443+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:46:13.460+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.076 seconds
+[2025-06-04T16:46:43.764+0530] {processor.py:186} INFO - Started process (PID=16207) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:46:43.766+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:46:43.769+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:46:43.768+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:46:43.777+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:46:43.803+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:46:43.803+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:46:43.816+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:46:43.816+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:46:43.843+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.085 seconds
+[2025-06-04T16:47:14.135+0530] {processor.py:186} INFO - Started process (PID=16300) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:47:14.136+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:47:14.140+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:47:14.139+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:47:14.146+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:47:14.170+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:47:14.170+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:47:14.182+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:47:14.181+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:47:14.197+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.069 seconds
+[2025-06-04T16:47:44.856+0530] {processor.py:186} INFO - Started process (PID=16387) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:47:44.858+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:47:44.861+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:47:44.860+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:47:44.868+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:47:44.891+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:47:44.891+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:47:44.902+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:47:44.901+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:47:44.916+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.067 seconds
+[2025-06-04T16:48:15.275+0530] {processor.py:186} INFO - Started process (PID=16480) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:48:15.276+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:48:15.280+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:48:15.279+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:48:15.287+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:48:15.313+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:48:15.313+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:48:15.326+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:48:15.326+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:48:15.346+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.080 seconds
+[2025-06-04T16:48:45.678+0530] {processor.py:186} INFO - Started process (PID=16567) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:48:45.680+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:48:45.683+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:48:45.683+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:48:45.691+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:48:45.730+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:48:45.730+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:48:45.748+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:48:45.747+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:48:45.770+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.101 seconds
+[2025-06-04T16:49:16.043+0530] {processor.py:186} INFO - Started process (PID=16654) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:49:16.046+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:49:16.049+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:49:16.048+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:49:16.055+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:49:16.080+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:49:16.080+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:49:16.093+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:49:16.093+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:49:16.110+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T16:49:46.435+0530] {processor.py:186} INFO - Started process (PID=16741) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:49:46.437+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:49:46.440+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:49:46.440+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:49:46.448+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:49:46.474+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:49:46.474+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:49:46.487+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:49:46.486+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:49:46.504+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T16:50:16.587+0530] {processor.py:186} INFO - Started process (PID=16829) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:50:16.588+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:50:16.591+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:50:16.590+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:50:16.599+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:50:16.624+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:50:16.623+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:50:16.635+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:50:16.635+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:50:16.651+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.072 seconds
+[2025-06-04T16:50:46.727+0530] {processor.py:186} INFO - Started process (PID=16916) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:50:46.729+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:50:46.731+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:50:46.731+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:50:46.739+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:50:46.766+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:50:46.766+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:50:46.778+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:50:46.778+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:50:46.796+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T16:51:17.281+0530] {processor.py:186} INFO - Started process (PID=17006) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:51:17.284+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:51:17.288+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:51:17.287+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:51:17.298+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:51:17.325+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:51:17.324+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:51:17.339+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:51:17.339+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:51:17.357+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.084 seconds
+[2025-06-04T16:51:47.712+0530] {processor.py:186} INFO - Started process (PID=17096) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:51:47.713+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:51:47.716+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:51:47.715+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:51:47.722+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:51:47.747+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:51:47.746+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:51:47.759+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:51:47.759+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:51:47.775+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T16:52:17.875+0530] {processor.py:186} INFO - Started process (PID=17184) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:52:17.878+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:52:17.881+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:52:17.880+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:52:17.888+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:52:17.916+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:52:17.915+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:52:17.932+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:52:17.932+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:52:17.951+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.084 seconds
+[2025-06-04T16:52:48.579+0530] {processor.py:186} INFO - Started process (PID=17271) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:52:48.581+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:52:48.584+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:52:48.584+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:52:48.591+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:52:48.614+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:52:48.614+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:52:48.627+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:52:48.626+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:52:48.643+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T16:53:18.864+0530] {processor.py:186} INFO - Started process (PID=17358) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:53:18.865+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:53:18.869+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:53:18.868+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:53:18.876+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:53:18.901+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:53:18.900+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:53:18.912+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:53:18.912+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:53:18.929+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T16:53:49.066+0530] {processor.py:186} INFO - Started process (PID=17445) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:53:49.068+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:53:49.071+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:53:49.071+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:53:49.079+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:53:49.105+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:53:49.105+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:53:49.116+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:53:49.116+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:53:49.132+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T16:54:19.870+0530] {processor.py:186} INFO - Started process (PID=17532) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:54:19.872+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:54:19.874+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:54:19.874+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:54:19.881+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:54:19.913+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:54:19.913+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:54:19.926+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:54:19.926+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:54:19.951+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.089 seconds
+[2025-06-04T16:54:50.200+0530] {processor.py:186} INFO - Started process (PID=17619) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:54:50.202+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:54:50.205+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:54:50.205+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:54:50.212+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:54:50.236+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:54:50.236+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:54:50.248+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:54:50.248+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:54:50.264+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T16:55:20.988+0530] {processor.py:186} INFO - Started process (PID=17706) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:55:20.990+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:55:20.993+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:55:20.992+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:55:21.001+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:55:21.028+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:55:21.028+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:55:21.040+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:55:21.040+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:55:21.056+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T16:55:51.663+0530] {processor.py:186} INFO - Started process (PID=17794) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:55:51.665+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:55:51.668+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:55:51.667+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:55:51.674+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:55:51.707+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:55:51.707+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:55:51.724+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:55:51.724+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:55:51.750+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.094 seconds
+[2025-06-04T16:56:22.336+0530] {processor.py:186} INFO - Started process (PID=17881) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:56:22.337+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:56:22.340+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:56:22.339+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:56:22.347+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:56:22.371+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:56:22.370+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:56:22.383+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:56:22.383+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:56:22.404+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T16:56:53.247+0530] {processor.py:186} INFO - Started process (PID=17968) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:56:53.249+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:56:53.251+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:56:53.251+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:56:53.258+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:56:53.282+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:56:53.282+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:56:53.295+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:56:53.295+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:56:53.312+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T16:57:24.260+0530] {processor.py:186} INFO - Started process (PID=18067) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:57:24.262+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:57:24.265+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:57:24.265+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:57:24.272+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:57:24.298+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:57:24.298+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:57:24.310+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:57:24.310+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:57:24.327+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T16:57:55.083+0530] {processor.py:186} INFO - Started process (PID=18154) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:57:55.084+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:57:55.087+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:57:55.086+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:57:55.094+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:57:55.122+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:57:55.121+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:57:55.133+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:57:55.133+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:57:55.150+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T16:58:25.880+0530] {processor.py:186} INFO - Started process (PID=18241) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:58:25.881+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:58:25.885+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:58:25.884+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:58:25.891+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:58:25.916+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:58:25.916+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:58:25.927+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:58:25.926+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:58:25.944+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T16:58:57.744+0530] {processor.py:186} INFO - Started process (PID=18328) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:58:57.745+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:58:57.748+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:58:57.747+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:58:57.756+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:58:57.784+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:58:57.784+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:58:57.796+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:58:57.796+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:58:57.815+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.077 seconds
+[2025-06-04T16:59:28.069+0530] {processor.py:186} INFO - Started process (PID=18421) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:59:28.071+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:59:28.073+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:59:28.073+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:59:28.080+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:59:28.112+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:59:28.112+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:59:28.125+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:59:28.124+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:59:28.142+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.080 seconds
+[2025-06-04T16:59:58.991+0530] {processor.py:186} INFO - Started process (PID=18508) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:59:58.992+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T16:59:58.995+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:59:58.994+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:59:59.002+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T16:59:59.025+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:59:59.025+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T16:59:59.038+0530] {logging_mixin.py:190} INFO - [2025-06-04T16:59:59.038+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T16:59:59.058+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T17:00:29.277+0530] {processor.py:186} INFO - Started process (PID=18595) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:00:29.279+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:00:29.282+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:00:29.281+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:00:29.289+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:00:29.322+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:00:29.322+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:00:29.335+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:00:29.334+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:00:29.351+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.080 seconds
+[2025-06-04T17:00:59.936+0530] {processor.py:186} INFO - Started process (PID=18682) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:00:59.938+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:00:59.940+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:00:59.940+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:00:59.947+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:00:59.991+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:00:59.990+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:01:00.011+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:01:00.010+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:01:00.030+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.102 seconds
+[2025-06-04T17:01:30.516+0530] {processor.py:186} INFO - Started process (PID=18770) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:01:30.518+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:01:30.521+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:01:30.521+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:01:30.529+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:01:30.556+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:01:30.555+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:01:30.570+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:01:30.569+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:01:30.590+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.083 seconds
+[2025-06-04T17:02:00.919+0530] {processor.py:186} INFO - Started process (PID=18858) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:02:00.920+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:02:00.923+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:02:00.922+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:02:00.929+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:02:00.957+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:02:00.956+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:02:00.968+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:02:00.968+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:02:00.985+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T17:02:31.032+0530] {processor.py:186} INFO - Started process (PID=18945) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:02:31.034+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:02:31.037+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:02:31.037+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:02:31.045+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:02:31.069+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:02:31.069+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:02:31.081+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:02:31.080+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:02:31.096+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T17:03:01.861+0530] {processor.py:186} INFO - Started process (PID=19032) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:03:01.862+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:03:01.866+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:03:01.866+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:03:01.875+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:03:01.905+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:03:01.905+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:03:01.922+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:03:01.921+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:03:01.946+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.099 seconds
+[2025-06-04T17:03:32.673+0530] {processor.py:186} INFO - Started process (PID=19119) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:03:32.676+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:03:32.679+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:03:32.678+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:03:32.685+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:03:32.709+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:03:32.709+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:03:32.719+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:03:32.719+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:03:32.736+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T17:04:03.470+0530] {processor.py:186} INFO - Started process (PID=19206) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:04:03.471+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:04:03.473+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:04:03.473+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:04:03.481+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:04:03.509+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:04:03.509+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:04:03.523+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:04:03.523+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:04:03.542+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.080 seconds
+[2025-06-04T17:04:33.819+0530] {processor.py:186} INFO - Started process (PID=19299) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:04:33.821+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:04:33.824+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:04:33.824+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:04:33.832+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:04:33.852+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:04:33.852+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:04:33.863+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:04:33.863+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:04:33.879+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.066 seconds
+[2025-06-04T17:05:04.680+0530] {processor.py:186} INFO - Started process (PID=19386) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:05:04.680+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:05:04.683+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:05:04.683+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:05:04.690+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:05:04.717+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:05:04.717+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:05:04.729+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:05:04.729+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:05:04.747+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T17:05:35.692+0530] {processor.py:186} INFO - Started process (PID=19473) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:05:35.695+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:05:35.699+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:05:35.699+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:05:35.707+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:05:35.739+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:05:35.739+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:05:35.753+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:05:35.753+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:05:35.780+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.096 seconds
+[2025-06-04T17:06:06.556+0530] {processor.py:186} INFO - Started process (PID=19566) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:06:06.557+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:06:06.560+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:06:06.560+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:06:06.568+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:06:06.601+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:06:06.600+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:06:06.614+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:06:06.613+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:06:06.637+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.087 seconds
+[2025-06-04T17:06:37.338+0530] {processor.py:186} INFO - Started process (PID=19653) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:06:37.340+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:06:37.343+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:06:37.342+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:06:37.356+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:06:37.380+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:06:37.379+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:06:37.391+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:06:37.391+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:06:37.410+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.080 seconds
+[2025-06-04T17:07:08.228+0530] {processor.py:186} INFO - Started process (PID=19747) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:07:08.229+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:07:08.233+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:07:08.232+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:07:08.240+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:07:08.266+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:07:08.265+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:07:08.277+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:07:08.277+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:07:08.295+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T17:07:38.875+0530] {processor.py:186} INFO - Started process (PID=19834) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:07:38.877+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:07:38.880+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:07:38.879+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:07:38.885+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:07:38.909+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:07:38.908+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:07:38.920+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:07:38.920+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:07:38.936+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.068 seconds
+[2025-06-04T17:08:09.561+0530] {processor.py:186} INFO - Started process (PID=19921) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:08:09.562+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:08:09.565+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:08:09.564+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:08:09.571+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:08:09.594+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:08:09.594+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:08:09.605+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:08:09.605+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:08:09.621+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.066 seconds
+[2025-06-04T17:08:39.791+0530] {processor.py:186} INFO - Started process (PID=20008) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:08:39.792+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:08:39.794+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:08:39.794+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:08:39.801+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:08:39.825+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:08:39.825+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:08:39.837+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:08:39.837+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:08:39.853+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.069 seconds
+[2025-06-04T17:09:10.669+0530] {processor.py:186} INFO - Started process (PID=20095) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:09:10.672+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:09:10.676+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:09:10.675+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:09:10.682+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:09:10.718+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:09:10.717+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:09:10.733+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:09:10.732+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:09:10.756+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.096 seconds
+[2025-06-04T17:09:40.885+0530] {processor.py:186} INFO - Started process (PID=20182) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:09:40.886+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:09:40.889+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:09:40.888+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:09:40.897+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:09:40.924+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:09:40.923+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:09:40.936+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:09:40.935+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:09:40.951+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.073 seconds
+[2025-06-04T17:10:11.076+0530] {processor.py:186} INFO - Started process (PID=20269) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:10:11.079+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:10:11.082+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:10:11.081+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:10:11.089+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:10:11.118+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:10:11.117+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:10:11.129+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:10:11.129+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:10:11.145+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.076 seconds
+[2025-06-04T17:10:41.793+0530] {processor.py:186} INFO - Started process (PID=20356) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:10:41.793+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:10:41.796+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:10:41.795+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:10:41.805+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:10:41.833+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:10:41.833+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:10:41.846+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:10:41.846+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:10:41.866+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.079 seconds
+[2025-06-04T17:11:12.558+0530] {processor.py:186} INFO - Started process (PID=20443) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:11:12.559+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:11:12.562+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:11:12.561+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:11:12.568+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:11:12.603+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:11:12.602+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:11:12.617+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:11:12.617+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:11:12.637+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.086 seconds
+[2025-06-04T17:11:43.453+0530] {processor.py:186} INFO - Started process (PID=20536) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:11:43.454+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:11:43.457+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:11:43.457+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:11:43.464+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:11:43.491+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:11:43.491+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:11:43.505+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:11:43.505+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:11:43.523+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.081 seconds
+[2025-06-04T17:12:14.272+0530] {processor.py:186} INFO - Started process (PID=20624) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:12:14.275+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:12:14.280+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:12:14.279+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:12:14.291+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:12:14.316+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:12:14.315+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:12:14.328+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:12:14.328+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:12:14.344+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.084 seconds
+[2025-06-04T17:12:45.018+0530] {processor.py:186} INFO - Started process (PID=20712) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:12:45.019+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:12:45.022+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:12:45.021+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:12:45.028+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:12:45.049+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:12:45.049+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:12:45.060+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:12:45.060+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:12:45.077+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.065 seconds
+[2025-06-04T17:13:15.837+0530] {processor.py:186} INFO - Started process (PID=20799) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:13:15.838+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:13:15.842+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:13:15.842+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:13:15.849+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:13:15.875+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:13:15.875+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:13:15.888+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:13:15.887+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:13:15.903+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.072 seconds
+[2025-06-04T17:13:46.313+0530] {processor.py:186} INFO - Started process (PID=20886) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:13:46.314+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:13:46.317+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:13:46.316+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:13:46.323+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:13:46.352+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:13:46.352+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:13:46.363+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:13:46.363+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:13:46.382+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.077 seconds
+[2025-06-04T17:14:17.287+0530] {processor.py:186} INFO - Started process (PID=20973) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:14:17.288+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:14:17.292+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:14:17.291+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:14:17.299+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:14:17.323+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:14:17.323+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:14:17.334+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:14:17.334+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:14:17.349+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.072 seconds
+[2025-06-04T17:14:47.482+0530] {processor.py:186} INFO - Started process (PID=21057) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:14:47.485+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:14:47.488+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:14:47.488+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:14:47.496+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:14:47.523+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:14:47.523+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:14:47.535+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:14:47.535+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:14:47.552+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.078 seconds
+[2025-06-04T17:15:17.635+0530] {processor.py:186} INFO - Started process (PID=21147) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:15:17.637+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:15:17.641+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:15:17.640+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:15:17.648+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:15:17.675+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:15:17.674+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:15:17.687+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:15:17.687+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:15:17.705+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.077 seconds
+[2025-06-04T17:15:48.619+0530] {processor.py:186} INFO - Started process (PID=21234) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:15:48.621+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:15:48.623+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:15:48.623+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:15:48.629+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:15:48.661+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:15:48.661+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:15:48.673+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:15:48.673+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:15:48.690+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.077 seconds
+[2025-06-04T17:16:19.660+0530] {processor.py:186} INFO - Started process (PID=21321) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:16:19.661+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:16:19.666+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:16:19.666+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:16:19.674+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:16:19.700+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:16:19.700+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:16:19.711+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:16:19.711+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:16:19.727+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.075 seconds
+[2025-06-04T17:16:49.955+0530] {processor.py:186} INFO - Started process (PID=21408) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:16:49.957+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:16:49.959+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:16:49.959+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:16:49.965+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:16:49.989+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:16:49.989+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:16:50.001+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:16:50.001+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:16:50.020+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T17:17:20.715+0530] {processor.py:186} INFO - Started process (PID=21504) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:17:20.716+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:17:20.719+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:17:20.719+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:17:20.726+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:17:20.751+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:17:20.751+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:17:20.764+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:17:20.763+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:17:20.779+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T17:17:51.098+0530] {processor.py:186} INFO - Started process (PID=21591) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:17:51.100+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:17:51.104+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:17:51.103+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:17:51.110+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:17:51.134+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:17:51.134+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:17:51.146+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:17:51.146+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:17:51.166+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.074 seconds
+[2025-06-04T17:18:21.295+0530] {processor.py:186} INFO - Started process (PID=21679) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:18:21.295+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:18:21.298+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:18:21.297+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:18:21.304+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:18:21.328+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:18:21.328+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:18:21.339+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:18:21.339+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:18:21.357+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.068 seconds
+[2025-06-04T17:18:51.415+0530] {processor.py:186} INFO - Started process (PID=21766) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:18:51.418+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:18:51.421+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:18:51.420+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:18:51.427+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:18:51.450+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:18:51.450+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:18:51.461+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:18:51.461+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:18:51.478+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.069 seconds
+[2025-06-04T17:19:22.331+0530] {processor.py:186} INFO - Started process (PID=21853) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:19:22.332+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:19:22.335+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:19:22.334+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:19:22.341+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:19:22.369+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:19:22.369+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:19:22.382+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:19:22.382+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:19:22.400+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.077 seconds
+[2025-06-04T17:19:53.258+0530] {processor.py:186} INFO - Started process (PID=21940) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:19:53.261+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:19:53.264+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:19:53.263+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:19:53.270+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:19:53.301+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:19:53.300+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:19:53.316+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:19:53.316+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:19:53.335+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.085 seconds
+[2025-06-04T17:20:23.506+0530] {processor.py:186} INFO - Started process (PID=22033) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:20:23.507+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:20:23.510+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:20:23.509+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:20:23.517+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:20:23.547+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:20:23.546+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:20:23.562+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:20:23.562+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:20:23.580+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.082 seconds
+[2025-06-04T17:20:54.412+0530] {processor.py:186} INFO - Started process (PID=22120) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:20:54.414+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:20:54.418+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:20:54.418+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:20:54.424+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:20:54.450+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:20:54.450+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:20:54.464+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:20:54.464+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:20:54.482+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.077 seconds
+[2025-06-04T17:21:24.546+0530] {processor.py:186} INFO - Started process (PID=22201) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:21:24.547+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:21:24.550+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:21:24.550+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:21:24.556+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:21:24.578+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:21:24.577+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:21:24.589+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:21:24.589+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:21:24.606+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.066 seconds
+[2025-06-04T17:21:55.444+0530] {processor.py:186} INFO - Started process (PID=22288) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:21:55.447+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:21:55.450+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:21:55.450+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:21:55.457+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:21:55.478+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:21:55.478+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:21:55.491+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:21:55.490+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:21:55.508+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.070 seconds
+[2025-06-04T17:22:26.358+0530] {processor.py:186} INFO - Started process (PID=22382) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:22:26.359+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:22:26.361+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:22:26.361+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:22:26.367+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:22:26.390+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:22:26.390+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:22:26.401+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:22:26.400+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:22:26.415+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.063 seconds
+[2025-06-04T17:22:56.834+0530] {processor.py:186} INFO - Started process (PID=22463) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:22:56.836+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:22:56.839+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:22:56.839+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:22:56.846+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:22:56.869+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:22:56.869+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:22:56.881+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:22:56.881+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:22:56.899+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.071 seconds
+[2025-06-04T17:23:27.560+0530] {processor.py:186} INFO - Started process (PID=22556) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:23:27.561+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:23:27.564+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:23:27.563+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:23:27.571+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:23:27.595+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:23:27.594+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:23:27.606+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:23:27.606+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:23:27.621+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.069 seconds
+[2025-06-04T17:23:58.510+0530] {processor.py:186} INFO - Started process (PID=22643) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:23:58.512+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:23:58.516+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:23:58.515+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:23:58.523+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:23:58.550+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:23:58.549+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:23:58.564+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:23:58.563+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:23:58.582+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.081 seconds
+[2025-06-04T17:24:29.358+0530] {processor.py:186} INFO - Started process (PID=22731) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:24:29.359+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:24:29.362+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:24:29.362+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:24:29.370+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:24:29.398+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:24:29.397+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:24:29.409+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:24:29.409+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:24:29.426+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.077 seconds
+[2025-06-04T17:24:59.773+0530] {processor.py:186} INFO - Started process (PID=22818) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:24:59.776+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:24:59.780+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:24:59.779+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:24:59.788+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:24:59.811+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:24:59.811+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:24:59.823+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:24:59.823+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:24:59.887+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.120 seconds
+[2025-06-04T17:25:30.049+0530] {processor.py:186} INFO - Started process (PID=22905) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:25:30.050+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:25:30.052+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:25:30.052+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:25:30.058+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:25:30.081+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:25:30.081+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:25:30.092+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:25:30.092+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:25:30.107+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.064 seconds
+[2025-06-04T17:26:00.481+0530] {processor.py:186} INFO - Started process (PID=22992) to work on /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:26:00.482+0530] {processor.py:914} INFO - Processing file /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py for tasks to queue
+[2025-06-04T17:26:00.485+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:26:00.485+0530] {dagbag.py:588} INFO - Filling up the DagBag from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:26:00.492+0530] {processor.py:925} INFO - DAG(s) 'nyc_taxi_etl' retrieved from /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py
+[2025-06-04T17:26:00.515+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:26:00.515+0530] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-06-04T17:26:00.525+0530] {logging_mixin.py:190} INFO - [2025-06-04T17:26:00.525+0530] {dag.py:4180} INFO - Setting next_dagrun for nyc_taxi_etl to None, run_after=None
+[2025-06-04T17:26:00.543+0530] {processor.py:208} INFO - Processing /home/pranav_shirali/airflow-project/dags/nyc_taxi_etl.py took 0.068 seconds
